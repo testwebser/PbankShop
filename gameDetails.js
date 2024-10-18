@@ -180,5 +180,127 @@ const gameDetails = {
         },
         downloadLink: "https://gofile.io/d/grmKo8",
         hasCrack: false
+    },
+    "warhammer-40000-space-marine-2":{
+        title:"Warhammer 40,000: Space Marine 2",
+        image:"https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
+        description:"เกมต่อสู้แนวสยองขวัญที่นำเสนอการต่อสู้แบบ 3D ที่รวดเร็วและเร้าใจ โดยมีตัวละครจากจักรวาล Warhammer 40,000",
+        features:[
+            "การต่อสู้ที่ดุดันและเต็มไปด้วยความเร็วในรูปแบบมุมมองบุคคลที่สาม",
+            "ระบบการโจมตีด้วยดาบ Chainsword และอาวุธปืนหนัก",
+            "กราฟิกและเสียงที่สมจริงเพื่อนำเสนอโลกแห่งจักรวาล Warhammer 40K",
+            "ระบบ co-op ที่สามารถร่วมเล่นกับเพื่อนได้",
+            "เนื้อเรื่องที่เกี่ยวข้องกับการต่อสู้ของมนุษยชาติกับภัยคุกคาม Tyranid"
+        ],
+        systemRequirements:{
+            minimum:[
+                "OS: Windows 10 64-bit",
+                "Processor: Intel Core i5-6600K (4 core 3.5 GHz) or AMD Ryzen 5 1400 (4 core 3.6 GHz)",
+                "Memory: 8 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 1050 Ti (4 GB) or AMD Radeon RX 570 (4 GB)",
+                "Storage: 60 GB available space"
+            ],
+            recommended: [
+            "OS: Windows 10 64-bit",
+            "Processor: Intel Core i7-9700K or AMD Ryzen 7 3700X",
+            "Memory: 16 GB RAM",
+            "Graphics: NVIDIA GeForce RTX 2070 or AMD Radeon RX 6700 XT",
+            "Storage: 70 GB available space"
+            ]
+        },
+        downloadLink: "https://1fichier.com/?atafrznctf78xkpnmi7e",
+        hasCrack: false
+    },
+    "jujutsu-kaisen-cursed-clash":{
+        title:"Jujutsu Kaisen: Cursed Clash",
+        image:"https://cdn.cloudflare.steamstatic.com/steam/apps/1877020/header.jpg",
+        description: "Jujutsu Kaisen Cursed Clash เป็นเกมต่อสู้แบบ 3D ที่อิงจากอนิเมะและมังงะยอดนิยม Jujutsu Kaisen ผู้เล่นจะได้ควบคุมตัวละครจากเรื่อง Jujutsu Kaisen เพื่อเผชิญหน้ากับคำสาปและพลังพิเศษต่างๆ ในการต่อสู้ที่รวดเร็วและตื่นเต้น",
+        features:[
+            "ระบบการต่อสู้แบบ 2v2 ที่ดุดันและตื่นเต้น",
+            "ตัวละครที่หลากหลายจากเรื่อง Jujutsu Kaisen พร้อมท่าโจมตีเฉพาะตัว",
+            "กราฟิกและเอฟเฟกต์ที่สมจริงตามสไตล์อนิเมะ",
+            "โหมดการเล่นหลากหลาย ทั้งแบบเนื้อเรื่องและการต่อสู้ออนไลน์",
+            "พลังคำสาปและเทคนิคพิเศษที่สมบูรณ์แบบเหมือนในอนิเมะ"
+        ],
+        systemRequirements:{
+            minimum:[
+                "OS: Windows 10 64-bit",
+                "Processor: Intel Core i5-7500 or AMD Ryzen 3 1200",
+                "Memory: 8 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 1050 or AMD Radeon RX 560",
+                "Storage: 15 GB available space"
+            ],
+            recommended:[
+                "OS: Windows 10 64-bit",
+                "Processor: Intel Core i7-8700 or AMD Ryzen 5 3600",
+                "Memory: 16 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 1660 Ti or AMD Radeon RX 5600 XT",
+                "Storage: 15 GB available space"
+            ]
+        },
+        downloadLink: "https://gofile.io/d/7TTotR",
+        hasCrack: false
+    },
+    "naruto-x-boruto-ultimate-ninja-storm-connections":{
+        title:"Naruto x Boruto: Ultimate Ninja Storm Connections",
+        image:"https://cdn.cloudflare.steamstatic.com/steam/apps/1020790/header.jpg",
+        description:"Naruto X Boruto Ultimate Ninja Storm Connections เป็นเกมต่อสู้ที่รวมเนื้อหาจากทั้งซีรีส์ Naruto และ Boruto โดยนำเสนอระบบการต่อสู้ที่ลื่นไหลและรวดเร็ว พร้อมด้วยตัวละครที่หลากหลายจากทั้งสองเรื่อง ผู้เล่นสามารถสร้างทีมและต่อสู้ในโหมดต่างๆ ที่น่าตื่นเต้นและมีกราฟิกที่สวยงาม",
+        features:[
+            "การต่อสู้แบบรวดเร็วและลื่นไหลในสไตล์ Ultimate Ninja Storm",
+            "ตัวละครที่หลากหลายจากทั้ง Naruto และ Boruto",
+            "โหมดเนื้อเรื่องและโหมดออนไลน์ที่น่าตื่นเต้น",
+            "กราฟิกที่สดใสและสวยงามตามสไตล์อนิเมะ",
+            "เทคนิคพิเศษและท่าไม้ตายที่ตระการตา"
+        ],
+        systemRequirements:{
+            minimum:[
+                "OS: Windows 10 64-bit",
+                "Processor: Intel Core i7-8700 / AMD Ryzen 7 2700X",
+                "Memory: 8 GB RAM",
+                "Graphics: Nvidia GeForce GTX 660 Ti / Radeon R9 270X / Intel Arc A380",
+                "Storage: 30.36 GB available space"
+            ],
+            recommended:[
+                "OS: Windows 10 64-bit",
+                "Processor: Intel Core i7-11700K / AMD Ryzen 5 3600",
+                "Memory: 8 GB RAM",
+                "Graphics: Nvidia GeForce GTX 770 / AMD Radeon RX 480 / Intel Arc A750",
+                "Storage: 30.36 GB available space"
+            ]
+        },
+        downloadLink: "https://1fichier.com/?rsfqa62zjqb8wc2isnwb",
+        hasCrack: false
+    },
+    "project-unknow":{
+        title:"Project Unknow",
+        image:"https://cdn.cloudflare.steamstatic.com/steam/apps/2115390/header.jpg",
+        description:"เกมสยองขวัญแนวสยองขวัญที่นำเสนอการต่อสู้แบบ 3D ที่รวดเร็วและเร้าใจ โดยมีตัวละครจากเรื่อง Project Unknow",
+        features:[
+            "การต่อสู้แบบ 3D ที่รวดเร็วและเร้าใจ",
+            "ตัวละครที่หลากหลายจากเรื่อง Project Unknow",
+            "โหมดเนื้อเรื่องและโหมดออนไลน์ที่น่าตื่นเต้น",
+            "กราฟิกที่สดใสและสวยงามตามสไตล์สยองขวัญ",
+            "เทคนิคพิเศษและท่าไม้ตายที่ตระการตา"
+        ],
+        systemRequirements:{
+            minimum:[
+                "OS: WINDOWS® 7, 8, 8.1, 10 (64-BIT Required)",
+                "Processor: Intel® Core™ i5-3470 or AMD Ryzen™ 3 1200",
+                "Memory: 8 GB RAM",
+                "Graphics: NVIDIA® GeForce® GTX 760 2GB / AMD Radeon R9 280 3GB",
+                "Storage: 9 GB available space"
+            ],
+            recommended:[
+                "OS: WINDOWS® 7, 8, 8.1, 10 (64-BIT Required)",
+                "Processor:  Intel® Core™ i7-3770 or AMD FX™-9590 or better",
+                "Memory: 16 GB RAM",
+                "Graphics: NVIDIA® GeForce® GTX 1060 or AMD Radeon™ RX 480 with 3GB Video RAM",
+                "Storage: 9 GB available space"
+            ]
+        },
+        downloadLink: "https://koramaup.com/1qhI",
+        crackLink: "https://megaup.net/5178e81e80cd6a6c022eba1389f47104/ProjectUnknown_Fix_Repair_Steam_Generic.rar",
+        hasCrack: true
     }
+
 };

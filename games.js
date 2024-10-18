@@ -40,6 +40,34 @@ const games = [
         image: "https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/4xJ8XB3bi888QTLZYdl7Oi0s.png",
         description: "เกมแอคชันผจญภัยที่สานต่อเรื่องราวของ Kratos และ Atreus ในโลกของเทพนอร์ส พวกเขาต้องเผชิญหน้ากับ Ragnarök ที่กำลังจะมาถึง",
         detailLink: "god-of-war-ragnarok-detail.html"
+    },
+    {
+        id:"warhammer-40000-space-marine-2",
+        title:"Warhammer 40,000: Space Marine 2",
+        image:"https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
+        description:"เกมต่อสู้แนวสยองขวัญที่นำเสนอการต่อสู้แบบ 3D ที่รวดเร็วและเร้าใจ โดยมีตัวละครจากจักรวาล Warhammer 40,000",
+        detailLink:"warhammer-40000-space-marine-2-detail.html"
+    },
+    {
+        id:"jujutsu-kaisen-cursed-clash", 
+        title:"Jujutsu Kaisen: Cursed Clash",
+        image:"https://cdn.cloudflare.steamstatic.com/steam/apps/1877020/header.jpg",
+        description: "Jujutsu Kaisen Cursed Clash เป็นเกมต่อสู้แบบ 3D ที่อิงจากอนิเมะและมังงะยอดนิยม Jujutsu Kaisen ผู้เล่นจะได้ควบคุมตัวละครจากเรื่อง Jujutsu Kaisen เพื่อเผชิญหน้ากับคำสาปและพลังพิเศษต่างๆ ในการต่อสู้ที่รวดเร็วและตื่นเต้น",
+        detailLink:"jujutsu-kaisen-cursed-clash-detail.html"
+    },
+    {
+        id:"naruto-x-boruto-ultimate-ninja-storm-connections",
+        title:"Naruto x Boruto: Ultimate Ninja Storm Connections",
+        image:"https://cdn.cloudflare.steamstatic.com/steam/apps/1020790/header.jpg",
+        description:"เกมต่อสู้แนวอนิเมะที่นำเสนอการต่อสู้แบบ 3D ที่รวดเร็วและเร้าใจ โดยมีตัวละครจากเรื่อง Naruto และ Boruto",
+        detailLink:"naruto-x-boruto-ultimate-ninja-storm-connections-detail.html"
+    },
+    {
+        id:"project-unknow",
+        title:"Project Unknow",
+        image:"https://cdn.cloudflare.steamstatic.com/steam/apps/2115390/header.jpg",
+        description:"เกมสยองขวัญแนวสยองขวัญที่นำเสนอการต่อสู้แบบ 3D ที่รวดเร็วและเร้าใจ โดยมีตัวละครจากเรื่อง Project Unknow",
+        detailLink:"project-unknow-detail.html"
     }
 ];
 
