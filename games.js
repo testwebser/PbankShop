@@ -1,21 +1,45 @@
 const games = [
     {
+        id: "devour",
         title: "Devour",
         image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1274570/header.jpg",
         description: "เกมสยองขวัญแนว Co-op ที่คุณต้องร่วมมือกับเพื่อนเพื่อเอาชีวิตรอดจากพิธีกรรมปีศาจ",
         detailLink: "devour-detail.html"
     },
     {
+        id: "pummel-party",
         title: "Pummel Party",
         image: "https://cdn.cloudflare.steamstatic.com/steam/apps/880940/header.jpg",
         description: "เกมปาร์ตี้สุดมันส์แบบ multiplayer ที่ผสมผสานระหว่างบอร์ดเกมและมินิเกมสุดป่วน",
         detailLink: "pummel-party-detail.html"
     },
     {
+        id: "the-sims-4",
         title: "The Sims 4",
         image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1222670/header.jpg",
         description: "เกมจำลองชีวิตที่คุณสามารถสร้างและควบคุมตัวละครในโลกเสมือนจริง",
         detailLink: "the-sims-4-detail.html"
+    },
+    {
+        id: "silent-hill-2",
+        title: "SILENT HILL 2",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2124490/header.jpg",
+        description: "เกมสยองขวัญทางจิตวิทยาที่เป็นตำนาน ผู้เล่นจะได้สำรวจเมืองที่ถูกปกคลุมด้วยหมอกและเผชิญหน้ากับความหวาดกลัวที่ซ่อนอยู่",
+        detailLink: "silent-hill-2-detail.html"
+    },
+    {
+        id: "dragon-ball-sparking-zero",
+        title: "Dragon Ball Sparking Zero",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1790600/header.jpg",
+        description: "เกมต่อสู้แนวอนิเมะที่นำเสนอการต่อสู้แบบ 3D ที่รวดเร็วและเร้าใจ โดยมีตัวละครจากจักรวาล Dragon Ball",
+        detailLink: "dragon-ball-sparking-zero-detail.html"
+    },
+    {
+        id: "god-of-war-ragnarok",
+        title: "God of War Ragnarök",
+        image: "https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/4xJ8XB3bi888QTLZYdl7Oi0s.png",
+        description: "เกมแอคชันผจญภัยที่สานต่อเรื่องราวของ Kratos และ Atreus ในโลกของเทพนอร์ส พวกเขาต้องเผชิญหน้ากับ Ragnarök ที่กำลังจะมาถึง",
+        detailLink: "god-of-war-ragnarok-detail.html"
     }
 ];
 
@@ -27,7 +51,7 @@ function createGameCard(game) {
             <h3 class="font-semibold text-xl mb-2">${game.title}</h3>
             <p class="text-gray-600 mb-4">${game.description}</p>
             <div class="flex justify-between items-center">
-                <a href="${game.detailLink}" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded transition duration-300">ดูรายละเอียด</a>
+                <a href="game-detail.html?id=${game.id}" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded transition duration-300">ดูรายละเอียด</a>
             </div>
         </div>
     </div>
