@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pummel Party - รายละเอียดเกม | PbankShop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Kanit', sans-serif;
+        }
+        .system-req {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .system-req h4 {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .system-req ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .system-req li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">PbankShop</h1>
+            <nav>
+                <a href="index.html" class="text-white hover:text-yellow-300 mx-2">หน้าหลัก</a>
+                <a href="contact.html" class="text-white hover:text-yellow-300 mx-2">ติดต่อเรา</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container mx-auto mt-8 px-4">
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/880940/header.jpg" alt="Pummel Party" class="w-full h-64 object-cover">
+            <div class="p-6">
+                <h2 class="text-3xl font-semibold mb-4">Pummel Party</h2>
+                <p class="text-gray-600 mb-6">Pummel Party เป็นเกมปาร์ตี้สุดมันส์แบบ multiplayer ที่ผสมผสานระหว่างบอร์ดเกมและมินิเกมสุดป่วน คุณและเพื่อนๆ จะได้แข่งขันกันในมินิเกมหลากหลายรูปแบบ พร้อมกับเดินบนบอร์ดเพื่อเก็บไอเท็มและทำคะแนนให้ได้มากที่สุด</p>
+                
+                <h3 class="text-xl font-semibold mb-2">คุณสมบัติเกม:</h3>
+                <ul class="list-disc list-inside mb-6">
+                    <li>รองรับผู้เล่น 1-8 คน (ออนไลน์และโลคอล)</li>
+                    <li>มินิเกมหลากหลายกว่า 30 เกม</li>
+                    <li>แผนที่และธีมที่แตกต่างกัน</li>
+                    <li>ไอเท็มและกลยุทธ์ที่หลากหลาย</li>
+                    <li>กราฟิกแบบการ์ตูน 3D สีสันสดใส</li>
+                    <li>อัพเดทเนื้อหาใหม่อย่างสม่ำเสมอ</li>
+                </ul>
+
+                <h3 class="text-xl font-semibold mb-2">ความต้องการของระบบ:</h3>
+                <div id="system-requirements" class="mb-6 system-req">
+                </div>
+
+                <div class="mt-8 flex space-x-4">
+                    <a href="https://qiwi.gg/file/xvHg9570-PummelPartyv1" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300 inline-block">
+                        ดาวน์โหลดเกม
+                    </a>
+                    <a href="https://gofile.io/d/fYzUPh" target="_blank" class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300 inline-block">
+                        ดาวน์โหลด Crack
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-gray-800 text-white mt-12 py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 PbankShop. Copyright.</p>
+        </div>
+    </footer>
+
+    <script>
+        const systemRequirements = {
+            minimum: [
+                "OS: Windows 7 or newer",
+                "Processor: Intel Core i3-2100 / AMD A8-5600K",
+                "Memory: 4 GB RAM",
+                "Graphics: GeForce GTX 460 / Radeon HD 7850",
+                "DirectX: Version 11",
+                "Network: Broadband Internet connection",
+                "Storage: 2 GB available space"
+            ],
+            recommended: [
+                "OS: Windows 10",
+                "Processor: Intel Core i5-2500K / AMD FX-8350",
+                "Memory: 8 GB RAM",
+                "Graphics: GeForce GTX 760 / Radeon R9 270X",
+                "DirectX: Version 11",
+                "Network: Broadband Internet connection",
+                "Storage: 2 GB available space"
+            ]
+        };
+
+        function displaySystemRequirements() {
+            const sysReqDiv = document.getElementById('system-requirements');
+            let html = '<div><h4>ขั้นต่ำ:</h4><ul>';
+            
+            systemRequirements.minimum.forEach(req => {
+                html += `<li>${req}</li>`;
+            });
+            
+            html += '</ul></div><div><h4>แนะนำ:</h4><ul>';
+            
+            systemRequirements.recommended.forEach(req => {
+                html += `<li>${req}</li>`;
+            });
+            
+            html += '</ul></div>';
+            
+            sysReqDiv.innerHTML = html;
+        }
+
+        window.addEventListener('load', displaySystemRequirements);
+    </script>
+</body>
+</html>
