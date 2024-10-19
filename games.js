@@ -68,6 +68,34 @@ const games = [
         image:"https://cdn.cloudflare.steamstatic.com/steam/apps/2115390/header.jpg",
         description:"เกมสยองขวัญแนวสยองขวัญที่นำเสนอการต่อสู้แบบ 3D ที่รวดเร็วและเร้าใจ โดยมีตัวละครจากเรื่อง Project Unknow",
         detailLink:"project-unknow-detail.html"
+    },
+    {
+        id: "v-rising",
+        title: "V Rising",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1604030/header.jpg",
+        description: "เกมเอาชีวิตรอดแนวแวมไพร์ที่ผสมผสานการสร้างฐาน การต่อสู้ และการผจญภัยในโลกแฟนตาซีดาร์ก",
+        detailLink: "v-rising-detail.html"
+    },
+    {
+        id: "assassins-creed-valhalla",
+        title: "Assassin's Creed Valhalla Complete Edition",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/header.jpg",
+        description: "เกมแอคชันผจญภัยในโลกเปิดที่นำคุณไปสู่ยุควิกกิ้ง พร้อมด้วยเนื้อหาเสริมทั้งหมดและ DLC ในฉบับสมบูรณ์",
+        detailLink: "assassins-creed-valhalla-detail.html"
+    },
+    {
+        id: "marvels-spider-man-remastered",
+        title: "Marvel's Spider-Man Remastered",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1817070/header.jpg",
+        description: "สวมบทบาทเป็น Peter Parker ในเวอร์ชันที่ได้รับการปรับปรุงใหม่ของ Marvel's Spider-Man ผจญภัยในนิวยอร์กซิตี้ด้วยกราฟิกที่สวยงามและฟีเจอร์ใหม่",
+        detailLink: "marvels-spider-man-remastered-detail.html"
+    },
+    {
+        id: "forza-horizon-5",
+        title: "Forza Horizon 5",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1551360/header.jpg",
+        description: "สัมผัสประสบการณ์การขับรถแบบโลกเปิดที่น่าตื่นตาตื่นใจในเม็กซิโก ด้วยภูมิประเทศที่หลากหลายและรถยนต์มากมายให้เลือก",
+        detailLink: "forza-horizon-5-detail.html"
     }
 ];
 

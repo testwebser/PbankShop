@@ -64,7 +64,7 @@ const gameDetails = {
     "the-sims-4": {
         title: "The Sims 4",
         image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1222670/header.jpg",
-        description: "The Sims 4 เป็นเกมจำลองชีวิตที่คุณสามารถสร้างและควบคุมตัวละครในโลกเสมือนจริง สร้างบ้าน ครอบครัว และเรื่องราวของคุณเองได้อย่างอิสระ",
+        description: "The Sims 4 เป็นเกมจำลองชีวิตที่คุณสามารถสร้างและควบคุมตัวละครในโลกเสมือนจริง สร้างบ้าน ครอบครัว และเรื่องราวของคุณเองได้อย่างอิสร",
         features: [
             "สร้างและปรับแต่งตัวละคร Sims ได้อย่างละเอียด",
             "สร้างและตกแต่งบ้านในฝันของคุณ",
@@ -165,17 +165,17 @@ const gameDetails = {
         systemRequirements: {
             minimum: [
                 "OS: Windows 10 64-bit",
-                "Processor: Intel i5-6600k (4 core 3.5 GHz) or AMD Ryzen 5 2400 G (4 core 3.6 GHz)",
+                "Processor:  Intel i5-4670k or AMD Ryzen 3 1200",
                 "Memory: 8 GB RAM",
-                "Graphics: NVIDIA GTX 1060 (6 GB) or AMD RX 570 (4 GB)",
-                "Storage: 100+ GB available space"
+                "Graphics: NVIDIA GTX 1060 (6GB) or AMD RX 5500 XT (8GB) or Intel Arc A750",
+                "Storage: 190 GB available space"
             ],
             recommended: [
                 "OS: Windows 10 64-bit",
-                "Processor: Intel i7-8700k (6 core 3.7 GHz) or AMD Ryzen 7 3700X (8 core 3.6 GHz)",
+                "Processor: Intel i5-8600 or AMD Ryzen 5 3600",
                 "Memory: 16 GB RAM",
-                "Graphics: NVIDIA RTX 2070 (8 GB) or AMD RX 5700 XT (8 GB)",
-                "Storage: 100+ GB SSD space"
+                "Graphics:  NVIDIA RTX 2060 Super or AMD RX 5700 or Intel Arc A770",
+                "Storage: 190 GB SSD space"
             ]
         },
         downloadLink: "https://gofile.io/d/grmKo8",
@@ -219,7 +219,7 @@ const gameDetails = {
             "ระบบการต่อสู้แบบ 2v2 ที่ดุดันและตื่นเต้น",
             "ตัวละครที่หลากหลายจากเรื่อง Jujutsu Kaisen พร้อมท่าโจมตีเฉพาะตัว",
             "กราฟิกและเอฟเฟกต์ที่สมจริงตามสไตล์อนิเมะ",
-            "โหมดการเล่นหลากหลาย ทั้งแบบเนื้อเรื่องและการต่อสู้ออนไลน์",
+            "โหมดการเล่นหลากหลาย ทั้งแบบนื้อเรื่องและการต่อสู้ออนไลน์",
             "พลังคำสาปและเทคนิคพิเศษที่สมบูรณ์แบบเหมือนในอนิเมะ"
         ],
         systemRequirements:{
@@ -301,6 +301,128 @@ const gameDetails = {
         downloadLink: "https://koramaup.com/1qhI",
         crackLink: "https://megaup.net/5178e81e80cd6a6c022eba1389f47104/ProjectUnknown_Fix_Repair_Steam_Generic.rar",
         hasCrack: true
+    },
+    "v-rising": {
+        title: "V Rising",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1604030/header.jpg",
+        description: "V Rising เป็นเกมเอาชีวิตรอดแนวแวมไพร์ที่ผสมผสานการสร้างฐาน การต่อสู้ และการผจญภัยในโลกแฟนตาซีดาร์ก คุณจะได้สวมบทบาทเป็นแวมไพร์ที่เพิ่งฟื้นคืนชีพและต้องสร้างอาณาจักรของตัวเองขึ้นมาใหม่",
+        features: [
+            "สร้างปราสาทและขยายอาณาจักรแวมไพร์ของคุณ",
+            "ต่อสู้กับศัตรูหลากหลายและล่าเลือดเพื่อเพิ่มพลัง",
+            "เล่นคนเดียวหรือร่วมมือกับเพื่อนในโหมด PvE และ PvP",
+            "ระบบการสร้างไอเทมและอาวุธที่หลากหลาย",
+            "โลกเปิดกว้างที่เต็มไปด้วยอันตรายและความลับให้ค้นหา"
+        ],
+        systemRequirements: {
+            minimum: [
+                "OS: Windows 10 64 bit",
+                "Processor: Intel Core i5-6600, 3.3 GHz or AMD Ryzen 5 1500X, 3.5 GHz",
+                "Memory: 12 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 750 Ti, 2 GB or AMD Radeon R7 360, 2 GB",
+                "Storage: 20 GB available space"
+            ],
+            recommended: [
+                "OS: Windows 10 64 bit",
+                "Processor: Intel Core i5-11600K, 3.9 GHz or AMD Ryzen 5 5600X, 3.7 GHz",
+                "Memory: 16 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 1070, 8 GB or AMD Radeon RX 590, 8 GB",
+                "Storage: 20 GB available space"
+            ]
+        },
+        downloadLink: "https://doodrive.com/f/qpx2y9",
+        crackLink: "https://megaup.net/3f7f64777426f06f958f4fe2a5c7590f/VRising_Fix_Repair_Steam_Generic.rar",
+        hasCrack: true
+    },
+    "assassins-creed-valhalla": {
+    title: "Assassin's Creed Valhalla Complete Edition",
+    image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/header.jpg",
+    description: "Assassin's Creed Valhalla Complete Edition นำเสนอประสบการณ์การผจญภัยในยุควิกกิ้งที่สมบูรณ์แบบ พร้อมด้วยเนื้อหาเสริมและ DLC ทั้งหมด คุณจะได้สวมบทบาทเป็น Eivor นักรบวิกกิ้งที่นำพาชนเผ่าของตนจากนอร์เวย์สู่อังกฤษในยุคกลาง",
+    features: [
+        "โลกเปิดกว้างในยุควิกกิ้งที่สมจริงและสวยงาม",
+        "ระบบการต่อสู้ที่ดุดันและหลากหลาย",
+        "การสร้างและพัฒนาหมู่บ้านของคุณเอง",
+        "เนื้อหาเสริมและ DLC ทั้งหมดรวมอยู่ในเวอร์ชันนี้",
+        "การผสมผสานระหว่างประวัติศาสตร์และตำนานนอร์ส"
+    ],
+    systemRequirements: {
+        minimum: [
+            "OS: Windows 10 (64-bit versions only)",
+            "Processor: AMD Ryzen 3 1200 3.1 GHz / Intel Core i5-4460 3.2 GHz",
+            "Memory: 8 GB RAM",
+            "Graphics: AMD R9 380 (4 GB VRAM) / NVIDIA GeForce GTX 960 (4 GB VRAM)",
+            "Storage: 160 GB available space"
+        ],
+        recommended: [
+            "OS: Windows 10 (64-bit versions only)",
+            "Processor: AMD Ryzen 5 1600 3.2 GHz / Intel Core i7-4790 3.6 GHz",
+            "Memory: 8 GB RAM",
+            "Graphics: AMD RX 570 (8 GB VRAM) / NVIDIA GeForce GTX 1060 (6 GB VRAM)",
+            "Storage: 160 GB available space (SSD recommended)"
+        ]
+        },
+        downloadLink: "https://gofile.io/d/vl3mub",
+        hasCrack: false
+    },
+    "marvels-spider-man-remastered": {
+        title: "Marvel's Spider-Man Remastered",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1817070/header.jpg",
+        description: "Marvel's Spider-Man Remastered นำเสนอเรื่องราวของ Peter Parker ที่มีประสบการณ์ในการเป็น Spider-Man มา 8 ปี ต่อสู้กับอาชญากรรมในนิวยอร์กซิตี้ ในเวอร์ชันที่ได้รับการปรับปรุงใหม่ด้วยกราฟิกและประสิทธิภาพที่ดีขึ้น",
+        features: [
+            "เนื้อเรื่องที่น่าติดตามของ Peter Parker และ Spider-Man",
+            "การต่อสู้ที่ลื่นไหลและระบบการเคลื่อนที่แบบใยแมงมุมที่สมจริง",
+            "โลกเปิดของนิวยอร์กซิตี้ที่สวยงามและมีชีวิตชีวา",
+            "กราฟิกที่ได้รับการปรับปรุงใหม่สำหรับ PC",
+            "รวม DLC 'The City That Never Sleeps' ทั้งหมด"
+        ],
+        systemRequirements: {
+            minimum: [
+                "OS: Windows 10 64-bit",
+                "Processor: Intel Core i3-4160 or AMD equivalent",
+                "Memory: 8 GB RAM",
+                "Graphics: NVIDIA GTX 950 or AMD Radeon RX 470",
+                "Storage: 75 GB available space"
+            ],
+            recommended: [
+                "OS: Windows 10 64-bit",
+                "Processor: Intel Core i5-4670 or AMD Ryzen 5 1600",
+                "Memory: 16 GB RAM",
+                "Graphics: NVIDIA GTX 1060 6GB or AMD Radeon RX 580 8GB",
+                "Storage: 75 GB available space (SSD recommended)"
+            ]
+        },
+        downloadLink: "https://dayuploads.com/5gIVFeOcTqctQQF/file",
+        hasCrack: false,
+    },
+    "forza-horizon-5": {
+        title: "Forza Horizon 5",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1551360/header.jpg",
+        description: "Forza Horizon 5 นำเสนอประสบการณ์การขับรถแบบโลกเปิดที่น่าตื่นตาตื่นใจในเม็กซิโก ผู้เล่นจะได้สัมผัสกับภูมิประเทศที่หลากหลาย รถยนต์มากมายให้เลือก และกิจกรรมที่น่าตื่นเต้นมากมาย",
+        features: [
+            "โลกเปิดขนาดใหญ่ที่จำลองภูมิประเทศของเม็กซิโกได้อย่างสวยงาม",
+            "รถยนต์มากกว่า 500 รุ่นให้เลือกขับและปรับแต่ง",
+            "โหมดการเล่นที่หลากหลาย ทั้งแบบเนื้อเรื่องและออนไลน์",
+            "กราฟิกที่สวยงามและสมจริง",
+            "ระบบสภาพอากาศแบบไดนามิกที่ส่งผลต่อการขับขี่"
+        ],
+        systemRequirements: {
+            minimum: [
+                "OS: Windows 10 version 15063.0 or higher",
+                "Processor: Intel i5-4460 or AMD Ryzen 3 1200",
+                "Memory: 8 GB RAM",
+                "Graphics: NVIDIA GTX 970 OR AMD RX 470",
+                "DirectX: Version 12",
+                "Storage: 110 GB available space"
+            ],
+            recommended: [
+                "OS: Windows 10 version 15063.0 or higher",
+                "Processor: Intel i5-8400 or AMD Ryzen 5 1500X",
+                "Memory: 16 GB RAM",
+                "Graphics: NVIDIA GTX 1070 OR AMD RX 590",
+                "DirectX: Version 12",
+                "Storage: 110 GB available space"
+            ]
+        },
+        downloadLink: "https://gofile.io/d/Es6J2X",
+        hasCrack: false,
     }
-
 };
