@@ -26,8 +26,10 @@ const gameDetails = {
                 "Storage: 5 GB available space"
             ]
         },
-        downloadLink: "https://1cloudfile.com/La9b",
-        crackLink: "https://doodrive.com/f/vgq263",
+        downloadLinks: {
+            game: "https://1cloudfile.com/La9b",
+            crack: "https://doodrive.com/f/vgq263"
+        },
         hasCrack: true
     },
     "pummel-party": {
@@ -57,8 +59,10 @@ const gameDetails = {
                 "Storage: 2 GB available space"
             ]
         },
-        downloadLink: "https://qiwi.gg/file/xvHg9570-PummelPartyv1",
-        crackLink: "https://gofile.io/d/fYzUPh",
+        downloadLinks: {
+            game: "https://qiwi.gg/file/xvHg9570-PummelPartyv1",
+            crack: "https://gofile.io/d/fYzUPh"
+        },
         hasCrack: true
     },
     "the-sims-4": {
@@ -88,7 +92,11 @@ const gameDetails = {
                 "Storage: 18 GB available space"
             ]
         },
-        downloadLink: "https://datanodes.to/6ok4iayhdgy1/The-Sims-4.rar",
+        downloadLinks: {
+            game: [
+                "https://datanodes.to/6ok4iayhdgy1/The-Sims-4.rar"
+            ]
+        },
         hasCrack: false
     },
     "silent-hill-2": {
@@ -118,7 +126,11 @@ const gameDetails = {
                 "Storage: 50 GB available space"
             ]
         },
-        downloadLink: "https://gofile.io/d/sMB4ze",
+        downloadLinks: {
+            game: [
+                "https://gofile.io/d/sMB4ze"
+            ]
+        },
         hasCrack: false
     },
     "dragon-ball-sparking-zero": {
@@ -148,17 +160,21 @@ const gameDetails = {
                 "Storage: 60 GB available space"
             ]
         },
-        downloadLink: "https://gofile.io/d/RumAF0",
+        downloadLinks: {
+            game: [
+                "https://gofile.io/d/RumAF0"
+            ]
+        },
         hasCrack: false
     },
     "god-of-war-ragnarok": {
         title: "God of War Ragnarök",
         image: "https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/4xJ8XB3bi888QTLZYdl7Oi0s.png",
-        description: "God of War Ragnarök เป็นเกมแอคชันผจญภัยที่สานต่อเรื่องราวของ Kratos และ Atreus ในโลกของเทพนอร์ส พวกเขาต้องเผชิญหน้ากับ Ragnarök ที่กำลังจะมาถึง",
+        description: "God of War Ragnarök เป็นเกมแอคชัผจญภัยที่สานต่อเรื่องราวของ Kratos และ Atreus ในโลกของเทพนอร์ส พวกเขาต้องเผชิญหน้ากับ Ragnarök ที่กำลังจะมาถึง",
         features: [
             "การต่อสู้ที่ดุเดือดและน่าตื่นเต้น",
             "การสำรวจโลกที่กว้างขวางและสวยงาม",
-            "เรื่องราวที่ลึกซึ้งและน่าติดตาม",
+            "เรื่องราวที่ลึกซึ้งแะน่าติดตาม",
             "ตัวละครที่มีมิติและพัฒนาการทางอารมณ์",
             "กราฟิกที่สวยงามและรายละเอียดสูง"
         ],
@@ -167,7 +183,7 @@ const gameDetails = {
                 "OS: Windows 10 64-bit",
                 "Processor:  Intel i5-4670k or AMD Ryzen 3 1200",
                 "Memory: 8 GB RAM",
-                "Graphics: NVIDIA GTX 1060 (6GB) or AMD RX 5500 XT (8GB) or Intel Arc A750",
+                "Graphics: NVIDIA GTX 1060 (6GB) or AMD Radeon RX 5500 XT (8GB) or Intel Arc A750",
                 "Storage: 190 GB available space"
             ],
             recommended: [
@@ -178,7 +194,11 @@ const gameDetails = {
                 "Storage: 190 GB SSD space"
             ]
         },
-        downloadLink: "https://gofile.io/d/grmKo8",
+        downloadLinks: {
+            game: [
+                "https://gofile.io/d/grmKo8"
+            ]
+        },
         hasCrack: false
     },
     "warhammer-40000-space-marine-2":{
@@ -208,7 +228,11 @@ const gameDetails = {
             "Storage: 70 GB available space"
             ]
         },
-        downloadLink: "https://1fichier.com/?atafrznctf78xkpnmi7e",
+        downloadLinks: {
+            game: [
+                "https://1fichier.com/?atafrznctf78xkpnmi7e"
+            ]
+        },
         hasCrack: false
     },
     "jujutsu-kaisen-cursed-clash":{
@@ -238,7 +262,11 @@ const gameDetails = {
                 "Storage: 15 GB available space"
             ]
         },
-        downloadLink: "https://gofile.io/d/7TTotR",
+        downloadLinks: {
+            game: [
+                "https://gofile.io/d/7TTotR"
+            ]
+        },
         hasCrack: false
     },
     "naruto-x-boruto-ultimate-ninja-storm-connections":{
@@ -268,7 +296,11 @@ const gameDetails = {
                 "Storage: 30.36 GB available space"
             ]
         },
-        downloadLink: "https://1fichier.com/?rsfqa62zjqb8wc2isnwb",
+        downloadLinks: {
+            game: [
+                "https://1fichier.com/?rsfqa62zjqb8wc2isnwb"
+            ]
+        },
         hasCrack: false
     },
     "project-unknow":{
@@ -298,8 +330,14 @@ const gameDetails = {
                 "Storage: 9 GB available space"
             ]
         },
-        downloadLink: "https://koramaup.com/1qhI",
-        crackLink: "https://megaup.net/5178e81e80cd6a6c022eba1389f47104/ProjectUnknown_Fix_Repair_Steam_Generic.rar",
+        downloadLinks: {
+            game: [
+                "https://koramaup.com/1qhI"
+            ],
+            crack: [
+                "https://megaup.net/5178e81e80cd6a6c022eba1389f47104/ProjectUnknown_Fix_Repair_Steam_Generic.rar"
+            ]
+        },
         hasCrack: true
     },
     "v-rising": {
@@ -323,14 +361,20 @@ const gameDetails = {
             ],
             recommended: [
                 "OS: Windows 10 64 bit",
-                "Processor: Intel Core i5-11600K, 3.9 GHz or AMD Ryzen 5 5600X, 3.7 GHz",
+                "Processor: Intel Core i5-11600K, 3.9 GHz or AMD Ryzen 5 3600",
                 "Memory: 16 GB RAM",
                 "Graphics: NVIDIA GeForce GTX 1070, 8 GB or AMD Radeon RX 590, 8 GB",
                 "Storage: 20 GB available space"
             ]
         },
-        downloadLink: "https://doodrive.com/f/qpx2y9",
-        crackLink: "https://megaup.net/3f7f64777426f06f958f4fe2a5c7590f/VRising_Fix_Repair_Steam_Generic.rar",
+        downloadLinks: {
+            game: [
+                "https://doodrive.com/f/qpx2y9"
+            ],
+            crack: [
+                "https://megaup.net/3f7f64777426f06f958f4fe2a5c7590f/VRising_Fix_Repair_Steam_Generic.rar"
+            ]
+        },
         hasCrack: true
     },
     "assassins-creed-valhalla": {
@@ -360,7 +404,11 @@ const gameDetails = {
             "Storage: 160 GB available space (SSD recommended)"
         ]
         },
-        downloadLink: "https://gofile.io/d/vl3mub",
+        downloadLinks: {
+            game: [
+                "https://gofile.io/d/vl3mub"
+            ]
+        },
         hasCrack: false
     },
     "marvels-spider-man-remastered": {
@@ -390,7 +438,11 @@ const gameDetails = {
                 "Storage: 75 GB available space (SSD recommended)"
             ]
         },
-        downloadLink: "https://dayuploads.com/5gIVFeOcTqctQQF/file",
+        downloadLinks: {
+            game: [
+                "https://dayuploads.com/5gIVFeOcTqctQQF/file"
+            ]
+        },
         hasCrack: false,
     },
     "forza-horizon-5": {
@@ -422,7 +474,11 @@ const gameDetails = {
                 "Storage: 110 GB available space"
             ]
         },
-        downloadLink: "https://gofile.io/d/Es6J2X",
+        downloadLinks: {
+            game: [
+                "https://gofile.io/d/Es6J2X"
+            ]
+        },
         hasCrack: false,
-    }
+    },
 };

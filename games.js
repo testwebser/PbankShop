@@ -96,7 +96,7 @@ const games = [
         image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1551360/header.jpg",
         description: "สัมผัสประสบการณ์การขับรถแบบโลกเปิดที่น่าตื่นตาตื่นใจในเม็กซิโก ด้วยภูมิประเทศที่หลากหลายและรถยนต์มากมายให้เลือก",
         detailLink: "forza-horizon-5-detail.html"
-    }
+    },
 ];
 
 function createGameCard(game) {

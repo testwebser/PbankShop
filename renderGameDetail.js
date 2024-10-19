@@ -1,14 +1,40 @@
 function renderGameDetail() {
     const urlParams = new URLSearchParams(window.location.search);
     const gameId = urlParams.get('id');
-    console.log("Game ID:", gameId);  // เพิ่มบรรทัดนี้
     const game = gameDetails[gameId];
-    console.log("Game data:", game);  // เพิ่มบรรทัดนี้
 
     if (!game) {
-        console.log("Game not found in gameDetails");  // เพิ่มบรรทัดนี้
         document.getElementById('game-detail').innerHTML = '<p>ไม่พบข้อมูลเกม</p>';
         return;
+    }
+
+    function renderDownloadLinks(links, title) {
+        if (!links || (Array.isArray(links) && links.length === 0)) return '';
+        
+        if (Array.isArray(links) && links.length > 1) {
+            // กรณีที่มีหลายลิงก์
+            return `
+                <h4 class="font-bold mt-4 mb-2">${title}:</h4>
+                <ul class="list-disc list-inside">
+                    ${links.map((link, index) => `
+                        <li>
+                            <a href="${link}" target="_blank" class="text-blue-500 hover:text-blue-700">
+                                Part ${index + 1}
+                            </a>
+                        </li>
+                    `).join('')}
+                </ul>
+            `;
+        } else {
+            // กรณีที่มีลิงก์เดียว (ไม่ว่าจะเป็น string หรือ array ที่มีสมาชิกเดียว)
+            const link = Array.isArray(links) ? links[0] : links;
+            return `
+                <h4 class="font-bold mt-4 mb-2">${title}:</h4>
+                <a href="${link}" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    ดาวน์โหลด ${title}
+                </a>
+            `;
+        }
     }
 
     const gameDetailHTML = `
@@ -38,16 +64,18 @@ function renderGameDetail() {
                 </div>
             </div>
 
-            <div class="mt-8 flex space-x-4">
-                <a href="${game.downloadLink}" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300 inline-block">
-                    ดาวน์โหลดเกม
-                </a>
-                ${game.hasCrack ? `
-                <a href="${game.crackLink}" target="_blank" class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300 inline-block">
+            <h3 class="text-xl font-semibold mb-2">ลิงก์ดาวน์โหลด:</h3>
+            ${renderDownloadLinks(game.downloadLinks.game, "ตัวเกม")}
+            ${game.downloadLinks.language ? renderDownloadLinks(game.downloadLinks.language, "แพ็คภาษา") : ''}
+            ${game.downloadLinks.bonusContent ? renderDownloadLinks(game.downloadLinks.bonusContent, "เนื้อหาโบนัส") : ''}
+            ${game.downloadLinks.credits ? renderDownloadLinks(game.downloadLinks.credits, "เครดิต") : ''}
+
+            ${game.hasCrack ? `
+                <h4 class="font-bold mt-4 mb-2">Crack:</h4>
+                <a href="${game.crackLink}" target="_blank" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
                     ดาวน์โหลด Crack
                 </a>
-                ` : ''}
-            </div>
+            ` : ''}
         </div>
     `;
 
