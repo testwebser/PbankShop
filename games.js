@@ -97,6 +97,13 @@ const games = [
         description: "สัมผัสประสบการณ์การขับรถแบบโลกเปิดที่น่าตื่นตาตื่นใจในเม็กซิโก ด้วยภูมิประเทศที่หลากหลายและรถยนต์มากมายให้เลือก",
         detailLink: "forza-horizon-5-detail.html"
     },
+    {
+        id: "cyberpunk-2077",
+        title: "Cyberpunk 2077",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
+        description: "เกมแอคชันผจญภัยแนวสยองขวัญที่นำเสนอการต่อสู้แบบ 3D ที่รวดเร็วและเร้าใจ",
+        detailLink: "cyberpunk-2077-detail.html"
+    }
 ];
 
 function createGameCard(game) {

@@ -28,9 +28,9 @@ const gameDetails = {
         },
         downloadLinks: {
             game: "https://1cloudfile.com/La9b",
-            crack: "https://doodrive.com/f/vgq263"
         },
-        hasCrack: true
+        hasCrack: true,
+        crackLink: "https://doodrive.com/f/vgq263"
     },
     "pummel-party": {
         title: "Pummel Party",
@@ -61,9 +61,9 @@ const gameDetails = {
         },
         downloadLinks: {
             game: "https://qiwi.gg/file/xvHg9570-PummelPartyv1",
-            crack: "https://gofile.io/d/fYzUPh"
         },
-        hasCrack: true
+        hasCrack: true,
+        crackLink: "https://gofile.io/d/fYzUPh"
     },
     "the-sims-4": {
         title: "The Sims 4",
@@ -334,11 +334,9 @@ const gameDetails = {
             game: [
                 "https://koramaup.com/1qhI"
             ],
-            crack: [
-                "https://megaup.net/5178e81e80cd6a6c022eba1389f47104/ProjectUnknown_Fix_Repair_Steam_Generic.rar"
-            ]
         },
-        hasCrack: true
+        hasCrack: true,
+        crackLink: "https://megaup.net/5178e81e80cd6a6c022eba1389f47104/ProjectUnknown_Fix_Repair_Steam_Generic.rar"
     },
     "v-rising": {
         title: "V Rising",
@@ -371,11 +369,9 @@ const gameDetails = {
             game: [
                 "https://doodrive.com/f/qpx2y9"
             ],
-            crack: [
-                "https://megaup.net/3f7f64777426f06f958f4fe2a5c7590f/VRising_Fix_Repair_Steam_Generic.rar"
-            ]
         },
-        hasCrack: true
+        hasCrack: true,
+        crackLink: "https://megaup.net/3f7f64777426f06f958f4fe2a5c7590f/VRising_Fix_Repair_Steam_Generic.rar"
     },
     "assassins-creed-valhalla": {
     title: "Assassin's Creed Valhalla Complete Edition",
@@ -481,4 +477,170 @@ const gameDetails = {
         },
         hasCrack: false,
     },
+    "cyberpunk-2077": {
+        title: "Cyberpunk 2077",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
+        description: "Cyberpunk 2077 เป็นเกม RPG แอคชั่นผจญภัยในโลกเปิด ตั้งอยู่ในเมือง Night City ที่เต็มไปด้วยพลังและเทคโนโลยีล้ำสมัย คุณรับบทเป็นนักรบรับจ้างไซเบอร์พังก์ที่เสี่ยงทุกอย่างเพื่อความอยู่รอดในเมืองแห่งอนาคต",
+        features: [
+            "โลกเปิดขนาดใหญ่ที่มีชีวิตชีวา",
+            "เนื้อเรื่องที่ซับซ้อนและน่าติดตาม",
+            "ระบบการปรับแต่งตัวละครที่ลึกซึ้ง",
+            "การต่อสู้แบบ FPS ผสมผสานกับความสามารถไซเบอร์",
+            "เมือง Night City ที่มีรายละเอียดสูง",
+            "เทคโนโลยีและอุปกรณ์ล้ำสมัยมากมาย"
+        ],
+        systemRequirements: {
+            minimum: [
+                "OS: Windows 10",
+                "Processor: Intel Core i5-3570K or AMD FX-8310",
+                "Memory: 8 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 970 or AMD Radeon RX 470",
+                "Storage: 70 GB available space"
+            ],
+            recommended: [
+                "OS: Windows 10",
+                "Processor: Intel Core i7-4790 or AMD Ryzen 3 3200G",
+                "Memory: 12 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 1060 6GB or AMD Radeon R9 Fury",
+                "Storage: 70 GB SSD"
+            ]
+        },
+        downloadLinks: {
+            game: [
+                "https://fuckingfast.co/wgm5nsa7twmb#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part001.rar",
+                "https://fuckingfast.co/92kkc0j344r5#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part002.rar",
+                "https://fuckingfast.co/g4657mkknlz4#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part003.rar",
+                "https://fuckingfast.co/eudhigiyk5y7#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part004.rar",
+                "https://fuckingfast.co/mosiet4bxp6i#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part005.rar",
+                "https://fuckingfast.co/8b0c6fh1pooq#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part006.rar",
+                "https://fuckingfast.co/hxyp1bdzrt2l#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part007.rar",
+                "https://fuckingfast.co/d39rzonabvdf#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part008.rar",
+                "https://fuckingfast.co/y4olw48nurj8#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part009.rar",
+                "https://fuckingfast.co/xm8b0jtctqz8#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part010.rar",
+                "https://fuckingfast.co/6bghqf12khe7#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part011.rar",
+                "https://fuckingfast.co/iso2mqv8r03g#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part012.rar",
+                "https://fuckingfast.co/1ejxm2nxsymv#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part013.rar",
+                "https://fuckingfast.co/tfkckwgvv3aj#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part014.rar",
+                "https://fuckingfast.co/uj6umbx6kgc6#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part015.rar",
+                "https://fuckingfast.co/2qrj9idndsow#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part016.rar",
+                "https://fuckingfast.co/vglljqgyk064#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part017.rar",
+                "https://fuckingfast.co/p75dx3aki36u#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part018.rar",
+                "https://fuckingfast.co/ik3qwqmlb5km#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part019.rar",
+                "https://fuckingfast.co/ts5d5l924kga#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part020.rar",
+                "https://fuckingfast.co/y2odrr3vybcr#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part021.rar",
+                "https://fuckingfast.co/itetgdblp2rm#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part022.rar",
+                "https://fuckingfast.co/ktyo0eeuaatb#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part023.rar",
+                "https://fuckingfast.co/tb6g4r3vc51o#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part024.rar",
+                "https://fuckingfast.co/sazsj3aqjerw#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part025.rar",
+                "https://fuckingfast.co/zsmyk9jvuno5#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part026.rar",
+                "https://fuckingfast.co/8itcx1ig3e3m#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part027.rar",
+                "https://fuckingfast.co/6sr1tc6mk6ij#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part028.rar",
+                "https://fuckingfast.co/znq0of9kz3g4#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part029.rar",
+                "https://fuckingfast.co/imlfqudubny0#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part030.rar",
+                "https://fuckingfast.co/wvx1twe5jqou#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part031.rar",
+                "https://fuckingfast.co/irx8ndc78wss#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part032.rar",
+                "https://fuckingfast.co/m3k7ik7jhc59#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part033.rar",
+                "https://fuckingfast.co/r2bhml1gz9zg#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part034.rar",
+                "https://fuckingfast.co/tl45ezh4931q#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part035.rar",
+                "https://fuckingfast.co/e3dsms8gm46c#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part036.rar",
+                "https://fuckingfast.co/1l5hefdkpq8g#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part037.rar",
+                "https://fuckingfast.co/0hd7q0h0rns6#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part038.rar",
+                "https://fuckingfast.co/91gpq350xtw0#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part039.rar",
+                "https://fuckingfast.co/o9oyxpcb1czn#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part040.rar",
+                "https://fuckingfast.co/yy3ggarlvvtv#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part041.rar",
+                "https://fuckingfast.co/0ptcmjlovl4d#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part042.rar",
+                "https://fuckingfast.co/er89665glunx#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part043.rar",
+                "https://fuckingfast.co/98xkvvxr8jjx#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part044.rar",
+                "https://fuckingfast.co/d4ht5ozxpea9#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part045.rar",
+                "https://fuckingfast.co/j540uodkrnwa#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part046.rar",
+                "https://fuckingfast.co/lp93wu35rj5u#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part047.rar",
+                "https://fuckingfast.co/hsstpkk5xw7o#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part048.rar",
+                "https://fuckingfast.co/wdejf1tffilk#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part049.rar",
+                "https://fuckingfast.co/pkd43jsvlevj#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part050.rar",
+                "https://fuckingfast.co/tkflkptm0lb3#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part051.rar",
+                "https://fuckingfast.co/v8jg7krdn44y#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part052.rar",
+                "https://fuckingfast.co/7bt8hayzb5fa#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part053.rar",
+                "https://fuckingfast.co/43la6uubqjsk#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part054.rar",
+                "https://fuckingfast.co/gh874tebr2ph#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part055.rar",
+                "https://fuckingfast.co/pwym46g5mh6l#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part056.rar",
+                "https://fuckingfast.co/2dr7ijv5dyeg#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part057.rar",
+                "https://fuckingfast.co/6mfygumxc0o9#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part058.rar",
+                "https://fuckingfast.co/cngu0vhgketb#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part059.rar",
+                "https://fuckingfast.co/4qxikt1o233f#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part060.rar",
+                "https://fuckingfast.co/iug518oknxlo#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part061.rar",
+                "https://fuckingfast.co/eeur4m1zyf8y#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part062.rar",
+                "https://fuckingfast.co/8euzgl14fsxt#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part063.rar",
+                "https://fuckingfast.co/34wbzz32jx2a#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part064.rar",
+                "https://fuckingfast.co/yrfu990lugcq#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part065.rar",
+                "https://fuckingfast.co/54y941zv4orh#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part066.rar",
+                "https://fuckingfast.co/ehweak4j6vw2#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part067.rar",
+                "https://fuckingfast.co/0yfsh357kxdt#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part068.rar",
+                "https://fuckingfast.co/ae0ewg1c5jkp#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part069.rar",
+                "https://fuckingfast.co/8q4z0aedzm1f#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part070.rar",
+                "https://fuckingfast.co/gphvybn7t5ps#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part071.rar",
+                "https://fuckingfast.co/15iwpyhom2wb#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part072.rar",
+                "https://fuckingfast.co/p0mw6kulhtnf#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part073.rar",
+                "https://fuckingfast.co/3e3l7thj7zp3#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part074.rar",
+                "https://fuckingfast.co/9bbo9mvkq0bp#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part075.rar",
+                "https://fuckingfast.co/3ik1mw4x8w4v#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part076.rar",
+                "https://fuckingfast.co/y2jm8mgayf4f#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part077.rar",
+                "https://fuckingfast.co/z5b1khqwdbqw#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part078.rar",
+                "https://fuckingfast.co/hmz2fbvhbxxe#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part079.rar",
+                "https://fuckingfast.co/f5av426b070g#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part080.rar",
+                "https://fuckingfast.co/ph27k3qj4yj8#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part081.rar",
+                "https://fuckingfast.co/r2w3tlztkde5#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part082.rar",
+                "https://fuckingfast.co/56jpjiizb2z3#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part083.rar",
+                "https://fuckingfast.co/9c5c2k2e9hcs#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part084.rar",
+                "https://fuckingfast.co/bj23510iyn3q#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part085.rar",
+                "https://fuckingfast.co/2bup7z6q84jc#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part086.rar",
+                "https://fuckingfast.co/7oid3wa8ns83#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part087.rar",
+                "https://fuckingfast.co/z4xz7kaoylbi#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part088.rar",
+                "https://fuckingfast.co/ghe2xna7vlru#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part089.rar",
+                "https://fuckingfast.co/61k9z8y15wjz#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part090.rar",
+                "https://fuckingfast.co/u0d866zzylzh#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part091.rar",
+                "https://fuckingfast.co/hp2p2eg7swuw#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part092.rar",
+                "https://fuckingfast.co/pw6sqlcsn1g1#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part093.rar",
+                "https://fuckingfast.co/ca24xzenvdtr#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part094.rar",
+                "https://fuckingfast.co/j106vlol4pyq#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part095.rar",
+                "https://fuckingfast.co/n7h32xbm66bn#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part096.rar",
+                "https://fuckingfast.co/qzmeyipqmasn#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part097.rar",
+                "https://fuckingfast.co/esanhloyk1rv#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part098.rar",
+                "https://fuckingfast.co/otc4dj6zm0s5#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part099.rar",
+                "https://fuckingfast.co/6ie9s6i8ter2#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part100.rar",
+                "https://fuckingfast.co/8anrephpchy5#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part101.rar",
+                "https://fuckingfast.co/4qsau80linll#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part102.rar",
+                "https://fuckingfast.co/5zx1pxsl4nvm#Cyberpunk_2077_--_fitgirl-repacks.site_--_.part103.rar",
+            ],
+            language: [
+                "https://fuckingfast.co/ijy53jn7b0eu#fg-selective-english.part01.rar",
+                "https://fuckingfast.co/o3thz0smuefc#fg-selective-english.part02.rar",
+                "https://fuckingfast.co/k7ojgv4l28i1#fg-selective-english.part03.rar",
+                "https://fuckingfast.co/dv9m2w0v4wya#fg-selective-english.part04.rar",
+                "https://fuckingfast.co/txa0ja8tiaxq#fg-selective-english.part05.rar",
+                "https://fuckingfast.co/1dok84r9l9m3#fg-selective-english.part06.rar",
+                "https://fuckingfast.co/7spsp11np63u#fg-selective-english.part07.rar",
+                "https://fuckingfast.co/txsk31bcpz95#fg-selective-english.part08.rar",
+                "https://fuckingfast.co/s1yet8lj606c#fg-selective-english.part09.rar",
+                "https://fuckingfast.co/7prfo1fb2mut#fg-selective-english.part10.rar",
+                "https://fuckingfast.co/u0nlwlbwzhmm#fg-selective-english.part11.rar",
+                "https://fuckingfast.co/ccmetruh9z06#fg-selective-english.part12.rar",
+            ],
+            bonusContent: [
+                "https://fuckingfast.co/azu6x7o9ki7i#fg-optional-bonus-content.part1.rar",
+                "https://fuckingfast.co/tis6sefoi4ll#fg-optional-bonus-content.part2.rar",
+                "https://fuckingfast.co/mjhumley7omo#fg-optional-bonus-content.part3.rar",
+                "https://fuckingfast.co/p9789ajiu39u#fg-optional-bonus-content.part4.rar",
+                "https://fuckingfast.co/kz58x7ybgpnh#fg-optional-bonus-content.part5.rar",
+                "https://fuckingfast.co/nnyyeebr7anf#fg-optional-bonus-content.part6.rar",
+                "https://fuckingfast.co/sa9jdg7p16mm#fg-optional-bonus-content.part7.rar",
+            ],
+            credits: [
+                "https://fuckingfast.co/frjbp4romm25#fg-optional-credits.part1.rar",
+                "https://fuckingfast.co/855555555555#fg-optional-credits.part2.rar",
+                "https://fuckingfast.co/855555555555#fg-optional-credits.part3.rar",
+                "https://fuckingfast.co/xg2u7s3348wl#fg-optional-credits.part4.rar",
+            ]
+        },
+        hasCrack: false,
+    }
 };

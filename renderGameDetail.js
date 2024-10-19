@@ -70,7 +70,7 @@ function renderGameDetail() {
             ${game.downloadLinks.bonusContent ? renderDownloadLinks(game.downloadLinks.bonusContent, "เนื้อหาโบนัส") : ''}
             ${game.downloadLinks.credits ? renderDownloadLinks(game.downloadLinks.credits, "เครดิต") : ''}
 
-            ${game.hasCrack ? `
+            ${game.hasCrack && game.crackLink ? `
                 <h4 class="font-bold mt-4 mb-2">Crack:</h4>
                 <a href="${game.crackLink}" target="_blank" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
                     ดาวน์โหลด Crack
