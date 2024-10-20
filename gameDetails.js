@@ -636,8 +636,8 @@ const gameDetails = {
             ],
             credits: [
                 "https://fuckingfast.co/frjbp4romm25#fg-optional-credits.part1.rar",
-                "https://fuckingfast.co/855555555555#fg-optional-credits.part2.rar",
-                "https://fuckingfast.co/855555555555#fg-optional-credits.part3.rar",
+                "https://fuckingfast.co/dsg3d0ctck96#fg-optional-credits.part2.rar",
+                "https://fuckingfast.co/5edz2at2ikid#fg-optional-credits.part3.rar",
                 "https://fuckingfast.co/xg2u7s3348wl#fg-optional-credits.part4.rar",
             ]
         },
