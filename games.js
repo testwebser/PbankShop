@@ -103,6 +103,13 @@ const games = [
         image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
         description: "เกมแอคชันผจญภัยแนวสยองขวัญที่นำเสนอการต่อสู้แบบ 3D ที่รวดเร็วและเร้าใจ",
         detailLink: "cyberpunk-2077-detail.html"
+    },
+    {
+        id: "the-last-of-us-part-1",
+        title: "The Last of Us Part I",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1888930/header.jpg",
+        description: "The Last of Us™ Part I เป็นเกมแอคชั่นผจญภัยที่ได้รับการรีเมคใหม่ทั้งหมด",
+        detailLink: "the-last-of-us-part-1-detail.html"
     }
 ];
 

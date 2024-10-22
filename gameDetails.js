@@ -642,5 +642,39 @@ const gameDetails = {
             ]
         },
         hasCrack: false,
+    },
+    "the-last-of-us-part-1": {
+        title: "The Last of Us Part I",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1888930/header.jpg",
+        description: "The Last of Us™ Part I เป็นเกมแอคชั่นผจญภัยที่ได้รับการรีเมคใหม่ทั้งหมด คุณจะได้สัมผัสประสบการณ์การเอาตัวรอดในโลกหลังวันสิ้นโลกที่ถูกทำลายโดยการระบาดของเชื้อร้าย ติดตามเรื่องราวของ Joel และ Ellie ในการเดินทางข้ามอเมริกาที่ถูกทำลาย",
+        features: [
+            "กราฟิกที่ได้รับการปรับปรุงใหม่ทั้งหมด",
+            "ระบบการต่อสู้และการเอาชีวิตรอดที่สมจริง",
+            "เนื้อเรื่องที่ลึกซึ้งและน่าติดตาม",
+            "โลกเปิดที่สวยงามและน่าสำรวจ",
+            "เสียงประกอบและดนตรีที่ได้รับรางวัล",
+            "โหมดเสริม Left Behind รวมอยู่ในแพ็คเกจ"
+        ],
+        systemRequirements: {
+            minimum: [
+                "OS: Windows 10 (Version 1909 or newer)",
+                "Processor: AMD Ryzen 5 1500X, Intel Core i7-4770K",
+                "Memory: 16 GB RAM",
+                "Graphics: AMD Radeon RX 470 (4 GB), AMD Radeon RX 6500 XT (4 GB), NVIDIA GeForce GTX 970 (4 GB), NVIDIA GeForce GTX 1050 Ti (4 GB)",
+                "Storage: 100 GB available space"
+            ],
+            recommended: [
+                "OS: Windows 10 (Version 1909 or newer)",
+                "Processor: AMD Ryzen 5 3600X, Intel Core i7-8700",
+                "Memory: 16 GB RAM",
+                "Graphics: AMD Radeon RX 5700 XT (8 GB), AMD Radeon RX 6600 XT (8 GB), NVIDIA GeForce RTX 2070 SUPER (8 GB), NVIDIA GeForce RTX 3060 (8 GB)",
+                "Storage: 100 GB SSD"
+            ]
+        },
+        downloadLinks: {
+            game:[
+                "https://1fichier.com/?ipejv8s31pkx3kp2jsg4"
+            ]
+        }
     }
 };
