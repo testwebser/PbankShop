@@ -110,6 +110,20 @@ const games = [
         image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1888930/header.jpg",
         description: "The Last of Us™ Part I เป็นเกมแอคชั่นผจญภัยที่ได้รับการรีเมคใหม่ทั้งหมด",
         detailLink: "the-last-of-us-part-1-detail.html"
+    },
+    {
+        id: "bully-scholarship-edition",
+        title: "Bully Scholarship Edition",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/12200/header.jpg",
+        description: "Bully: Scholarship Edition นำเสนอประสบการณ์การเล่นเกมแบบโรงเรียนมัธยมที่ไม่เหมือนใคร คุณจะได้สวมบทบาทเป็น Jimmy Hopkins นักเรียนวัยรุ่นที่ดื้อรั้นที่สุด ในการต่อสู้เพื่อความอยู่รอดในโรงเรียนประจำ Bullworth Academy",
+        detailLink: "bully-scholarship-edition-detail.html"
+    },
+    {
+        id: "red-dead-redemption-2",
+        title: "Red Dead Redemption 2",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg",
+        description: "Red Dead Redemption 2 เป็นเกมแอคชั่นผจญภัยในโลกเปิดที่พัฒนาโดย Rockstar Games",
+        detailLink: "red-dead-redemption-2-detail.html"
     }
 ];
 

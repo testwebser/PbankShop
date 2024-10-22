@@ -636,8 +636,8 @@ const gameDetails = {
             ],
             credits: [
                 "https://fuckingfast.co/frjbp4romm25#fg-optional-credits.part1.rar",
-                "https://fuckingfast.co/dsg3d0ctck96#fg-optional-credits.part2.rar",
-                "https://fuckingfast.co/5edz2at2ikid#fg-optional-credits.part3.rar",
+                "https://fuckingfast.co/855555555555#fg-optional-credits.part2.rar",
+                "https://fuckingfast.co/855555555555#fg-optional-credits.part3.rar",
                 "https://fuckingfast.co/xg2u7s3348wl#fg-optional-credits.part4.rar",
             ]
         },
@@ -676,5 +676,74 @@ const gameDetails = {
                 "https://1fichier.com/?ipejv8s31pkx3kp2jsg4"
             ]
         }
+    },
+    "bully-scholarship-edition": {
+        title: "Bully Scholarship Edition",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/12200/header.jpg",
+        description: "Bully: Scholarship Edition นำเสนอประสบการณ์การเล่นเกมแบบโรงเรียนมัธยมที่ไม่เหมือนใคร คุณจะได้สวมบทบาทเป็น Jimmy Hopkins นักเรียนวัยรุ่นที่ดื้อรั้นที่สุด ในการต่อสู้เพื่อความอยู่รอดในโรงเรียนประจำ Bullworth Academy",
+        features: [
+            "โลกเปิดที่สามารถสำรวจได้อย่างอิสระ",
+            "ภารกิจหลักและภารกิจรองที่หลากหลาย",
+            "มินิเกมที่สนุกสนานมากมาย",
+            "ระบบการต่อสู้ที่เข้าใจง่ายแต่สนุก",
+            "ตัวละครที่มีเอกลักษณ์และน่าสนใจ",
+            "กราฟิกที่ได้รับการปรับปรุงจากเวอร์ชันดั้งเดิม"
+        ],
+        systemRequirements: {
+            minimum: [
+                "OS: Windows XP/Vista",
+                "Processor: Intel Pentium 4 (3+ GHz) / AMD Athlon 3000+",
+                "Memory: 1 GB RAM",
+                "Graphics: DirectX 9.0c compliant video card with 256MB RAM (NVIDIA GeForce 6600 / ATI Radeon X1300)",
+                "Storage: 4.7 GB available space"
+            ],
+            recommended: [
+                "OS: Windows 7/8/10",
+                "Processor: Intel Core 2 Duo (2.4 GHz) / AMD Athlon 64 X2 4800+",
+                "Memory: 2 GB RAM",
+                "Graphics: DirectX 9.0c compliant video card with 512MB RAM (NVIDIA GeForce 8600 / ATI Radeon HD 2600)",
+                "Storage: 4.7 GB available space"
+            ]
+        },
+        downloadLinks: {
+            game: [
+                "https://datanodes.to/z7aq20yk01oc/Bully-Scholarship_Edition.rar"
+            ]
+        }
+    },
+    "red-dead-redemption-2": {
+        title: "Red Dead Redemption 2",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg",
+        description: "Red Dead Redemption 2 เป็นเกมแอคชั่นผจญภัยในโลกเปิดที่พัฒนาโดย Rockstar Games ตัวเกมพาคุณย้อนกลับไปยังยุคตะวันตกอเมริกาในปี 1899 คุณจะได้สวมบทบาทเป็น Arthur Morgan สมาชิกแก๊งค์ Van der Linde ที่ต้องต่อสู้เพื่อเอาชีวิตรอดในยุคที่ยุคทองของคาวบอยกำลังจะสิ้นสุดลง",
+        features: [
+            "โลกเปิดขนาดใหญ่ที่มีชีวิตชีวาและสมจริง",
+            "เนื้อเรื่องที่ลึกซึ้งและน่าติดตาม",
+            "ระบบการต่อสู้และการยิงที่สมจริง",
+            "กิจกรรมเสริมและภารกิจข้างเคียงมากมาย",
+            "ระบบ Honor ที่ส่งผลต่อการดำเนินเรื่องและปฏิสัมพันธ์กับ NPC",
+            "โหมดออนไลน์ Red Dead Online"
+        ],
+        systemRequirements: {
+            minimum: [
+                "OS: Windows 7 - Service Pack 1 (6.1.7601)",
+                "Processor: Intel Core i5-2500K / AMD FX-6300",
+                "Memory: 8GB",
+                "Graphics Card: Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB",
+                "Storage: 150GB available space"
+            ],
+            recommended: [
+                "OS: Windows 10 - April 2018 Update (v1803)",
+                "Processor: Intel Core i7-4770K / AMD Ryzen 5 1500X",
+                "Memory: 12GB",
+                "Graphics Card: Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB",
+                "Storage: 150GB available space"
+            ]
+        },
+        downloadLinks: {
+            game: [
+                "https://datanodes.to/m0u2kouj1vt2/Red-Dead-Redemption-2.rar"
+            ]
+        }
     }
+
 };
