@@ -142,7 +142,7 @@ const games = [
     {
         id: "moving-out-2",
         title: "Moving Out 2",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1641690/header.jpg",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1641700/header.jpg",
         description: "Moving Out 2 เป็นส่วนต่อของซีรี่ส์ Moving Out ที่นำเสนอการต่อสู้แบบสมัยใหม่",
         detailLink: "moving-out-2-detail.html"
     },

@@ -853,7 +853,7 @@ const gameDetails = {
 
     "moving-out-2": {
         title: "Moving Out 2",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1641690/header.jpg",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1641700/header.jpg",
         description: "Moving Out 2 เป็นภาคต่อของเกมปาร์ตี้เกมสุดป่วนเกี่ยวกับการขนย้ายบ้าน เล่นคนเดียวหรือกับเพื่อนได้สูงสุด 4 คน ผจญภัยไปในโลกที่บ้าบิ่นและท้าทายมากขึ้น",
         features: [
             "โหมด co-op แบบ local และ online สำหรับ 1-4 ผู้เล่น",
