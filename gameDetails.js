@@ -883,6 +883,39 @@ const gameDetails = {
         },
         hasCrack: true,
         crackLink: "https://gofile.io/d/5Q4kf3"
+    },
+    "liars-bar": {
+        title: "Liar’s Bar",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/3097560/header.jpg",
+        description: "Liar’s Bar เป็นเกมแนวสืบสวนที่ผู้เล่นจะต้องสวมบทบาทเป็นบาร์เทนเดอร์ในบาร์ที่เต็มไปด้วยความลับและการหลอกลวง คุณจะต้องใช้ทักษะการสังเกตและการพูดคุยเพื่อเปิดเผยความจริงจากลูกค้าที่มีความลับซ่อนอยู่",
+        features: [
+            "การเล่นแบบสืบสวนที่น่าตื่นเต้น",
+            "ตัวละครที่มีเอกลักษณ์และน่าสนใจ",
+            "กราฟิกสไตล์การ์ตูนที่สวยงาม",
+            "ระบบการสนทนาที่ลึกซึ้ง",
+            "เควสต์และภารกิจที่หลากหลาย"
+        ],
+        systemRequirements: {
+            minimum: [
+                "OS: Windows 7",
+                "Processor: Intel Core i3-2100 or AMD Phenom II X4 965",
+                "Memory: 4 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 460 or AMD Radeon HD 6850",
+                "Storage: 5 GB available space"
+            ],
+            recommended: [
+                "OS: Windows 10",
+                "Processor: Intel Core i5-2400 or AMD FX-8320",
+                "Memory: 8 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 760 or AMD Radeon R9 270X",
+                "Storage: 5 GB available space"
+            ]
+        },
+        downloadLinks: {
+            game: "https://1cloudfile.com/2Na6v",
+        },
+        hasCrack: true,
+        crackLink: "https://doodrive.com/f/2w3n29"
     }
 
 };

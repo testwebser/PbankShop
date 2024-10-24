@@ -152,6 +152,13 @@ const games = [
         image:"https://cdn.cloudflare.steamstatic.com/steam/apps/2780980/header.jpg",
         description:"Lockdown Protocol เป็นเกมสยองขวัญแนวสยองขวัญที่นำเสนอการต่อสู้แบบ 3D ที่รวดเร็วและเร้าใจ",
         detailLink:"lockdown-protocol-detail.html"
+    },
+    {
+        id:"liars-bar",
+        title:"Liar’s Bar",
+        image:"https://cdn.cloudflare.steamstatic.com/steam/apps/3097560/header.jpg",
+        description:"Liar’s Bar เป็นเกมแนวสืบสวนที่ผู้เล่นจะต้องสวมบทบาทเป็นบาร์เทนเดอร์ในบาร์ที่เต็มไปด้วยความลับและการหลอกลวง คุณจะต้องใช้ทักษะการสังเกตและการพูดคุยเพื่อเปิดเผยความจริงจากลูกค้าที่มีความลับซ่อนอยู่",
+        detailLink:"liars-bar-detail.html"
     }
 ];
 
