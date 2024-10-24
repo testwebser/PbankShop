@@ -124,6 +124,34 @@ const games = [
         image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg",
         description: "Red Dead Redemption 2 เป็นเกมแอคชั่นผจญภัยในโลกเปิดที่พัฒนาโดย Rockstar Games",
         detailLink: "red-dead-redemption-2-detail.html"
+    },
+    {
+        id: "smalland-survive-the-wilds",
+        title: "Smalland: Survive the Wilds",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/768200/header.jpg",
+        description: "Smalland: Survive the Wilds เป็นเกมเอาชีวิตรอดในโลกเปิดที่คุณถูกย่อขนาดลงเหลือเพียงไม่กี่เซนติเมตร ต่อสู้เพื่อความอยู่รอดในโลกที่แมลงกลายเป็นสัตว์ร้ายขนาดยักษ์",
+        detailLink: "smalland-survive-the-wilds-detail.html"
+    },
+    {
+        id: "tools-up-garden-party-episode-3",
+        title: "Tools Up! Garden Party Episode 3",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1415450/header.jpg",
+        description: "Tools Up! Garden Party Episode 3 เป็น DLC ตอนที่ 3 ของเกม Tools Up! ที่เพิ่มเนื้อหาใหม่เกี่ยวกับการจัดสวนและตกแต่งบ้าน เล่นกับเพื่อนได้สูงสุด 4 คนในโหมด co-op",
+        detailLink: "tools-up-garden-party-episode-3-detail.html"
+    },
+    {
+        id: "moving-out-2",
+        title: "Moving Out 2",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1641690/header.jpg",
+        description: "Moving Out 2 เป็นส่วนต่อของซีรี่ส์ Moving Out ที่นำเสนอการต่อสู้แบบสมัยใหม่",
+        detailLink: "moving-out-2-detail.html"
+    },
+    {
+        id:"lockdown-protocol",
+        title:"Lockdown Protocol",
+        image:"https://cdn.cloudflare.steamstatic.com/steam/apps/2780980/header.jpg",
+        description:"Lockdown Protocol เป็นเกมสยองขวัญแนวสยองขวัญที่นำเสนอการต่อสู้แบบ 3D ที่รวดเร็วและเร้าใจ",
+        detailLink:"lockdown-protocol-detail.html"
     }
 ];
 

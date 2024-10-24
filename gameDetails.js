@@ -744,6 +744,145 @@ const gameDetails = {
                 "https://datanodes.to/m0u2kouj1vt2/Red-Dead-Redemption-2.rar"
             ]
         }
+    },
+    "smalland-survive-the-wilds": {
+        title: "Smalland: Survive the Wilds",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/768200/header.jpg",
+        description: "Smalland: Survive the Wilds เป็นเกมเอาชีวิตรอดในโลกเปิดที่คุณถูกย่อขนาดลงเหลือเพียงไม่กี่เซนติเมตร ต่อสู้เพื่อความอยู่รอดในโลกที่แมลงกลายเป็นสัตว์ร้ายขนาดยักษ์",
+        features: [
+            "โลกเปิดขนาดใหญ่ที่เต็มไปด้วยอันตราย",
+            "ระบบการสร้างและการคราฟท์ที่ลึกซึ้ง",
+            "การต่อสู้กับแมลงยักษ์และสัตว์อื่นๆ",
+            "การสำรวจและค้นพบความลับของโลก Smalland",
+            "เล่นคนเดียวหรือร่วมมือกับเพื่อน"
+        ],
+        systemRequirements: {
+            minimum: [
+                "OS: Windows 10 64-bit",
+                "Processor: Intel Core i5-4460 or AMD FX-6300",
+                "Memory: 8 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 760 or AMD Radeon R7 260x",
+                "Storage: 20 GB available space"
+            ],
+            recommended: [
+                "OS: Windows 10 64-bit",
+                "Processor: Intel Core i7-4770K or AMD Ryzen 5 1500X",
+                "Memory: 16 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 1060 or AMD Radeon RX 580",
+                "Storage: 20 GB available space"
+            ]
+        },
+        downloadLinks: {
+            game: [
+                "https://doodrive.com/f/7v662q",
+                "https://doodrive.com/f/2vooq1",
+                "https://doodrive.com/f/wgjjwq",
+            ]
+        },
+        hasCrack: true,
+        crackLink: "https://doodrive.com/f/0zmp87"
+    },
+
+    "lockdown-protocol": {
+        title: "LOCKDOWN Protocol",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2780980/header.jpg",
+        description: "LOCKDOWN Protocol เป็นเกมยิงมุมมองบุคคลที่หนึ่งที่ผสมผสานระหว่างการเอาชีวิตรอดและการสำรวจ คุณต้องหาทางออกจากสถานีอวกาศที่ถูกปิดล้อมด้วยเอเลี่ยนที่อันตราย",
+        features: [
+            "การเล่นแบบ Roguelike ที่ท้าทาย",
+            "ระบบอาวุธและการอัพเกรดที่หลากหลาย",
+            "สภาพแวดล้อมที่สร้างขึ้นแบบสุ่ม",
+            "ศัตรูที่มีปัญญาประดิษฐ์ขั้นสูง",
+            "กราฟิกสไตล์ Sci-Fi ที่สวยงาม"
+        ],
+        systemRequirements: {
+            minimum: [
+                "OS: Windows 7 64-bit",
+                "Processor: Intel Core i5-2400 or AMD FX-6300",
+                "Memory: 8 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 660 or AMD Radeon HD 7850",
+                "Storage: 15 GB available space"
+            ],
+            recommended: [
+                "OS: Windows 10 64-bit",
+                "Processor: Intel Core i7-4770 or AMD Ryzen 5 1600",
+                "Memory: 16 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 1060 or AMD Radeon RX 580",
+                "Storage: 15 GB available space"
+            ]
+        },
+        downloadLinks: {
+            game: "https://megaup.net/3f214eedad48b19eeaee9fce6da8d3ca/LOCKDOWN_Protocol_v0.1.31.rar",
+        },
+        hasCrack: true,
+        crackLink: "https://doodrive.com/f/o9q782"
+    },
+
+    "tools-up-garden-party-episode-3": {
+        title: "Tools Up! Garden Party Episode 3",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1415450/header.jpg",
+        description: "Tools Up! Garden Party Episode 3 เป็น DLC ตอนที่ 3 ของเกม Tools Up! ที่เพิ่มเนื้อหาใหม่เกี่ยวกับการจัดสวนและตกแต่งบ้าน เล่นกับเพื่อนได้สูงสุด 4 คนในโหมด co-op",
+        features: [
+            "เพิ่มด่านใหม่ 15 ด่าน",
+            "เครื่องมือและอุปกรณ์ตกแต่งสวนใหม่",
+            "โหมด co-op สำหรับ 1-4 ผู้เล่น",
+            "ความท้าทายและปริศนาใหม่ๆ",
+            "กราฟิกสดใสและน่ารัก"
+        ],
+        systemRequirements: {
+            minimum: [
+                "OS: Windows 7",
+                "Processor: Intel Core i3-3220 or AMD Phenom II X4 965",
+                "Memory: 4 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 460 or AMD Radeon HD 6850",
+                "Storage: 5 GB available space"
+            ],
+            recommended: [
+                "OS: Windows 10",
+                "Processor: Intel Core i5-2400 or AMD FX-8320",
+                "Memory: 8 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 760 or AMD Radeon R9 270X",
+                "Storage: 5 GB available space"
+            ]
+        },
+        downloadLinks: {
+            game: "https://doodrive.com/f/jz6nyx",
+        },
+        hasCrack: true,
+        crackLink: "https://doodrive.com/f/8ngejx"
+    },
+
+    "moving-out-2": {
+        title: "Moving Out 2",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1641690/header.jpg",
+        description: "Moving Out 2 เป็นภาคต่อของเกมปาร์ตี้เกมสุดป่วนเกี่ยวกับการขนย้ายบ้าน เล่นคนเดียวหรือกับเพื่อนได้สูงสุด 4 คน ผจญภัยไปในโลกที่บ้าบิ่นและท้าทายมากขึ้น",
+        features: [
+            "โหมด co-op แบบ local และ online สำหรับ 1-4 ผู้เล่น",
+            "ด่านและสถานที่ใหม่ที่หลากหลาย",
+            "ตัวละครและเฟอร์นิเจอร์ใหม่ๆ ให้เลือกมากมาย",
+            "ปริศนาและความท้าทายที่ซับซ้อนขึ้น",
+            "กราฟิกสไตล์การ์ตูนที่สดใสและสนุกสนาน"
+        ],
+        systemRequirements: {
+            minimum: [
+                "OS: Windows 10",
+                "Processor: Intel Core i5-4590 or AMD FX-8350",
+                "Memory: 8 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 760 or AMD Radeon R7 260x",
+                "Storage: 10 GB available space"
+            ],
+            recommended: [
+                "OS: Windows 10",
+                "Processor: Intel Core i7-4770 or AMD Ryzen 5 1600",
+                "Memory: 16 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 1060 or AMD Radeon RX 580",
+                "Storage: 10 GB available space"
+            ]
+        },
+        downloadLinks: {
+            game: "https://doodrive.com/f/dqx998",
+        },
+        hasCrack: true,
+        crackLink: "https://gofile.io/d/5Q4kf3"
     }
 
 };
