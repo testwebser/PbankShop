@@ -811,10 +811,10 @@ const gameDetails = {
             ]
         },
         downloadLinks: {
-            game: "https://megaup.net/3f214eedad48b19eeaee9fce6da8d3ca/LOCKDOWN_Protocol_v0.1.31.rar",
+            game: "https://gofile.io/d/KSkX8G",
         },
         hasCrack: true,
-        crackLink: "https://doodrive.com/f/o9q782"
+        crackLink: "https://gofile.io/d/hcAIJx"
     },
 
     "tools-up-garden-party-episode-3": {
