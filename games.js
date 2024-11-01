@@ -166,6 +166,13 @@ const games = [
         image:"https://cdn.cloudflare.steamstatic.com/steam/apps/1151640/header.jpg",
         description:"Horizon Zero Dawn™ Complete Edition เป็นเกมแอคชั่น RPG ในโลกเปิดที่สวยงาม",
         detailLink:"horizon-zero-dawn-complete-edition-detail.html"
+    },
+    {
+        id:"among-us",
+        title:"Among Us",
+        image:"https://cdn.cloudflare.steamstatic.com/steam/apps/945360/header.jpg",
+        description:"Among Us เป็นเกมปาร์ตี้แนวสืบสวนสอบสวนออนไลน์ที่ผู้เล่น 4-15 คนต้องร่วมมือกันทำภารกิจบนยานอวกาศ ในขณะที่มีผู้ทรยศแฝงตัวอยู่ในกลุ่ม พยายามก่อวินาศกรรมและฆ่าลูกเรือคนอื่นๆ",
+        detailLink:"among-us-detail.html"
     }
 ];
 

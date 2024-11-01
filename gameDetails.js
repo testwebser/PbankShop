@@ -951,6 +951,40 @@ const gameDetails = {
         downloadLinks: {
             game: "https://gofile.io/d/72Jac6",
         }
+    },
+    "among-us": {
+        title: "Among Us",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/945360/header.jpg",
+        description: "Among Us เป็นเกมปาร์ตี้แนวสืบสวนสอบสวนออนไลน์ที่ผู้เล่น 4-15 คนต้องร่วมมือกันทำภารกิจบนยานอวกาศ ในขณะที่มีผู้ทรยศแฝงตัวอยู่ในกลุ่ม พยายามก่อวินาศกรรมและฆ่าลูกเรือคนอื่นๆ",
+        features: [
+            "เล่นออนไลน์กับเพื่อนได้ 4-15 คน",
+            "หลากหลายแผนที่ให้เลือกเล่น",
+            "ระบบการประชุมและโหวตที่สนุก",
+            "ปรับแต่งตัวละครได้หลากหลาย",
+            "ภารกิจที่ท้าทายและสนุกสนาน",
+            "รองรับการเล่นข้ามแพลตฟอร์ม"
+        ],
+        systemRequirements: {
+            minimum: [
+                "OS: Windows 7 SP1+ or newer",
+                "Processor: SSE2 instruction set support",
+                "Memory: 1 GB RAM",
+                "Graphics: DirectX 10 compatible graphics card",
+                "Storage: 250 MB available space"
+            ],
+            recommended: [
+                "OS: Windows 10",
+                "Processor: SSE2 instruction set support",
+                "Memory: 2 GB RAM",
+                "Graphics: DirectX 10 compatible graphics card",
+                "Storage: 250 MB available space"
+            ]
+        },
+        downloadLinks: {
+            game: "https://doodrive.com/f/q44mzn",
+        },
+        hasCrack: true,
+        crackLink: "https://megaup.net/efMvo/AmongUs_Fix_Repair_GDK_Generic.rar"
     }
 
 };
