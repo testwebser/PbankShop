@@ -916,6 +916,41 @@ const gameDetails = {
         },
         hasCrack: true,
         crackLink: "https://doodrive.com/f/2w3n29"
+    },
+    "horizon-zero-dawn-complete-edition": {
+        title: "Horizon Zero Dawn™ Complete Edition",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1151640/header.jpg",
+        description: "Horizon Zero Dawn™ Complete Edition เป็นเกมแอคชั่น RPG ในโลกเปิดที่สวยงาม คุณจะได้สวมบทเป็น Aloy นักล่าที่เดินทางผจญภัยในโลกหลังวันสิ้นโลกที่ถูกปกครองโดยเครื่องจักรกล รวมทั้ง DLC The Frozen Wilds ที่เพิ่มเนื้อหาและพื้นที่ใหม่",
+        features: [
+            "โลกเปิดขนาดใหญ่ที่สวยงามและมีชีวิตชีวา",
+            "ระบบการต่อสู้ที่ลึกซึ้งและท้าทาย",
+            "เนื้อเรื่องที่น่าติดตามและน่าค้นหา",
+            "การล่าเครื่องจักรกลขนาดใหญ่ที่หลากหลาย",
+            "ระบบคราฟท์และอัพเกรดอุปกรณ์",
+            "รวม DLC The Frozen Wilds",
+            "กราฟิกคุณภาพสูงบน PC"
+        ],
+        systemRequirements: {
+            minimum: [
+                "OS: Windows 10 64-bits",
+                "Processor: Intel Core i5-2500K@3.3GHz or AMD FX 6300@3.5GHz",
+                "Memory: 8 GB RAM",
+                "Graphics: Nvidia GeForce GTX 780 (3 GB) or AMD Radeon R9 290 (4GB)",
+                "DirectX: Version 12",
+                "Storage: 100 GB available space"
+            ],
+            recommended: [
+                "OS: Windows 10 64-bits",
+                "Processor: Intel Core i7-4770K@3.5GHz or Ryzen 5 1500X@3.5GHz",
+                "Memory: 16 GB RAM",
+                "Graphics: Nvidia GeForce GTX 1060 (6 GB) or AMD Radeon RX 580 (8GB)",
+                "DirectX: Version 12",
+                "Storage: 100 GB available space"
+            ]
+        },
+        downloadLinks: {
+            game: "https://gofile.io/d/72Jac6",
+        }
     }
 
 };

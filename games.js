@@ -159,6 +159,13 @@ const games = [
         image:"https://cdn.cloudflare.steamstatic.com/steam/apps/3097560/header.jpg",
         description:"Liar’s Bar เป็นเกมแนวสืบสวนที่ผู้เล่นจะต้องสวมบทบาทเป็นบาร์เทนเดอร์ในบาร์ที่เต็มไปด้วยความลับและการหลอกลวง คุณจะต้องใช้ทักษะการสังเกตและการพูดคุยเพื่อเปิดเผยความจริงจากลูกค้าที่มีความลับซ่อนอยู่",
         detailLink:"liars-bar-detail.html"
+    },
+    {
+        id:"horizon-zero-dawn-complete-edition",
+        title:"Horizon Zero Dawn™ Complete Edition",
+        image:"https://cdn.cloudflare.steamstatic.com/steam/apps/1151640/header.jpg",
+        description:"Horizon Zero Dawn™ Complete Edition เป็นเกมแอคชั่น RPG ในโลกเปิดที่สวยงาม",
+        detailLink:"horizon-zero-dawn-complete-edition-detail.html"
     }
 ];
 
