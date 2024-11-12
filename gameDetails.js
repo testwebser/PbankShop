@@ -912,10 +912,10 @@ const gameDetails = {
             ]
         },
         downloadLinks: {
-            game: "https://1cloudfile.com/2Na6v",
+            game: "https://megaup.net/4e43aeae005f70ea3fe49a0f199f4443/Liars_Bar_v0.8884.rar",
         },
         hasCrack: true,
-        crackLink: "https://doodrive.com/f/2w3n29"
+        crackLink: "https://megaup.net/8f7a74e0f0f8c2735d007ec59d5b3a06/LiarsBar_Fix_Repair_Steam_Generic.rar"
     },
     "horizon-zero-dawn-complete-edition": {
         title: "Horizon Zero Dawn™ Complete Edition",
