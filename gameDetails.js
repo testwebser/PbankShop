@@ -985,6 +985,41 @@ const gameDetails = {
         },
         hasCrack: true,
         crackLink: "https://megaup.net/efMvo/AmongUs_Fix_Repair_GDK_Generic.rar"
-    }
+    },
+    "sea-of-thieves": {
+        title: "Sea of Thieves",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
+        description: "Sea of Thieves เป็นเกมออนไลน์แนวแอคชั่นผจญภัยที่คุณจะได้สวมบทเป็นโจรสลัดและออกสำรวจทะเลเปิด ร่วมมือกับผู้เล่นคนอื่นเพื่อค้นหาขุมทรัพย์ ต่อสู้กับศัตรู และเผชิญกับความท้าทายในโลกอันน่าตื่นเต้นและไม่สามารถคาดเดาได้",
+        features: [
+            "โลกเปิดมหาสมุทรที่กว้างใหญ่และมีชีวิตชีวา",
+            "การผจญภัยและการล่าขุมทรัพย์ในทะเลลึก",
+            "ระบบการต่อสู้ที่น่าตื่นเต้นและความสามารถในการใช้กลยุทธ์",
+            "สามารถเล่นร่วมกับเพื่อนในโหมดผู้เล่นหลายคน",
+            "ระบบคราฟท์และอัพเกรดเรือ",
+            "กิจกรรมและการอัปเดตเนื้อหาอย่างต่อเนื่อง",
+            "กราฟิกและเสียงคุณภาพสูงสำหรับ PC"
+        ],
+        systemRequirements: {
+            minimum: [
+                "OS: Windows 10",
+                "Processor: Intel Q9450 @2.6GHz หรือ AMD Phenom II X6 @3.3GHz",
+                "Memory: 4 GB RAM",
+                "Graphics: Nvidia GeForce GTX 650 หรือ AMD Radeon 7750",
+                "DirectX: Version 11",
+                "Storage: 100 GB available space"
+            ],
+            recommended: [
+                "OS: Windows 10",
+                "Processor: Intel i5 4690 @3.5GHz หรือ AMD FX-8150 @3.6GHz",
+                "Memory: 8 GB RAM",
+                "Graphics: Nvidia GeForce GTX 770 หรือ AMD Radeon R9 380x",
+                "DirectX: Version 11",
+                "Storage: 100 GB available space"
+            ]
+        },
+        downloadLinks: {
+        game: "https://buzzheavier.com/to3o0v70wici"
+        }
+    },
 
 };

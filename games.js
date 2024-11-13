@@ -173,6 +173,13 @@ const games = [
         image:"https://cdn.cloudflare.steamstatic.com/steam/apps/945360/header.jpg",
         description:"Among Us เป็นเกมปาร์ตี้แนวสืบสวนสอบสวนออนไลน์ที่ผู้เล่น 4-15 คนต้องร่วมมือกันทำภารกิจบนยานอวกาศ ในขณะที่มีผู้ทรยศแฝงตัวอยู่ในกลุ่ม พยายามก่อวินาศกรรมและฆ่าลูกเรือคนอื่นๆ",
         detailLink:"among-us-detail.html"
+    },
+    {
+        id:"sea-of-thieves",
+        title:"Sea of Thieves",
+        image:"https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
+        description:"โลกเปิดมหาสมุทรที่กว้างใหญ่และมีชีวิตชีวา การผจญภัยและการล่าขุมทรัพย์ในทะเลลึก ระบบการต่อสู้ที่น่าตื่นเต้นและความสามารถในการใช้กลยุทธ์สามารถเล่นร่วมกับเพื่อนในโหมดผู้เล่นหลายค",
+        detailLink:"sea-of-thieves.html"
     }
 ];
 
