@@ -1,7 +1,7 @@
 const gameDetails = {
     "devour": {
         title: "Devour",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1274570/header.jpg",
+        image: "images/games/devour.jpg",
         description: "Devour เป็นเกมสยองขวัญแนว Co-op ที่คุณต้องร่วมมือกับเพื่อนเพื่อเอาชีวิตรอดจากพิธีกรรมปีศาจ",
         features: [
             "เล่นได้ 1-4 คนแบบ Co-op",
@@ -34,7 +34,7 @@ const gameDetails = {
     },
     "pummel-party": {
         title: "Pummel Party",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/880940/header.jpg",
+        image: "images/games/pummel-party.jpg",
         description: "Pummel Party เป็นเกมปาร์ตี้สุดมันส์แบบ multiplayer ที่ผสมผสานระหว่างบอร์ดเกมและมินิเกมสุดป่วน",
         features: [
             "รองรับผู้เล่น 1-8 คน (ออนไลน์และโลคอล)",
@@ -67,7 +67,7 @@ const gameDetails = {
     },
     "the-sims-4": {
         title: "The Sims 4",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1222670/header.jpg",
+        image: "images/games/the-sims-4.jpg",
         description: "The Sims 4 เป็นเกมจำลองชีวิตที่คุณสามารถสร้างและควบคุมตัวละครในโลกเสมือนจริง สร้างบ้าน ครอบครัว และเรื่องราวของคุณเองได้อย่างอิสร",
         features: [
             "สร้างและปรับแต่งตัวละคร Sims ได้อย่างละเอียด",
@@ -101,7 +101,7 @@ const gameDetails = {
     },
     "silent-hill-2": {
         title: "SILENT HILL 2",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2124490/header.jpg",
+        image: "images/games/silent-hill-2.jpg",
         description: "SILENT HILL 2 เป็นเกมสยองขวัญทางจิตวิทยาที่เป็นตำนาน ผู้เล่นจะได้สำรวจเมืองที่ถูกปกคลุมด้วยหมอกและเผชิญหน้ากับความหวาดกลัวที่ซ่อนอยู่",
         features: [
             "เนื้อเรื่องลึกลับและน่าติดตาม",
@@ -135,7 +135,7 @@ const gameDetails = {
     },
     "dragon-ball-sparking-zero": {
         title: "Dragon Ball Sparking Zero",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1790600/header.jpg",
+        image: "images/games/dragon-ball-sparking-zero.jpg",
         description: "Dragon Ball Sparking Zero เป็นเกมต่อสู้แนวอนิเมะที่นำเสนอการต่อสู้แบบ 3D ที่รวดเร็วและเร้าใจ โดยมีตัวละครจากจักรวาล Dragon Ball",
         features: [
             "ระบบการต่อสู้แบบ 3D ที่ลื่นไหลและรวดเร็ว",
@@ -169,7 +169,7 @@ const gameDetails = {
     },
     "god-of-war-ragnarok": {
         title: "God of War Ragnarök",
-        image: "https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/4xJ8XB3bi888QTLZYdl7Oi0s.png",
+        image: "images/games/god-of-war-ragnarok.jpg",
         description: "God of War Ragnarök เป็นเกมแอคชัผจญภัยที่สานต่อเรื่องราวของ Kratos และ Atreus ในโลกของเทพนอร์ส พวกเขาต้องเผชิญหน้ากับ Ragnarök ที่กำลังจะมาถึง",
         features: [
             "การต่อสู้ที่ดุเดือดและน่าตื่นเต้น",
@@ -203,7 +203,7 @@ const gameDetails = {
     },
     "warhammer-40000-space-marine-2":{
         title:"Warhammer 40,000: Space Marine 2",
-        image:"https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
+        image:"images/games/warhammer-40000-space-marine-2.jpg",
         description:"เกมต่อสู้แนวสยองขวัญที่นำเสนอการต่อสู้แบบ 3D ที่รวดเร็วและเร้าใจ โดยมีตัวละครจากจักรวาล Warhammer 40,000",
         features:[
             "การต่อสู้ที่ดุดันและเต็มไปด้วยความเร็วในรูปแบบมุมมองบุคคลที่สาม",
@@ -237,7 +237,7 @@ const gameDetails = {
     },
     "jujutsu-kaisen-cursed-clash":{
         title:"Jujutsu Kaisen: Cursed Clash",
-        image:"https://cdn.cloudflare.steamstatic.com/steam/apps/1877020/header.jpg",
+        image:"images/games/jujutsu-kaisen-cursed-clash.jpg",
         description: "Jujutsu Kaisen Cursed Clash เป็นเกมต่อสู้แบบ 3D ที่อิงจากอนิเมะและมังงะยอดนิยม Jujutsu Kaisen ผู้เล่นจะได้ควบคุมตัวละครจากเรื่อง Jujutsu Kaisen เพื่อเผชิญหน้ากับคำสาปและพลังพิเศษต่างๆ ในการต่อสู้ที่รวดเร็วและตื่นเต้น",
         features:[
             "ระบบการต่อสู้แบบ 2v2 ที่ดุดันและตื่นเต้น",
@@ -271,7 +271,7 @@ const gameDetails = {
     },
     "naruto-x-boruto-ultimate-ninja-storm-connections":{
         title:"Naruto x Boruto: Ultimate Ninja Storm Connections",
-        image:"https://cdn.cloudflare.steamstatic.com/steam/apps/1020790/header.jpg",
+        image:"images/games/naruto-x-boruto-ultimate-ninja-storm-connections.jpg",
         description:"Naruto X Boruto Ultimate Ninja Storm Connections เป็นเกมต่อสู้ที่รวมเนื้อหาจากทั้งซีรีส์ Naruto และ Boruto โดยนำเสนอระบบการต่อสู้ที่ลื่นไหลและรวดเร็ว พร้อมด้วยตัวละครที่หลากหลายจากทั้งสองเรื่อง ผู้เล่นสามารถสร้างทีมและต่อสู้ในโหมดต่างๆ ที่น่าตื่นเต้นและมีกราฟิกที่สวยงาม",
         features:[
             "การต่อสู้แบบรวดเร็วและลื่นไหลในสไตล์ Ultimate Ninja Storm",
@@ -305,7 +305,7 @@ const gameDetails = {
     },
     "project-unknow":{
         title:"Project Unknow",
-        image:"https://cdn.cloudflare.steamstatic.com/steam/apps/2115390/header.jpg",
+        image:"images/games/project-unknow.jpg",
         description:"เกมสยองขวัญแนวสยองขวัญที่นำเสนอการต่อสู้แบบ 3D ที่รวดเร็วและเร้าใจ โดยมีตัวละครจากเรื่อง Project Unknow",
         features:[
             "การต่อสู้แบบ 3D ที่รวดเร็วและเร้าใจ",
@@ -340,7 +340,7 @@ const gameDetails = {
     },
     "v-rising": {
         title: "V Rising",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1604030/header.jpg",
+        image: "images/games/v-rising.jpg",
         description: "V Rising เป็นเกมเอาชีวิตรอดแนวแวมไพร์ที่ผสมผสานการสร้างฐาน การต่อสู้ และการผจญภัยในโลกแฟนตาซีดาร์ก คุณจะได้สวมบทบาทเป็นแวมไพร์ที่เพิ่งฟื้นคืนชีพและต้องสร้างอาณาจักรของตัวเองขึ้นมาใหม่",
         features: [
             "สร้างปราสาทและขยายอาณาจักรแวมไพร์ของคุณ",
@@ -375,7 +375,7 @@ const gameDetails = {
     },
     "assassins-creed-valhalla": {
     title: "Assassin's Creed Valhalla Complete Edition",
-    image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/header.jpg",
+    image: "images/games/assassins-creed-valhalla.jpg",
     description: "Assassin's Creed Valhalla Complete Edition นำเสนอประสบการณ์การผจญภัยในยุควิกกิ้งที่สมบูรณ์แบบ พร้อมด้วยเนื้อหาเสริมและ DLC ทั้งหมด คุณจะได้สวมบทบาทเป็น Eivor นักรบวิกกิ้งที่นำพาชนเผ่าของตนจากนอร์เวย์สู่อังกฤษในยุคกลาง",
     features: [
         "โลกเปิดกว้างในยุควิกกิ้งที่สมจริงและสวยงาม",
@@ -409,7 +409,7 @@ const gameDetails = {
     },
     "marvels-spider-man-remastered": {
         title: "Marvel's Spider-Man Remastered",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1817070/header.jpg",
+        image: "images/games/marvels-spider-man-remastered.jpg",
         description: "Marvel's Spider-Man Remastered นำเสนอเรื่องราวของ Peter Parker ที่มีประสบการณ์ในการเป็น Spider-Man มา 8 ปี ต่อสู้กับอาชญากรรมในนิวยอร์กซิตี้ ในเวอร์ชันที่ได้รับการปรับปรุงใหม่ด้วยกราฟิกและประสิทธิภาพที่ดีขึ้น",
         features: [
             "เนื้อเรื่องที่น่าติดตามของ Peter Parker และ Spider-Man",
@@ -443,7 +443,7 @@ const gameDetails = {
     },
     "forza-horizon-5": {
         title: "Forza Horizon 5",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1551360/header.jpg",
+        image: "images/games/forza-horizon-5.jpg",
         description: "Forza Horizon 5 นำเสนอประสบการณ์การขับรถแบบโลกเปิดที่น่าตื่นตาตื่นใจในเม็กซิโก ผู้เล่นจะได้สัมผัสกับภูมิประเทศที่หลากหลาย รถยนต์มากมายให้เลือก และกิจกรรมที่น่าตื่นเต้นมากมาย",
         features: [
             "โลกเปิดขนาดใหญ่ที่จำลองภูมิประเทศของเม็กซิโกได้อย่างสวยงาม",
@@ -479,7 +479,7 @@ const gameDetails = {
     },
     "cyberpunk-2077": {
         title: "Cyberpunk 2077",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
+        image: "images/games/cyberpunk-2077.jpg",
         description: "Cyberpunk 2077 เป็นเกม RPG แอคชั่นผจญภัยในโลกเปิด ตั้งอยู่ในเมือง Night City ที่เต็มไปด้วยพลังและเทคโนโลยีล้ำสมัย คุณรับบทเป็นนักรบรับจ้างไซเบอร์พังก์ที่เสี่ยงทุกอย่างเพื่อความอยู่รอดในเมืองแห่งอนาคต",
         features: [
             "โลกเปิดขนาดใหญ่ที่มีชีวิตชีวา",
@@ -645,7 +645,7 @@ const gameDetails = {
     },
     "the-last-of-us-part-1": {
         title: "The Last of Us Part I",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1888930/header.jpg",
+        image: "images/games/the-last-of-us-part-i.jpg",
         description: "The Last of Us™ Part I เป็นเกมแอคชั่นผจญภัยที่ได้รับการรีเมคใหม่ทั้งหมด คุณจะได้สัมผัสประสบการณ์การเอาตัวรอดในโลกหลังวันสิ้นโลกที่ถูกทำลายโดยการระบาดของเชื้อร้าย ติดตามเรื่องราวของ Joel และ Ellie ในการเดินทางข้ามอเมริกาที่ถูกทำลาย",
         features: [
             "กราฟิกที่ได้รับการปรับปรุงใหม่ทั้งหมด",
@@ -679,7 +679,7 @@ const gameDetails = {
     },
     "bully-scholarship-edition": {
         title: "Bully Scholarship Edition",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/12200/header.jpg",
+        image: "images/games/bully-scholarship-edition.jpg",
         description: "Bully: Scholarship Edition นำเสนอประสบการณ์การเล่นเกมแบบโรงเรียนมัธยมที่ไม่เหมือนใคร คุณจะได้สวมบทบาทเป็น Jimmy Hopkins นักเรียนวัยรุ่นที่ดื้อรั้นที่สุด ในการต่อสู้เพื่อความอยู่รอดในโรงเรียนประจำ Bullworth Academy",
         features: [
             "โลกเปิดที่สามารถสำรวจได้อย่างอิสระ",
@@ -713,7 +713,7 @@ const gameDetails = {
     },
     "red-dead-redemption-2": {
         title: "Red Dead Redemption 2",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg",
+        image: "images/games/red-dead-redemption-2.jpg",
         description: "Red Dead Redemption 2 เป็นเกมแอคชั่นผจญภัยในโลกเปิดที่พัฒนาโดย Rockstar Games ตัวเกมพาคุณย้อนกลับไปยังยุคตะวันตกอเมริกาในปี 1899 คุณจะได้สวมบทบาทเป็น Arthur Morgan สมาชิกแก๊งค์ Van der Linde ที่ต้องต่อสู้เพื่อเอาชีวิตรอดในยุคที่ยุคทองของคาวบอยกำลังจะสิ้นสุดลง",
         features: [
             "โลกเปิดขนาดใหญ่ที่มีชีวิตชีวาและสมจริง",
@@ -747,7 +747,7 @@ const gameDetails = {
     },
     "smalland-survive-the-wilds": {
         title: "Smalland: Survive the Wilds",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/768200/header.jpg",
+        image: "images/games/smalland-survive-the-wilds.jpg",
         description: "Smalland: Survive the Wilds เป็นเกมเอาชีวิตรอดในโลกเปิดที่คุณถูกย่อขนาดลงเหลือเพียงไม่กี่เซนติเมตร ต่อสู้เพื่อความอยู่รอดในโลกที่แมลงกลายเป็นสัตว์ร้ายขนาดยักษ์",
         features: [
             "โลกเปิดขนาดใหญ่ที่เต็มไปด้วยอันตราย",
@@ -785,7 +785,7 @@ const gameDetails = {
 
     "lockdown-protocol": {
         title: "LOCKDOWN Protocol",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2780980/header.jpg",
+        image: "images/games/lockdown-protocol.jpg",
         description: "LOCKDOWN Protocol เป็นเกมยิงมุมมองบุคคลที่หนึ่งที่ผสมผสานระหว่างการเอาชีวิตรอดและการสำรวจ คุณต้องหาทางออกจากสถานีอวกาศที่ถูกปิดล้อมด้วยเอเลี่ยนที่อันตราย",
         features: [
             "การเล่นแบบ Roguelike ที่ท้าทาย",
@@ -819,7 +819,7 @@ const gameDetails = {
 
     "tools-up-garden-party-episode-3": {
         title: "Tools Up! Garden Party Episode 3",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1415450/header.jpg",
+        image: "images/games/tools-up-garden-party-episode-3.jpg",
         description: "Tools Up! Garden Party Episode 3 เป็น DLC ตอนที่ 3 ของเกม Tools Up! ที่เพิ่มเนื้อหาใหม่เกี่ยวกับการจัดสวนและตกแต่งบ้าน เล่นกับเพื่อนได้สูงสุด 4 คนในโหมด co-op",
         features: [
             "เพิ่มด่านใหม่ 15 ด่าน",
@@ -853,7 +853,7 @@ const gameDetails = {
 
     "moving-out-2": {
         title: "Moving Out 2",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1641700/header.jpg",
+        image: "images/games/moving-out-2.jpg",
         description: "Moving Out 2 เป็นภาคต่อของเกมปาร์ตี้เกมสุดป่วนเกี่ยวกับการขนย้ายบ้าน เล่นคนเดียวหรือกับเพื่อนได้สูงสุด 4 คน ผจญภัยไปในโลกที่บ้าบิ่นและท้าทายมากขึ้น",
         features: [
             "โหมด co-op แบบ local และ online สำหรับ 1-4 ผู้เล่น",
@@ -886,7 +886,7 @@ const gameDetails = {
     },
     "liars-bar": {
         title: "Liar’s Bar",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/3097560/header.jpg",
+        image: "images/games/liars-bar.jpg",
         description: "Liar’s Bar เป็นเกมแนวสืบสวนที่ผู้เล่นจะต้องสวมบทบาทเป็นบาร์เทนเดอร์ในบาร์ที่เต็มไปด้วยความลับและการหลอกลวง คุณจะต้องใช้ทักษะการสังเกตและการพูดคุยเพื่อเปิดเผยความจริงจากลูกค้าที่มีความลับซ่อนอยู่",
         features: [
             "การเล่นแบบสืบสวนที่น่าตื่นเต้น",
@@ -919,7 +919,7 @@ const gameDetails = {
     },
     "horizon-zero-dawn-complete-edition": {
         title: "Horizon Zero Dawn™ Complete Edition",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1151640/header.jpg",
+        image: "images/games/horizon-zero-dawn-complete-edition.jpg",
         description: "Horizon Zero Dawn™ Complete Edition เป็นเกมแอคชั่น RPG ในโลกเปิดที่สวยงาม คุณจะได้สวมบทเป็น Aloy นักล่าที่เดินทางผจญภัยในโลกหลังวันสิ้นโลกที่ถูกปกครองโดยเครื่องจักรกล รวมทั้ง DLC The Frozen Wilds ที่เพิ่มเนื้อหาและพื้นที่ใหม่",
         features: [
             "โลกเปิดขนาดใหญ่ที่สวยงามและมีชีวิตชีวา",
@@ -954,7 +954,7 @@ const gameDetails = {
     },
     "among-us": {
         title: "Among Us",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/945360/header.jpg",
+        image: "images/games/among-us.jpg",
         description: "Among Us เป็นเกมปาร์ตี้แนวสืบสวนสอบสวนออนไลน์ที่ผู้เล่น 4-15 คนต้องร่วมมือกันทำภารกิจบนยานอวกาศ ในขณะที่มีผู้ทรยศแฝงตัวอยู่ในกลุ่ม พยายามก่อวินาศกรรมและฆ่าลูกเรือคนอื่นๆ",
         features: [
             "เล่นออนไลน์กับเพื่อนได้ 4-15 คน",
@@ -988,7 +988,7 @@ const gameDetails = {
     },
     "sea-of-thieves": {
         title: "Sea of Thieves",
-        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
+        image: "images/games/sea-of-thieves.jpg",
         description: "Sea of Thieves เป็นเกมออนไลน์แนวแอคชั่นผจญภัยที่คุณจะได้สวมบทเป็นโจรสลัดและออกสำรวจทะเลเปิด ร่วมมือกับผู้เล่นคนอื่นเพื่อค้นหาขุมทรัพย์ ต่อสู้กับศัตรู และเผชิญกับความท้าทายในโลกอันน่าตื่นเต้นและไม่สามารถคาดเดาได้",
         features: [
             "โลกเปิดมหาสมุทรที่กว้างใหญ่และมีชีวิตชีวา",

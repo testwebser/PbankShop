@@ -38,7 +38,7 @@ function renderGameDetail() {
     }
 
     const gameDetailHTML = `
-        <img src="${game.image}" alt="${game.title}" class="w-full h-64 object-cover">
+        ${loadOptimizedImage(game.image, game.title, "w-full h-64 object-cover")}
         <div class="p-6">
             <h2 class="text-3xl font-semibold mb-4">${game.title}</h2>
             <p class="text-gray-600 mb-6">${game.description}</p>
