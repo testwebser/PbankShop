@@ -6,10 +6,41 @@
     <title>รายละเอียดเกม | PbankShop</title>
     <link rel="icon" href="images/logo.png" type="image/png">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="preload" 
+          href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap"
+          as="style">
+    <link rel="preload"
+          href="https://fonts.gstatic.com/s/kanit/v15/nKKZ-Go6G5tXcraVGwA.woff2"
+          as="font"
+          type="font/woff2"
+          crossorigin>
     <style>
+        @font-face {
+            font-family: 'Kanit';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/kanit/v15/nKKZ-Go6G5tXcraVGwA.woff2) format('woff2');
+        }
+        
         body {
             font-family: 'Kanit', sans-serif;
+        }
+        
+        /* เพิ่ม aspect ratio container สำหรับรูปภาพ */
+        .image-container {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+        }
+        
+        .image-container img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
     </style>
 </head>
