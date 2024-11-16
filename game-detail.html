@@ -13,7 +13,8 @@
           href="https://fonts.gstatic.com/s/kanit/v15/nKKZ-Go6G5tXcraVGwA.woff2"
           as="font"
           type="font/woff2"
-          crossorigin>
+          crossorigin
+          fetchpriority="high">
     <link rel="stylesheet" href="styles.css">
     <style>
         @font-face {
@@ -57,22 +58,88 @@
             align-items: center;
             justify-content: space-between;
         }
+        
+        /* Critical CSS for header */
+        .site-header {
+            background-color: #1f2937;
+            min-height: 4rem;
+            position: relative;
+            z-index: 10;
+        }
+        
+        /* Container styles */
+        .header-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            height: 4rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        /* Logo styles */
+        .logo-wrapper {
+            display: flex;
+            align-items: center;
+            min-width: 200px;
+            height: 100%;
+        }
+        
+        .logo-image {
+            width: 48px;
+            height: 48px;
+            margin-right: 0.75rem;
+        }
+        
+        .logo-text {
+            font-size: 1.25rem;
+            font-weight: 600;
+            white-space: nowrap;
+            min-width: 100px; /* ป้องกัน layout shift จาก font loading */
+        }
+        
+        /* Navigation styles */
+        .nav-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            min-width: 200px;
+            height: 100%;
+        }
+        
+        .nav-link {
+            padding: 0.5rem 1rem;
+            transition: color 0.3s;
+            white-space: nowrap;
+        }
     </style>
+    <script>
+        if ("fonts" in document) {
+            Promise.all([
+                document.fonts.load("600 1.25rem Kanit"), // สำหรับ logo text
+                document.fonts.load("400 1rem Kanit")     // สำหรับ navigation
+            ]).then(() => {
+                document.documentElement.classList.add('fonts-loaded');
+            });
+        }
+    </script>
 </head>
 <body class="bg-gray-100">
-    <header class="py-4 text-white bg-gray-800">
-        <div class="container flex items-center justify-between h-16 px-4 mx-auto">
-            <div class="flex items-center min-w-[200px]">
+    <header class="text-white site-header">
+        <div class="header-container">
+            <div class="logo-wrapper">
                 <img src="images/logo.webp" 
                      alt="PbankShop Logo" 
-                     class="w-12 h-12 mr-3" 
+                     class="logo-image"
                      width="48" 
-                     height="48">
-                <span class="text-xl font-semibold">PbankShop</span>
+                     height="48"
+                     fetchpriority="high">
+                <span class="logo-text">PbankShop</span>
             </div>
-            <nav class="flex items-center space-x-4 min-w-[200px] justify-end">
-                <a href="index.html" class="transition duration-300 hover:text-gray-300">หน้าหลัก</a>
-                <a href="contact.html" class="transition duration-300 hover:text-gray-300">ติดต่อเรา</a>
+            <nav class="nav-wrapper">
+                <a href="index.html" class="nav-link hover:text-gray-300">หน้าหลัก</a>
+                <a href="contact.html" class="nav-link hover:text-gray-300">ติดต่อเรา</a>
             </nav>
         </div>
     </header>

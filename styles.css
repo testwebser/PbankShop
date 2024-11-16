@@ -19,25 +19,60 @@ img {
 
 /* Header styles */
 .site-header {
-    background-color: #1f2937; /* bg-gray-800 */
-    padding: 1rem 1.5rem;
+    background-color: #1f2937;
+    min-height: 4rem; /* 64px */
+    position: relative;
+    z-index: 10;
+}
+
+/* Container styles */
+.header-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    height: 4rem; /* 64px */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo styles */
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+    height: 100%;
+}
+
+.logo-image {
+    width: 48px;
+    height: 48px;
+    margin-right: 0.75rem;
+}
+
+.logo-text {
+    font-size: 1.25rem;
+    font-weight: 600;
+    white-space: nowrap;
 }
 
 /* Navigation styles */
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-width: 200px;
+    height: 100%;
+}
+
 .nav-link {
-    color: white;
+    padding: 0.5rem 1rem;
     transition: color 0.3s;
+    white-space: nowrap;
 }
 
 .nav-link:hover {
     color: #d1d5db; /* text-gray-300 */
-}
-
-/* Logo container */
-.logo-container {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
 }
 
 /* Common container padding */
