@@ -180,6 +180,13 @@ const games = [
         image:"images/games/sea-of-thieves.webp",
         description:"โลกเปิดมหาสมุทรที่กว้างใหญ่และมีชีวิตชีวา การผจญภัยและการล่าขุมทรัพย์ในทะเลลึก ระบบการต่อสู้ที่น่าตื่นเต้นและความสามารถในการใช้กลยุทธ์สามารถเล่นร่วมกับเพื่อนในโหมดผู้เล่นหลายค",
         detailLink:"sea-of-thieves.html"
+    },
+    {
+        id: "metal-gear-solid-v-ground-zeroes",
+        title: "Metal Gear Solid V: Ground Zeroes",
+        image: "images/games/metal-gear-solid-v-ground-zeroes.webp",
+        description: "METAL GEAR SOLID V: GROUND ZEROES เป็นเกมแอคชั่นสายลับที่เต็มไปด้วยความตื่นเต้น คุณจะได้สวมบทเป็น Snake (Big Boss) ในภารกิจที่ต้องแทรกซึมฐานทัพศัตรูและปลดปล่อยนักโทษในโลกที่เปิดกว้างและสมจริง",
+        detailLink:"metal-gear-solid-v-ground-zeroes-detail.html"
     }
 ];
 

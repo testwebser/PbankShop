@@ -1043,5 +1043,39 @@ const gameDetails = {
             game: "online-fix.me",
         }
     },
+    "metal-gear-solid-v-ground-zeroes": {
+        title: "Metal Gear Solid V: Ground Zeroes",
+        image: "images/games/metal-gear-solid-v-ground-zeroes.jpg",
+        description: "METAL GEAR SOLID V: GROUND ZEROES เป็นเกมแอคชั่นสายลับที่เต็มไปด้วยความตื่นเต้น คุณจะได้สวมบทเป็น Snake (Big Boss) ในภารกิจที่ต้องแทรกซึมฐานทัพศัตรูและปลดปล่อยนักโทษในโลกที่เปิดกว้างและสมจริง",
+        features: [
+            "เกมเพลย์สายลับที่ลุ่มลึกและสร้างสรรค์",
+            "โลกเปิดที่สมจริงและออกแบบอย่างพิถีพิถัน",
+            "กราฟิกและเสียงระดับสูงที่ใช้ FOX Engine",
+            "ภารกิจที่หลากหลายและท้าทาย",
+            "การสนับสนุนการเล่นซ้ำด้วยโหมดเสริมและความยากที่เพิ่มขึ้น",
+            "เรื่องราวที่เป็นส่วนสำคัญของซีรีส์ METAL GEAR"
+        ],
+        systemRequirements: {
+            minimum: [
+                "OS: Windows Vista 64-Bit, Windows 7 64-Bit, Windows 8 64-Bit",
+                "Processor: Core i5-4460 (3.4 GHz) หรือดีกว่า",
+                "Memory: 4 GB RAM",
+                "Graphics: Nvidia GeForce GTX 650 (2GB) หรือดีกว่า",
+                "DirectX: Version 11",
+                "Storage: 4 GB available space"
+            ],
+            recommended: [
+                "OS: Windows Vista 64-Bit, Windows 7 64-Bit, Windows 8 64-Bit",
+                "Processor: Core i7-4790 (3.6GHz) หรือดีกว่า",
+                "Memory: 8 GB RAM",
+                "Graphics: Nvidia GeForce GTX 760 หรือดีกว่า",
+                "DirectX: Version 11",
+                "Storage: 4 GB available space"
+            ]
+        },
+        downloadLinks: {
+            game: "https://buzzheavier.com/wj3pfdpeqpzr"
+        }
+    }
 
 };
