@@ -14,6 +14,7 @@
           as="font"
           type="font/woff2"
           crossorigin>
+    <link rel="stylesheet" href="styles.css">
     <style>
         @font-face {
             font-family: 'Kanit';
@@ -42,26 +43,44 @@
             height: 100%;
             object-fit: cover;
         }
+        
+        /* ปรับ header ให้เหมือนกับหน้า index */
+        header {
+            background-color: #1f2937; /* bg-gray-800 */
+            padding: 1rem 0;
+        }
+        
+        /* ลบ gradient background เดิมออก */
+        .header-container {
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
     </style>
 </head>
 <body class="bg-gray-100">
-    <header class="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6 shadow-lg">
-        <div class="container mx-auto flex justify-between items-center">
-            <div class="flex items-center">
-                <img src="images/logo.png" alt="PbankShop Logo" class="w-12 h-12 mr-3">
-                <h1 class="text-3xl font-bold">PbankShop</h1>
+    <header class="py-4 text-white bg-gray-800">
+        <div class="container flex items-center justify-between h-16 px-4 mx-auto">
+            <div class="flex items-center min-w-[200px]">
+                <img src="images/logo.webp" 
+                     alt="PbankShop Logo" 
+                     class="w-12 h-12 mr-3" 
+                     width="48" 
+                     height="48">
+                <span class="text-xl font-semibold">PbankShop</span>
             </div>
-            <nav>
-                <a href="index.html" class="text-white hover:text-yellow-300 mx-2">หน้าหลัก</a>
-                <a href="contact.html" class="text-white hover:text-yellow-300 mx-2">ติดต่อเรา</a>
+            <nav class="flex items-center space-x-4 min-w-[200px] justify-end">
+                <a href="index.html" class="transition duration-300 hover:text-gray-300">หน้าหลัก</a>
+                <a href="contact.html" class="transition duration-300 hover:text-gray-300">ติดต่อเรา</a>
             </nav>
         </div>
     </header>
-    <main class="container mx-auto mt-8 px-4">
-        <div id="game-detail" class="bg-white rounded-lg shadow-md overflow-hidden">
+    <main class="container px-4 mx-auto mt-8">
+        <div id="game-detail" class="overflow-hidden bg-white rounded-lg shadow-md">
         </div>
     </main>
-    <footer class="bg-gray-800 text-white mt-12 py-6">
+    <footer class="py-6 mt-12 text-white bg-gray-800">
         <div class="container mx-auto text-center">
             <p>&copy; 2024 PbankShop. Copyright.</p>
         </div>

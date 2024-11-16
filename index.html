@@ -86,17 +86,84 @@
             object-fit: cover;
         }
     </style>
+    
+    <style>
+        /* Critical CSS for header */
+        .header-container {
+            height: 64px; /* 4rem */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 1rem;
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+            min-width: 200px;
+        }
+        
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            min-width: 200px;
+            gap: 1rem;
+        }
+        
+        /* Prevent layout shift during font load */
+        .font-preload {
+            font-family: 'Kanit', sans-serif;
+            opacity: 0;
+            position: absolute;
+            pointer-events: none;
+        }
+    </style>
+    <script defer src="imageLoader.js"></script>
+    <script defer src="games.js"></script>
+    
+    <!-- Preload font -->
+    <link rel="preload" 
+          href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap"
+          as="style">
+    
+    <!-- Font loading script -->
+    <script>
+        // Font loading optimization
+        if ("fonts" in document) {
+            // Optimize font loading
+            Promise.all([
+                document.fonts.load("1em Kanit"),
+                document.fonts.load("600 1em Kanit")
+            ]).then(() => {
+                document.documentElement.classList.add('fonts-loaded');
+            });
+        }
+    </script>
+    
+    <!-- Font fallback and optimization -->
+    <style>
+        /* Font fallback */
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+        
+        .fonts-loaded body {
+            font-family: 'Kanit', sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-gray-100">
-    <header class="p-6 text-white shadow-lg bg-gradient-to-r from-blue-600 to-purple-600">
-        <div class="container flex items-center justify-between mx-auto">
-            <div class="flex items-center">
+    <header class="py-4 text-white bg-gray-800">
+        <div class="container flex items-center justify-between h-16 px-4 mx-auto">
+            <div class="flex items-center min-w-[200px]">
                 <img src="images/logo.webp" alt="PbankShop Logo" class="w-12 h-12 mr-3" width="48" height="48">
-                <h1 class="text-3xl font-bold">PbankShop</h1>
+                <span class="text-xl font-semibold">PbankShop</span>
             </div>
-            <nav>
-                <a href="#" class="mx-2 text-white hover:text-yellow-300">หน้าหลัก</a>
-                <a href="contact.html" class="mx-2 text-white hover:text-yellow-300">ติดต่อเรา</a>
+            <nav class="flex items-center space-x-4 min-w-[200px] justify-end">
+                <a href="index.html" class="transition duration-300 hover:text-gray-300">หน้าหลัก</a>
+                <a href="contact.html" class="transition duration-300 hover:text-gray-300">ติดต่อเรา</a>
             </nav>
         </div>
     </header>
@@ -119,8 +186,6 @@
             <p>&copy; 2024 PbankShop. Copyright.</p>
         </div>
     </footer>
-    <script src="imageLoader.js"></script>
-    <script src="games.js"></script>
     <script>
         // ตรวจสอบว่า Tailwind โหลดเสร็จหรือยัง
         function checkTailwindLoaded() {
