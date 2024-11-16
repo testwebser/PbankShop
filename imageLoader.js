@@ -1,26 +1,16 @@
 function loadOptimizedImage(src, alt, className, isLCP = false) {
-    if (isLCP) {
-        // LCP image optimization
-        return `
-            <img src="${src}"
-                 alt="${alt}"
-                 class="${className}"
-                 fetchpriority="high"
-                 decoding="sync"
-                 loading="eager"
-                 width="384"
-                 height="192"
-                 style="content-visibility: auto">
-        `;
-    }
-    
-    // Non-LCP images
+    // Netlify Image Transform
+    const netlifyUrl = `${src}?nf_resize=fit&w=400&h=300`;
+
     return `
-        <img src="${src}"
+        <img src="${netlifyUrl}"
              alt="${alt}"
-             class="${className} opacity-0 transition-opacity duration-300"
-             loading="lazy"
-             decoding="async"
+             class="${className}"
+             width="400"
+             height="300"
+             ${isLCP ? '' : 'loading="lazy"'}
+             fetchpriority="${isLCP ? 'high' : 'auto'}"
+             decoding="${isLCP ? 'sync' : 'async'}"
              onload="this.classList.add('opacity-100')">
     `;
 }
