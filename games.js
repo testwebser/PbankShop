@@ -186,15 +186,18 @@ const games = [
 function createGameCard(game) {
     return `
     <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105">
-        <div class="image-container">
-            ${loadOptimizedImage(game.image, game.title, "absolute inset-0 w-full h-full object-cover")}
+        <div class="relative h-48">
+            <img src="${game.image}" 
+                 alt="${game.title}" 
+                 class="w-full h-full object-cover"
+                 loading="lazy">
         </div>
         <div class="p-4">
-            <h3 class="font-semibold text-xl mb-2 min-h-[3rem]">${game.title}</h3>
-            <p class="text-gray-600 mb-4 min-h-[4.5rem]">${game.description}</p>
-            <div class="flex justify-between items-center">
+            <h3 class="font-semibold text-xl mb-2">${game.title}</h3>
+            <p class="text-gray-600 mb-4">${game.description}</p>
+            <div class="mt-4">
                 <a href="game-detail.html?id=${game.id}" 
-                   class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded transition duration-300">
+                   class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded transition duration-300 inline-block">
                     ดูรายละเอียด
                 </a>
             </div>
@@ -205,25 +208,10 @@ function createGameCard(game) {
 
 function displayGames() {
     const gameContainer = document.getElementById('game-container');
-    
-    // แสดง loading state
-    gameContainer.innerHTML = `
-        <div class="animate-pulse bg-gray-200 rounded-lg h-96"></div>
-        <div class="animate-pulse bg-gray-200 rounded-lg h-96"></div>
-        <div class="animate-pulse bg-gray-200 rounded-lg h-96"></div>
-    `;
-    
-    // รอให้รูปภาพพร้อม
-    Promise.all(games.map(game => {
-        return new Promise((resolve) => {
-            const img = new Image();
-            img.onload = resolve;
-            img.src = game.image;
-        });
-    })).then(() => {
-        // แสดงเนื้อหาจริง
+    if (gameContainer) {
         gameContainer.innerHTML = games.map(game => createGameCard(game)).join('');
-    });
+    }
 }
 
-window.addEventListener('load', displayGames);
+// เรียกใช้ฟังก์ชันเมื่อ DOM โหลดเสร็จ
+document.addEventListener('DOMContentLoaded', displayGames);
