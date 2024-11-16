@@ -188,62 +188,29 @@ function createGameCard(game, index) {
     
     return `
     <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105">
-        <div class="relative h-48">
-            ${createOptimizedImage(
-                game.image,
-                game.title,
-                "w-full h-full object-cover",
-                isLCP
-            )}
+        <div class="h-48">
+            ${loadOptimizedImage(game.image, game.title, "w-full h-full object-cover", isLCP)}
         </div>
-        <div class="p-4 flex flex-col h-[calc(100%-12rem)]">
-            <h3 class="font-semibold text-xl mb-2 line-clamp-2">${game.title}</h3>
-            <p class="text-gray-600 mb-4 line-clamp-3">${game.description}</p>
-            <div class="mt-auto">
-                <a href="game-detail.html?id=${game.id}" 
-                   class="inline-block bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded transition duration-300">
-                    ดูรายละเอียด
-                </a>
-            </div>
+        <div class="p-4">
+            <h3 class="font-semibold text-xl mb-2">${game.title}</h3>
+            <p class="text-gray-600 mb-4">${game.description}</p>
+            <a href="game-detail.html?id=${game.id}" 
+               class="inline-block bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded transition duration-300">
+                ดูรายละเอียด
+            </a>
         </div>
     </div>
     `;
 }
 
-async function displayGames() {
+function displayGames() {
     const gameContainer = document.getElementById('game-container');
     if (!gameContainer) return;
-
-    // Preload LCP image ก่อน
-    if (games.length > 0) {
-        try {
-            await preloadLCPImage(games[0].image);
-        } catch (error) {
-            console.error('Failed to preload LCP image:', error);
-        }
-    }
-
-    // แสดงเกมทั้งหมด
+    
     gameContainer.innerHTML = games
         .map((game, index) => createGameCard(game, index))
         .join('');
 }
 
-function getLoadingSkeleton() {
-    return Array(6).fill(`
-        <div class="bg-white rounded-lg shadow-md overflow-hidden animate-pulse">
-            <div class="relative h-48 bg-gray-200"></div>
-            <div class="p-4">
-                <div class="h-6 bg-gray-200 rounded w-3/4 mb-2"></div>
-                <div class="h-4 bg-gray-200 rounded w-full mb-2"></div>
-                <div class="h-4 bg-gray-200 rounded w-5/6 mb-4"></div>
-                <div class="h-10 bg-gray-200 rounded w-32"></div>
-            </div>
-        </div>
-    `).join('');
-}
-
 // Initialize when DOM is ready
-document.addEventListener('DOMContentLoaded', () => {
-    displayGames().catch(console.error);
-});
+document.addEventListener('DOMContentLoaded', displayGames);

@@ -1,21 +1,13 @@
 function loadOptimizedImage(src, alt, className, isLCP = false) {
     const imgClass = `${className} opacity-0 transition-opacity duration-300`;
-    const loadingAttr = isLCP ? 'eager' : 'lazy';
-    const fetchPriority = isLCP ? 'high' : 'auto';
-    const decodingAttr = isLCP ? 'sync' : 'async';
     
-    return `
-        <picture>
-            <source srcset="${src}" type="image/webp">
-            <img src="${src}"
-                 alt="${alt}"
-                 class="${imgClass}"
-                 loading="${loadingAttr}"
-                 fetchpriority="${fetchPriority}"
-                 decoding="${decodingAttr}"
-                 onload="this.classList.add('opacity-100')">
-        </picture>
-    `;
+    return `<img src="${src}"
+         alt="${alt}"
+         class="${imgClass}"
+         ${isLCP ? '' : 'loading="lazy"'}
+         fetchpriority="${isLCP ? 'high' : 'auto'}"
+         decoding="${isLCP ? 'sync' : 'async'}"
+         onload="this.classList.add('opacity-100')">`;
 }
 
 // ฟังก์ชันสำหรับหา LCP image
