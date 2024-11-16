@@ -14,6 +14,11 @@
           as="font"
           type="font/woff2"
           crossorigin>
+    <link rel="preload"
+          as="image"
+          href="images/games/pummel-party.webp"
+          type="image/webp"
+          fetchpriority="high">
     <style>
         @font-face {
             font-family: 'Kanit';
@@ -27,13 +32,11 @@
             font-family: 'Kanit', sans-serif;
         }
         
-        /* เพิ่ม aspect ratio container สำหรับรูปภาพ */
         .image-container {
             position: relative;
             width: 100%;
-            padding-top: 56.25%; /* 16:9 Aspect Ratio */
-        }
-        
+            padding-top: 56.25%; 
+        } 
         .image-container img {
             position: absolute;
             top: 0;
@@ -42,8 +45,6 @@
             height: 100%;
             object-fit: cover;
         }
-        
-        /* Line clamp utilities */
         .line-clamp-2 {
             display: -webkit-box;
             -webkit-line-clamp: 2;
@@ -59,11 +60,20 @@
             -webkit-box-orient: vertical;
             overflow: hidden;
         }
-        
-        /* Fixed aspect ratio for game cards */
         .game-card {
             display: grid;
             grid-template-rows: auto 1fr;
+        }
+        .image-fade-in {
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+        
+        .image-fade-in.loaded {
+            opacity: 1;
+        }
+        img {
+            will-change: opacity;
         }
     </style>
 </head>

@@ -184,17 +184,14 @@ const games = [
 ];
 
 function createGameCard(game, index) {
-    const isAboveTheFold = index < 6;
-    
+    const isFirstCard = index === 0;
     return `
     <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105">
         <div class="relative h-48">
             <img src="${game.image}" 
                  alt="${game.title}" 
                  class="w-full h-full object-cover opacity-0 transition-opacity duration-300"
-                 ${!isAboveTheFold ? 'loading="lazy"' : ''}
-                 fetchpriority="${isAboveTheFold ? 'high' : 'low'}"
-                 decoding="${isAboveTheFold ? 'sync' : 'async'}"
+                 ${isFirstCard ? 'fetchpriority="high" decoding="sync"' : 'loading="lazy" decoding="async"'}
                  onload="this.classList.add('opacity-100')">
         </div>
         <div class="p-4">
@@ -229,20 +226,9 @@ function preloadCriticalImages(games) {
 
 async function displayGames() {
     const gameContainer = document.getElementById('game-container');
-    if (!gameContainer) return;
-
-    // แสดง loading skeleton ก่อน
-    gameContainer.innerHTML = getLoadingSkeleton();
-
-    // Preload critical images
-    await preloadCriticalImages(games);
-
-    // Render games
-    gameContainer.innerHTML = games
-        .map((game, index) => createGameCard(game, index))
-        .join('');
-
-    handleImageLoad();
+    if (gameContainer) {
+        gameContainer.innerHTML = games.map((game, index) => createGameCard(game, index)).join('');
+    }
 }
 
 function getLoadingSkeleton() {

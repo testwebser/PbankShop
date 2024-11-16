@@ -1,28 +1,15 @@
-function loadOptimizedImage(src, alt, className) {
-    // ตรวจสอบว่าเป็นรูปในเว็บเราหรือไม่
-    if (src.includes('images/')) {
-        const webpUrl = src.replace(/\.(jpg|png)$/, '.webp');
-        return `
-            <picture>
-                <source srcset="${webpUrl}" type="image/webp">
-                <img src="${src}" 
-                     alt="${alt}" 
-                     class="${className}"
-                     loading="lazy"
-                     width="640"
-                     height="192">
-            </picture>
-        `;
-    } else {
-        // สำหรับรูปจากภายนอกที่อาจมีเพิ่มเติมในอนาคต
-        return `
+function loadOptimizedImage(src, alt, className, isPriority = false) {
+    return `
+        <picture>
+            <source srcset="${src.replace(/\.(jpg|png)$/, '.webp')}" 
+                    type="image/webp">
             <img src="${src}" 
                  alt="${alt}" 
-                 class="${className}"
-                 loading="lazy"
-                 decoding="async">
-        `;
-    }
+                 class="${className} opacity-0 transition-opacity duration-300"
+                 ${isPriority ? 'fetchpriority="high" decoding="sync"' : 'loading="lazy" decoding="async"'}
+                 onload="this.classList.add('opacity-100')">
+        </picture>
+    `;
 }
 
 // สร้างฟังก์ชันสำหรับหา LCP image
@@ -54,7 +41,29 @@ function addPreloadHint() {
     }
 }
 
+// เพิ่มฟังก์ชันนี้
+function preloadLCPImage(imageUrl) {
+    return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.onload = resolve;
+        img.onerror = reject;
+        img.fetchPriority = 'high';
+        img.src = imageUrl;
+    });
+}
+
 // เรียกใช้ฟังก์ชันเมื่อ JavaScript โหลด
 document.addEventListener('DOMContentLoaded', () => {
     addPreloadHint();
+    // Preload LCP image
+    const lcpImage = 'images/games/pummel-party.webp';
+    preloadLCPImage(lcpImage)
+        .then(() => {
+            console.log('LCP image preloaded successfully');
+            displayGames();
+        })
+        .catch(error => {
+            console.error('Failed to preload LCP image:', error);
+            displayGames(); // Still display games even if preload fails
+        });
 }); 
