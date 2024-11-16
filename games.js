@@ -52,7 +52,7 @@ const games = [
         id:"jujutsu-kaisen-cursed-clash", 
         title:"Jujutsu Kaisen: Cursed Clash",
         image:"images/games/jujutsu-kaisen-cursed-clash.webp",
-        description: "Jujutsu Kaisen Cursed Clash เป็นเกมต่อสู้แบบ 3D ที่อิงจากอนิเมะและมังงะยอดนิยม Jujutsu Kaisen ผู้เล่นจะได้ควบคุมตัวละครจากเรื่อง Jujutsu Kaisen เพื่อเผชิญหน้ากับคำสาปและพลังพิเศษต่างๆ ในการต่อสู้ที่รวดเร็วและตื่นเต้น",
+        description: "Jujutsu Kaisen Cursed Clash เป็นเกมต่อสู้แบบ 3D ที่อิงจากอนิเมะและมังงะยอดนิยม Jujutsu Kaisen ผู้เล่นจะได้ควบคุมตัวละครจากเรื่อง Jujutsu Kaisen เพื่อเผชญหน้ากับคำสาปและพลังพิเศษต่างๆ ในการต่อสู้ที่รวดเร็วและตื่นเต้น",
         detailLink:"jujutsu-kaisen-cursed-clash-detail.html"
     },
     {
@@ -122,7 +122,7 @@ const games = [
         id: "red-dead-redemption-2",
         title: "Red Dead Redemption 2",
         image: "images/games/red-dead-redemption-2.webp",
-        description: "Red Dead Redemption 2 เป็นเกมแอคชั่นผจญภัยในโลกเปิดที่พัฒนาโดย Rockstar Games",
+        description: "Red Dead Redemption 2 เป็นเกมแอคชั่นผจญภัยในโลกเปิดที่พัฒนาโด Rockstar Games",
         detailLink: "red-dead-redemption-2-detail.html"
     },
     {
@@ -157,7 +157,7 @@ const games = [
         id:"liars-bar",
         title:"Liar’s Bar",
         image:"images/games/liars-bar.webp",
-        description:"Liar’s Bar เป็นเกมแนวสืบสวนที่ผู้เล่นจะต้องสวมบทบาทเป็นบาร์เทนเดอร์ในบาร์ที่เต็มไปด้วยความลับและการหลอกลวง คุณจะต้องใช้ทักษะการสังเกตและการพูดคุยเพื่อเปิดเผยความจริงจากลูกค้าที่มีความลับซ่อนอยู่",
+        description:"Liar’s Bar เป็นเกมแนวสืบสวนที่ผู้เล่นจะต้องสวมบทบาทเป็นบาร์เทนเดอร์ในบาร์ที่เต็มไปด้วยความลับและการหลอกลวง คุณจะต้องใช้ทักษะการังเกตและการพูดคุยเพื่อเปิดเผยความจริงจากลูกค้าที่มีความลับซ่อนอยู่",
         detailLink:"liars-bar-detail.html"
     },
     {
@@ -183,14 +183,19 @@ const games = [
     }
 ];
 
-function createGameCard(game) {
+function createGameCard(game, index) {
+    const isAboveTheFold = index < 6;
+    
     return `
     <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105">
         <div class="relative h-48">
             <img src="${game.image}" 
                  alt="${game.title}" 
-                 class="w-full h-full object-cover"
-                 loading="lazy">
+                 class="w-full h-full object-cover opacity-0 transition-opacity duration-300"
+                 ${!isAboveTheFold ? 'loading="lazy"' : ''}
+                 fetchpriority="${isAboveTheFold ? 'high' : 'low'}"
+                 decoding="${isAboveTheFold ? 'sync' : 'async'}"
+                 onload="this.classList.add('opacity-100')">
         </div>
         <div class="p-4">
             <h3 class="font-semibold text-xl mb-2">${game.title}</h3>
@@ -206,12 +211,55 @@ function createGameCard(game) {
     `;
 }
 
-function displayGames() {
-    const gameContainer = document.getElementById('game-container');
-    if (gameContainer) {
-        gameContainer.innerHTML = games.map(game => createGameCard(game)).join('');
-    }
+function preloadCriticalImages(games) {
+    // Preload เฉพาะ 3-6 รูปแรกที่จะแสดงใน viewport แรก
+    const criticalImages = games.slice(0, 6);
+    
+    return Promise.all(
+        criticalImages.map((game) => {
+            return new Promise((resolve) => {
+                const img = new Image();
+                img.onload = resolve;
+                img.onerror = resolve; // Handle failed loads gracefully
+                img.src = game.image;
+            });
+        })
+    );
 }
 
-// เรียกใช้ฟังก์ชันเมื่อ DOM โหลดเสร็จ
-document.addEventListener('DOMContentLoaded', displayGames);
+async function displayGames() {
+    const gameContainer = document.getElementById('game-container');
+    if (!gameContainer) return;
+
+    // แสดง loading skeleton ก่อน
+    gameContainer.innerHTML = getLoadingSkeleton();
+
+    // Preload critical images
+    await preloadCriticalImages(games);
+
+    // Render games
+    gameContainer.innerHTML = games
+        .map((game, index) => createGameCard(game, index))
+        .join('');
+
+    handleImageLoad();
+}
+
+function getLoadingSkeleton() {
+    return Array(6).fill(`
+        <div class="bg-white rounded-lg shadow-md overflow-hidden animate-pulse">
+            <div class="relative h-48 bg-gray-200"></div>
+            <div class="p-4">
+                <div class="h-6 bg-gray-200 rounded w-3/4 mb-2"></div>
+                <div class="h-4 bg-gray-200 rounded w-full mb-2"></div>
+                <div class="h-4 bg-gray-200 rounded w-5/6 mb-4"></div>
+                <div class="h-10 bg-gray-200 rounded w-32"></div>
+            </div>
+        </div>
+    `).join('');
+}
+
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', () => {
+    displayGames().catch(console.error);
+});
