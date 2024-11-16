@@ -184,22 +184,19 @@ const games = [
 ];
 
 function createGameCard(game, index) {
-    const isFirstCard = index === 0;
+    const isLCP = index === 0;
+    
     return `
-    <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105">
-        <div class="relative h-48">
-            <img src="${game.image}" 
-                 alt="${game.title}" 
-                 class="w-full h-full object-cover opacity-0 transition-opacity duration-300"
-                 ${isFirstCard ? 'fetchpriority="high" decoding="sync"' : 'loading="lazy" decoding="async"'}
-                 onload="this.classList.add('opacity-100')">
+    <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105 h-[28rem]">
+        <div class="image-container h-48">
+            ${loadOptimizedImage(game.image, game.title, "w-full h-full object-cover", isLCP)}
         </div>
-        <div class="p-4">
-            <h3 class="font-semibold text-xl mb-2">${game.title}</h3>
-            <p class="text-gray-600 mb-4">${game.description}</p>
-            <div class="mt-4">
+        <div class="p-4 flex flex-col h-[calc(100%-12rem)]">
+            <h3 class="font-semibold text-xl mb-2 line-clamp-2">${game.title}</h3>
+            <p class="text-gray-600 mb-4 line-clamp-3">${game.description}</p>
+            <div class="mt-auto">
                 <a href="game-detail.html?id=${game.id}" 
-                   class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded transition duration-300 inline-block">
+                   class="inline-block bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded transition duration-300">
                     ดูรายละเอียด
                 </a>
             </div>

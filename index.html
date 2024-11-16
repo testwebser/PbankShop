@@ -152,6 +152,23 @@
         }
     </style>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        // เพิ่ม script สำหรับ preload LCP image
+        document.addEventListener('DOMContentLoaded', () => {
+            if (typeof games !== 'undefined' && games.length > 0) {
+                const lcpImageUrl = games[0].image;
+                if (lcpImageUrl) {
+                    const link = document.createElement('link');
+                    link.rel = 'preload';
+                    link.as = 'image';
+                    link.href = lcpImageUrl;
+                    link.type = 'image/webp';
+                    link.fetchPriority = 'high';
+                    document.head.appendChild(link);
+                }
+            }
+        });
+    </script>
 </head>
 <body class="bg-gray-100">
     <header class="text-white site-header">
@@ -207,6 +224,11 @@
                 markTailwindLoaded();
             }
         });
+    </script>
+    <script src="imageLoader.js"></script>
+    <script src="games.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', initializeGames);
     </script>
 </body>
 </html>

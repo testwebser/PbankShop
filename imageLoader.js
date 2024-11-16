@@ -1,44 +1,40 @@
-function loadOptimizedImage(src, alt, className, isPriority = false) {
+function loadOptimizedImage(src, alt, className, isLCP = false) {
+    const imgClass = `${className} opacity-0 transition-opacity duration-300`;
+    const loadingAttr = isLCP ? 'eager' : 'lazy';
+    const fetchPriority = isLCP ? 'high' : 'auto';
+    const decodingAttr = isLCP ? 'sync' : 'async';
+    
     return `
         <picture>
-            <source srcset="${src.replace(/\.(jpg|png)$/, '.webp')}" 
-                    type="image/webp">
-            <img src="${src}" 
-                 alt="${alt}" 
-                 class="${className} opacity-0 transition-opacity duration-300"
-                 ${isPriority ? 'fetchpriority="high" decoding="sync"' : 'loading="lazy" decoding="async"'}
+            <source srcset="${src}" type="image/webp">
+            <img src="${src}"
+                 alt="${alt}"
+                 class="${imgClass}"
+                 loading="${loadingAttr}"
+                 fetchpriority="${fetchPriority}"
+                 decoding="${decodingAttr}"
                  onload="this.classList.add('opacity-100')">
         </picture>
     `;
 }
 
-// สร้างฟังก์ชันสำหรับหา LCP image
+// ฟังก์ชันสำหรับหา LCP image
 function getLCPImageUrl(games) {
-    // ตรวจสอบว่ามีเกมอยู่ในอาร์เรย์หรือไม่
     if (!games || games.length === 0) return null;
-    
-    // ใช้รูปแรกเป็น LCP image
-    return games[0].image.replace(/\.(jpg|png)$/, '.webp');
+    return games[0].image;
 }
 
-// สร้าง preload link tag แบบ dynamic
-function createPreloadLink(imageUrl) {
+// ฟังก์ชันสำหรับ preload LCP image
+function preloadLCPImage(imageUrl) {
+    if (!imageUrl) return;
+    
     const link = document.createElement('link');
     link.rel = 'preload';
     link.as = 'image';
     link.href = imageUrl;
     link.type = 'image/webp';
     link.fetchPriority = 'high';
-    return link;
-}
-
-// เพิ่ม preload hint แบบ dynamic
-function addPreloadHint() {
-    const lcpImageUrl = getLCPImageUrl(games);
-    if (lcpImageUrl) {
-        const preloadLink = createPreloadLink(lcpImageUrl);
-        document.head.appendChild(preloadLink);
-    }
+    document.head.appendChild(link);
 }
 
 // เพิ่มฟังก์ชันนี้
