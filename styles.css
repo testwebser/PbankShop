@@ -93,6 +93,13 @@ img {
 
 /* Skeleton loading */
 .image-skeleton {
+    background: #f3f4f6;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-skeleton::after {
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
@@ -100,9 +107,9 @@ img {
     height: 100%;
     background: linear-gradient(
         90deg,
-        rgba(243, 244, 246, 0) 0%,
-        rgba(243, 244, 246, 0.5) 50%,
-        rgba(243, 244, 246, 0) 100%
+        transparent 0%,
+        rgba(255, 255, 255, 0.2) 50%,
+        transparent 100%
     );
     animation: shimmer 1.5s infinite;
 }
@@ -110,4 +117,9 @@ img {
 @keyframes shimmer {
     0% { transform: translateX(-100%); }
     100% { transform: translateX(100%); }
+}
+
+/* Prevent layout shift */
+.game-card:first-child .image-container {
+    min-height: 192px; /* 12rem */
 } 

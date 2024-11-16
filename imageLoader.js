@@ -26,15 +26,13 @@ function getLCPImageUrl(games) {
 
 // ฟังก์ชันสำหรับ preload LCP image
 function preloadLCPImage(imageUrl) {
-    if (!imageUrl) return;
-    
-    const link = document.createElement('link');
-    link.rel = 'preload';
-    link.as = 'image';
-    link.href = imageUrl;
-    link.type = 'image/webp';
-    link.fetchPriority = 'high';
-    document.head.appendChild(link);
+    return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.onload = resolve;
+        img.onerror = reject;
+        img.fetchPriority = 'high';
+        img.src = imageUrl;
+    });
 }
 
 // เพิ่มฟังก์ชันนี้

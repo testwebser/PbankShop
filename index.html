@@ -169,6 +169,31 @@
             }
         });
     </script>
+    
+    <!-- Preload LCP image -->
+    <link rel="preload" 
+          as="image" 
+          href="images/games/pummel-party.webp"
+          type="image/webp"
+          fetchpriority="high">
+          
+    <script>
+        // Initialize loading strategy
+        window.addEventListener('DOMContentLoaded', () => {
+            if (typeof games !== 'undefined' && games.length > 0) {
+                const lcpImage = games[0].image;
+                if (lcpImage) {
+                    // Mark first image as high priority
+                    const firstImage = document.querySelector('.game-card:first-child img');
+                    if (firstImage) {
+                        firstImage.fetchPriority = 'high';
+                        firstImage.loading = null; // Remove lazy loading
+                        firstImage.decoding = 'sync';
+                    }
+                }
+            }
+        });
+    </script>
 </head>
 <body class="bg-gray-100">
     <header class="text-white site-header">

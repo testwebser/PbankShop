@@ -187,9 +187,14 @@ function createGameCard(game, index) {
     const isLCP = index === 0;
     
     return `
-    <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105 h-[28rem]">
-        <div class="image-container h-48">
-            ${loadOptimizedImage(game.image, game.title, "w-full h-full object-cover", isLCP)}
+    <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105">
+        <div class="relative h-48">
+            ${createOptimizedImage(
+                game.image,
+                game.title,
+                "w-full h-full object-cover",
+                isLCP
+            )}
         </div>
         <div class="p-4 flex flex-col h-[calc(100%-12rem)]">
             <h3 class="font-semibold text-xl mb-2 line-clamp-2">${game.title}</h3>
@@ -205,27 +210,23 @@ function createGameCard(game, index) {
     `;
 }
 
-function preloadCriticalImages(games) {
-    // Preload เฉพาะ 3-6 รูปแรกที่จะแสดงใน viewport แรก
-    const criticalImages = games.slice(0, 6);
-    
-    return Promise.all(
-        criticalImages.map((game) => {
-            return new Promise((resolve) => {
-                const img = new Image();
-                img.onload = resolve;
-                img.onerror = resolve; // Handle failed loads gracefully
-                img.src = game.image;
-            });
-        })
-    );
-}
-
 async function displayGames() {
     const gameContainer = document.getElementById('game-container');
-    if (gameContainer) {
-        gameContainer.innerHTML = games.map((game, index) => createGameCard(game, index)).join('');
+    if (!gameContainer) return;
+
+    // Preload LCP image ก่อน
+    if (games.length > 0) {
+        try {
+            await preloadLCPImage(games[0].image);
+        } catch (error) {
+            console.error('Failed to preload LCP image:', error);
+        }
     }
+
+    // แสดงเกมทั้งหมด
+    gameContainer.innerHTML = games
+        .map((game, index) => createGameCard(game, index))
+        .join('');
 }
 
 function getLoadingSkeleton() {
