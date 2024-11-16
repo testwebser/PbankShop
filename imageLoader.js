@@ -1,13 +1,28 @@
 function loadOptimizedImage(src, alt, className, isLCP = false) {
-    const imgClass = `${className} opacity-0 transition-opacity duration-300`;
+    if (isLCP) {
+        // LCP image optimization
+        return `
+            <img src="${src}"
+                 alt="${alt}"
+                 class="${className}"
+                 fetchpriority="high"
+                 decoding="sync"
+                 loading="eager"
+                 width="384"
+                 height="192"
+                 style="content-visibility: auto">
+        `;
+    }
     
-    return `<img src="${src}"
-         alt="${alt}"
-         class="${imgClass}"
-         ${isLCP ? '' : 'loading="lazy"'}
-         fetchpriority="${isLCP ? 'high' : 'auto'}"
-         decoding="${isLCP ? 'sync' : 'async'}"
-         onload="this.classList.add('opacity-100')">`;
+    // Non-LCP images
+    return `
+        <img src="${src}"
+             alt="${alt}"
+             class="${className} opacity-0 transition-opacity duration-300"
+             loading="lazy"
+             decoding="async"
+             onload="this.classList.add('opacity-100')">
+    `;
 }
 
 // ฟังก์ชันสำหรับหา LCP image

@@ -122,4 +122,23 @@ img {
 /* Prevent layout shift */
 .game-card:first-child .image-container {
     min-height: 192px; /* 12rem */
+}
+
+/* Optimize paint performance */
+.game-card {
+    transform: translateZ(0);
+    will-change: transform;
+    contain: content;
+}
+
+/* Optimize LCP image */
+.game-card:first-child img {
+    content-visibility: auto;
+    contain: paint;
+}
+
+/* Prevent layout shift */
+.game-card {
+    min-height: 400px;
+    aspect-ratio: 3/4;
 } 

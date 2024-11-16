@@ -194,6 +194,30 @@
             }
         });
     </script>
+    
+    <!-- เพิ่ม resource hints -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" 
+          href="images/games/pummel-party.webp"
+          as="image"
+          type="image/webp"
+          fetchpriority="high">
+          
+    <!-- Inline critical CSS -->
+    <style>
+        /* Critical CSS */
+        .game-card:first-child {
+            opacity: 1 !important;
+            min-height: 192px;
+        }
+        
+        .game-card:first-child img {
+            opacity: 1 !important;
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <header class="text-white site-header">
@@ -255,5 +279,25 @@
     <script>
         document.addEventListener('DOMContentLoaded', displayGames);
     </script>
+    
+    <!-- Optimize script loading -->
+    <script>
+        // Priority hints
+        const observer = new PerformanceObserver((list) => {
+            for (const entry of list.getEntries()) {
+                if (entry.element && entry.element.tagName === 'IMG') {
+                    entry.element.fetchPriority = 'high';
+                    entry.element.loading = 'eager';
+                    break; // Only for first image
+                }
+            }
+        });
+        
+        observer.observe({ entryTypes: ['largest-contentful-paint'] });
+    </script>
+    
+    <!-- Load main scripts -->
+    <script src="imageLoader.js" defer></script>
+    <script src="games.js" defer></script>
 </body>
 </html>

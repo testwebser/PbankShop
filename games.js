@@ -203,14 +203,19 @@ function createGameCard(game, index) {
     `;
 }
 
+// แก้ไขฟังก์ชัน displayGames
 function displayGames() {
     const gameContainer = document.getElementById('game-container');
-    if (!gameContainer) return;
+    if (!gameContainer || !games || !games.length) return;
     
-    gameContainer.innerHTML = games
-        .map((game, index) => createGameCard(game, index))
-        .join('');
+    // ลบ loading skeletons ถ้ามี
+    const skeletons = gameContainer.querySelectorAll('.animate-pulse');
+    skeletons.forEach(skeleton => skeleton.remove());
+    
+    // แสดงเกม
+    const gamesHTML = games.map((game, index) => createGameCard(game, index)).join('');
+    gameContainer.innerHTML = gamesHTML;
 }
 
-// Initialize when DOM is ready
+// เรียกใช้ฟังก์ชันเมื่อ DOM พร้อม
 document.addEventListener('DOMContentLoaded', displayGames);
