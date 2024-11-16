@@ -3,6 +3,7 @@ function renderGameDetail() {
     const gameId = urlParams.get('id');
     const game = gameDetails[gameId];
 
+
     if (!game) {
         document.getElementById('game-detail').innerHTML = '<p>ไม่พบข้อมูลเกม</p>';
         return;
@@ -12,21 +13,22 @@ function renderGameDetail() {
         if (!links || (Array.isArray(links) && links.length === 0)) return '';
         
         if (Array.isArray(links) && links.length > 1) {
-            // กรณีที่มีหลายลิงก์
             return `
                 <h4 class="font-bold mt-4 mb-2">${title}:</h4>
                 <ul class="list-disc list-inside">
                     ${links.map((link, index) => `
                         <li>
-                            <a href="${link}" target="_blank" class="text-blue-500 hover:text-blue-700">
-                                Part ${index + 1}
+                            <a href="${typeof link === 'string' ? link : link.url}" target="_blank" class="text-blue-500 hover:text-blue-700">
+                                ${typeof link === 'string' ? 
+                                    (title === "Patch" ? `Patch Part ${index + 1}` : `Part ${index + 1}`) : 
+                                    link.name}
                             </a>
                         </li>
                     `).join('')}
                 </ul>
             `;
         } else {
-            // กรณีที่มีลิงก์เดียว (ไม่ว่าจะเป็น string หรือ array ที่มีสมาชิกเดียว)
+            // กรณีที่มีลิงก์เดียว
             const link = Array.isArray(links) ? links[0] : links;
             return `
                 <h4 class="font-bold mt-4 mb-2">${title}:</h4>
@@ -64,8 +66,13 @@ function renderGameDetail() {
                 </div>
             </div>
 
-            <h3 class="text-xl font-semibold mb-2">ลิงก์ดาวน์โหลด:</h3>
+            <h3 class="text-xl font-semibold mb-4">ลิงก์ดาวน์โหลด:</h3>
             ${renderDownloadLinks(game.downloadLinks.game, "ตัวเกม")}
+            ${game.downloadLinks.patch ? `
+                <div class="mt-4">
+                    ${renderDownloadLinks(game.downloadLinks.patch, "Patch")}
+                </div>
+            ` : ''}
             ${game.downloadLinks.language ? renderDownloadLinks(game.downloadLinks.language, "แพ็คภาษา") : ''}
             ${game.downloadLinks.bonusContent ? renderDownloadLinks(game.downloadLinks.bonusContent, "เนื้อหาโบนัส") : ''}
             ${game.downloadLinks.credits ? renderDownloadLinks(game.downloadLinks.credits, "เครดิต") : ''}
@@ -75,6 +82,24 @@ function renderGameDetail() {
                 <a href="${game.crackLink}" target="_blank" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
                     ดาวน์โหลด Crack
                 </a>
+            ` : ''}
+
+            ${game.passwords ? `
+                <div class="mt-8 p-4 bg-gray-50 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">รหัสแตกไฟล์:</h3>
+                    ${game.passwords.game ? `
+                        <div class="mb-3">
+                            <p class="font-medium text-gray-700">ตัวเกม:</p>
+                            <code class="block mt-1 p-2 bg-white border rounded select-all">${game.passwords.game}</code>
+                        </div>
+                    ` : ''}
+                    ${game.passwords.patch ? `
+                        <div class="mb-3">
+                            <p class="font-medium text-gray-700">Patch:</p>
+                            <code class="block mt-1 p-2 bg-white border rounded select-all">${game.passwords.patch}</code>
+                        </div>
+                    ` : ''}
+                </div>
             ` : ''}
         </div>
     `;

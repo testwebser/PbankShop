@@ -1018,7 +1018,29 @@ const gameDetails = {
             ]
         },
         downloadLinks: {
-        game: "https://buzzheavier.com/to3o0v70wici"
+            game: [
+                "https://gofile.io/d/2zJTvi",
+                "https://gofile.io/d/OSEpLk",
+                "https://gofile.io/d/IyEHN8",
+                "https://gofile.io/d/EBAqtJ",
+                "https://gofile.io/d/5rg2IY",
+                "https://gofile.io/d/OQ47os",
+                "https://gofile.io/d/Rza4Ck",
+                "https://gofile.io/d/miUzAa",
+                "https://gofile.io/d/Oie7kJ",
+                "https://gofile.io/d/zkspj3",
+                "https://gofile.io/d/VYJDyg",
+            ],
+            patch: [
+                { url: "https://gofile.io/d/F5NeTp", name: "SoT.v2.133.2214.0.to.v2.133.8626.0" },
+                { url: "https://gofile.io/d/lxHj1a", name: "SoT.v2.133.8626.0.to.v2.133.9415.0" },
+                { url: "https://gofile.io/d/bAVOrt", name: "SoT.v2.133.9415.0.to.v2.134.217.0" },
+                { url: "https://gofile.io/d/CPTZIh", name: "SoT.v2.134.217.0.to.v2.134.6221.0" },
+                { url: "https://gofile.io/d/rYws3C", name: "SoT.v2.134.6221.0.to.v2.135.97.0" },
+            ],
+        },
+        passwords: { 
+            game: "online-fix.me",
         }
     },
 
