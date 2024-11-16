@@ -23,4 +23,38 @@ function loadOptimizedImage(src, alt, className) {
                  decoding="async">
         `;
     }
-} 
+}
+
+// สร้างฟังก์ชันสำหรับหา LCP image
+function getLCPImageUrl(games) {
+    // ตรวจสอบว่ามีเกมอยู่ในอาร์เรย์หรือไม่
+    if (!games || games.length === 0) return null;
+    
+    // ใช้รูปแรกเป็น LCP image
+    return games[0].image.replace(/\.(jpg|png)$/, '.webp');
+}
+
+// สร้าง preload link tag แบบ dynamic
+function createPreloadLink(imageUrl) {
+    const link = document.createElement('link');
+    link.rel = 'preload';
+    link.as = 'image';
+    link.href = imageUrl;
+    link.type = 'image/webp';
+    link.fetchPriority = 'high';
+    return link;
+}
+
+// เพิ่ม preload hint แบบ dynamic
+function addPreloadHint() {
+    const lcpImageUrl = getLCPImageUrl(games);
+    if (lcpImageUrl) {
+        const preloadLink = createPreloadLink(lcpImageUrl);
+        document.head.appendChild(preloadLink);
+    }
+}
+
+// เรียกใช้ฟังก์ชันเมื่อ JavaScript โหลด
+document.addEventListener('DOMContentLoaded', () => {
+    addPreloadHint();
+}); 
