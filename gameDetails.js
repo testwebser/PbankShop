@@ -1144,5 +1144,38 @@ const gameDetails = {
             ]
         },
         },
+        "subnautica": {
+            title: "Subnautica",
+            image: "images/games/subnautica.webp",
+            description: "เกมเอาชีวิตรอดใต้ท้องทะเลที่คุณต้องสำรวจมหาสมุทรเอเลี่ยนอันกว้างใหญ่ สร้างอุปกรณ์ ฐานใต้น้ำ และค้นหาความลับของโลกใต้ทะเลลึก",
+            features: [
+                "โลกใต้ทะเลที่สวยงามและเต็มไปด้วยชีวิต",
+                "ระบบการสร้างฐานและยานพาหนะใต้น้ำ",
+                "การสำรวจและค้นพบความลับของโลกเอเลี่ยน",
+                "ระบบการเอาชีวิตรอดที่สมจริง",
+                "เรื่องราวที่น่าติดตามและน่าค้นหา"
+            ],
+            systemRequirements: {
+                minimum: [
+                    "OS: Windows Vista SP2 or newer",
+                    "Processor: Intel Haswell 2.6GHz or equivalent",
+                    "Memory: 4 GB RAM",
+                    "Graphics: Intel HD 4600 or equivalent",
+                    "Storage: 20 GB available space"
+                ],
+                recommended: [
+                    "OS: Windows 10 64-bit",
+                    "Processor: Intel Core i5 or equivalent",
+                    "Memory: 8 GB RAM",
+                    "Graphics: NVIDIA GTX 550 Ti or equivalent",
+                    "Storage: 20 GB available space"
+                ]
+            },
+            downloadLinks: {
+                game: [
+                    "https://datanodes.to/1vjswcqbwtbz/Subnautica.rar"
+                ]
+            },
+            },
 
 };

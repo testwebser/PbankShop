@@ -202,6 +202,13 @@ const games = [
         description:"Thief Simulator 2 เป็นภาคต่อที่พัฒนาต่อยอดจากภาคแรก มาพร้อมกับกราฟิกที่สวยงามขึ้น ระบบการเล่นที่ลึกซึ้งขึ้น และพื้นที่การโจรกรรมที่กว้างขวางขึ้น",
         detailLink:"thief-simulator-2-detail.html"
     },
+    {
+        id:"subnautica",
+        title:"Subnautica",
+        image:"images/games/subnautica.webp",
+        description:"Subnautica เป็นเกมเอาชีวิตรอดใต้ท้องทะเลที่คุณต้องสำรวจมหาสมุทรเอเลี่ยนอันกว้างใหญ่ สร้างอุปกรณ์ ฐานใต้น้ำ และค้นหาความลับของโลกใต้ทะเลลึก",
+        detailLink:"subnautica-detail.html"
+    },
 ];
 
 function createGameCard(game, index) {
