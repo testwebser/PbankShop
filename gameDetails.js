@@ -1077,6 +1077,72 @@ const gameDetails = {
         downloadLinks: {
             game: "https://buzzheavier.com/wj3pfdpeqpzr"
         }
-    }
+    },
+    "thief-simulator": {
+        title: "Thief Simulator",
+        image: "images/games/thief-simulator.jpg",
+        description: "Thief Simulator เป็นเกมจำลองการเป็นขโมยที่สมจริง คุณจะได้วางแผน สอดแนม และขโมยทรัพย์สินจากบ้านต่างๆ พร้อมทั้งพัฒนาทักษะและอุปกรณ์การโจรกรรมของคุณ",
+        features: [
+            "โลกเปิดที่มีบ้านให้ขโมยมากมาย",
+            "ระบบการสอดแนมและวางแผนที่สมจริง",
+            "การพัฒนาทักษะและอุปกรณ์การโจรกรรม",
+            "ระบบการขายของขโมยได้",
+            "ภารกิจที่หลากหลายและท้าทาย"
+        ],
+        systemRequirements: {
+            minimum: [
+                "OS: Windows 7 64-bit",
+                "Processor: Intel Core i5",
+                "Memory: 8 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 750",
+                "Storage: 6 GB available space"
+            ],
+            recommended: [
+                "OS: Windows 10 64-bit",
+                "Processor: Intel Core i7",
+                "Memory: 16 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 1060",
+                "Storage: 6 GB available space"
+            ]
+        },
+        downloadLinks: {
+            game: [
+                "https://datanodes.to/04ga363q9cfr/Thief-Simulator.rar"
+            ]
+        },
+        },
+        "thief-simulator-2": {
+        title: "Thief Simulator 2",
+        image: "images/games/thief-simulator-2.jpg",
+        description: "Thief Simulator 2 เป็นภาคต่อที่พัฒนาต่อยอดจากภาคแรก มาพร้อมกับกราฟิกที่สวยงามขึ้น ระบบการเล่นที่ลึกซึ้งขึ้น และพื้นที่การโจรกรรมที่กว้างขวางขึ้น",
+        features: [
+            "โลกเปิดขนาดใหญ่ที่มีบ้านและสถานที่ให้ขโมยมากมาย",
+            "ระบบการโจรกรรมที่สมจริงและซับซ้อนขึ้น",
+            "อุปกรณ์และเครื่องมือใหม่ๆ มากมาย",
+            "กราฟิกที่สวยงามและสมจริงขึ้น",
+            "ระบบการพัฒนาตัวละครที่ลึกซึ้ง"
+        ],
+        systemRequirements: {
+            minimum: [
+                "OS: Windows 10 64-bit",
+                "Processor: Intel Core i5-6600 / AMD Ryzen 5 1600",
+                "Memory: 8 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 1060 6GB / AMD Radeon RX 580 8GB",
+                "Storage: 25 GB available space"
+            ],
+            recommended: [
+                "OS: Windows 10 64-bit",
+                "Processor: Intel Core i7-8700K / AMD Ryzen 7 2700X",
+                "Memory: 16 GB RAM",
+                "Graphics: NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700",
+                "Storage: 25 GB available space"
+            ]
+        },
+        downloadLinks: {
+            game: [
+                "https://datanodes.to/oybvccp86zy4/Thief-Simulator-2.rar"
+            ]
+        },
+        },
 
 };

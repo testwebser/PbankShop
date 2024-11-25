@@ -187,7 +187,21 @@ const games = [
         image: "images/games/metal-gear-solid-v-ground-zeroes.webp",
         description: "METAL GEAR SOLID V: GROUND ZEROES เป็นเกมแอคชั่นสายลับที่เต็มไปด้วยความตื่นเต้น คุณจะได้สวมบทเป็น Snake (Big Boss) ในภารกิจที่ต้องแทรกซึมฐานทัพศัตรูและปลดปล่อยนักโทษในโลกที่เปิดกว้างและสมจริง",
         detailLink:"metal-gear-solid-v-ground-zeroes-detail.html"
-    }
+    },
+    {
+        id:"thief-simulator",
+        title:"Thief Simulator",
+        image:"images/games/thief-simulator.webp",
+        description:"Thief Simulator เป็นเกมจำลองการเป็นขโมยที่สมจริง คุณจะได้วางแผน สอดแนม และขโมยทรัพย์สินจากบ้านต่างๆ พร้อมทั้งพัฒนาทักษะและอุปกรณ์การโจรกรรมของคุณ",
+        detailLink:"thief-simulator-detail.html"
+    },
+    {
+        id:"thief-simulator-2",
+        title:"Thief Simulator 2",
+        image:"images/games/thief-simulator-2.webp",
+        description:"Thief Simulator 2 เป็นภาคต่อที่พัฒนาต่อยอดจากภาคแรก มาพร้อมกับกราฟิกที่สวยงามขึ้น ระบบการเล่นที่ลึกซึ้งขึ้น และพื้นที่การโจรกรรมที่กว้างขวางขึ้น",
+        detailLink:"thief-simulator-2-detail.html"
+    },
 ];
 
 function createGameCard(game, index) {
