@@ -1107,7 +1107,7 @@ const gameDetails = {
         },
         downloadLinks: {
             game: [
-                "https://datanodes.to/04ga363q9cfr/Thief-Simulator.rar"
+                "https://1cloudfile.com/e0vf"
             ]
         },
         },
@@ -1140,7 +1140,7 @@ const gameDetails = {
         },
         downloadLinks: {
             game: [
-                "https://datanodes.to/oybvccp86zy4/Thief-Simulator-2.rar"
+                "https://gofile.io/d/rJwCr9"
             ]
         },
         },
