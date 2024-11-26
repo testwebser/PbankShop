@@ -203,11 +203,11 @@ const games = [
         detailLink:"thief-simulator-2-detail.html"
     },
     {
-        id:"subnautica",
-        title:"Subnautica",
-        image:"images/games/subnautica.webp",
-        description:"Subnautica เป็นเกมเอาชีวิตรอดใต้ท้องทะเลที่คุณต้องสำรวจมหาสมุทรเอเลี่ยนอันกว้างใหญ่ สร้างอุปกรณ์ ฐานใต้น้ำ และค้นหาความลับของโลกใต้ทะเลลึก",
-        detailLink:"subnautica-detail.html"
+        id: "metal-gear-solid-v-the-phantom-pain",
+        title: "Metal Gear Solid V: The Phantom Pain",
+        image: "images/games/metal-gear-solid-v-the-phantom-pain.webp",
+        description: "เกมแอคชั่นสเตลธ์ที่ได้รับการยกย่องว่าเป็นหนึ่งในเกมที่ดีที่สุด คุณจะได้สวมบทเป็น Snake ในภารกิจแก้แค้นที่พาคุณไปทั่วโลกเปิดขนาดใหญ่ พร้อมระบบเกมเพลย์ที่ลึกซึ้งและเรื่องราวที่ซับซ้อน",
+        detailLink: "metal-gear-solid-v-the-phantom-pain-detail.html"
     },
 ];
 

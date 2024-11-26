@@ -1177,5 +1177,44 @@ const gameDetails = {
                 ]
             },
             },
+            "metal-gear-solid-v-the-phantom-pain": {
+                title: "Metal Gear Solid V: The Phantom Pain",
+                image: "images/games/metal-gear-solid-v-the-phantom-pain.webp",
+                description: "เกมแอคชั่นสเตลธ์ที่ได้รับการยกย่องว่าเป็นหนึ่งในเกมที่ดีที่สุด คุณจะได้สวมบทเป็น Snake ในภารกิจแก้แค้นที่พาคุณไปทั่วโลกเปิดขนาดใหญ่ พร้อมระบบเกมเพลย์ที่ลึกซึ้งและเรื่องราวที่ซับซ้อน",
+                features: [
+                    "โลกเปิดขนาดใหญ่ที่มีภารกิจหลากหลาย",
+                    "ระบบการแทรกซึมและต่อสู้ที่ลื่นไหล",
+                    "การพัฒนาฐานทัพ Mother Base",
+                    "ระบบ Buddy ที่ให้คุณเลือกผู้ช่วยในภารกิจ",
+                    "กราฟิกและเอนจิ้น Fox Engine ที่สวยงาม",
+                    "ระบบออนไลน์ Forward Operating Base (FOB)",
+                    "โหมด Metal Gear Online"
+                ],
+                systemRequirements: {
+                    minimum: [
+                        "OS: Windows 7x64, Windows 8x64, Windows 10x64",
+                        "Processor: Intel Core i5-4460 (3.40 GHz) or better; Quad-core or better",
+                        "Memory: 4 GB RAM",
+                        "Graphics: NVIDIA GeForce GTX 650 (2GB) or better",
+                        "DirectX: Version 11",
+                        "Storage: 28 GB available space"
+                    ],
+                    recommended: [
+                        "OS: Windows 7x64, Windows 8x64, Windows 10x64",
+                        "Processor: Intel Core i7-4790 (3.60GHz) or better",
+                        "Memory: 8 GB RAM",
+                        "Graphics: NVIDIA GeForce GTX 760 (DirectX 11 graphics card required)",
+                        "DirectX: Version 11",
+                        "Storage: 28 GB available space"
+                    ]
+                },
+                downloadLinks: {
+                    game: [
+                        "https://gofile.io/d/WT0GLB",
+                    ],
+                },
+                hasCrack: false,
+             
+            }
 
 };
