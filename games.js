@@ -216,6 +216,41 @@ const games = [
         description: "เกมแอคชั่นสเตลธ์ที่ได้รับการยกย่องว่าเป็นหนึ่งในเกมที่ดีที่สุด คุณจะได้สวมบทเป็น Snake ในภารกิจแก้แค้นที่พาคุณไปทั่วโลกเปิดขนาดใหญ่ พร้อมระบบเกมเพลย์ที่ลึกซึ้งและเรื่องราวที่ซับซ้อน",
         detailLink: "metal-gear-solid-v-the-phantom-pain-detail.html"
     },
+    {
+        id: "stalker-2-heart-of-chornobyl",
+        title: "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+        image: "images/games/stalker-2-heart-of-chornobyl.webp",
+        description: "เกมยิงมุมมองบุคคลที่หนึ่งแนวเอาชีวิตรอดในโลกหลังวันสิ้นโลก ที่ผู้เล่นจะได้สำรวจ The Zone พื้นที่รอบโรงไฟฟ้านิวเคลียร์เชอร์โนบิล ที่เต็มไปด้วยอันตรายจากรังสี สิ่งมีชีวิตกลายพันธุ์ และปรากฏการณ์เหนือธรรมชาติ",
+        detailLink: "stalker-2-heart-of-chornobyl-detail.html"
+    },
+    {
+        id:"assassins-creed-mirage",
+        title:"Assassin's Creed Mirage",
+        image:"images/games/assassins-creed-mirage.webp",
+        description:"Assassin's Creed Mirage เป็นเกมแอคชั่นผจญภัยที่นำเสนอการต่อสู้แบบโลกเปิดที่มีความสมจริงและน่าตื่นเต้น",
+        detailLink:"assassins-creed-mirage-detail.html"
+    },
+    {
+        id:"max-payne-3",
+        title:"Max Payne 3",
+        image:"images/games/max-payne-3.webp",
+        description:"Max Payne 3 เป็นเกมแอคชั่นผจญภัยที่นำเสนอการต่อสู้แบบโลกเปิดที่มีความสมจริงและน่าตื่นเต้น",
+        detailLink:"max-payne-3-detail.html"
+    },
+    {
+        id:"call-of-duty-black-ops-cold-war",
+        title:"Call of Duty Black Ops Cold War",
+        image:"images/games/call-of-duty-black-ops-cold-war.webp",
+        description:"Call of Duty Black Ops Cold War เป็นเกมแอคชั่นผจญภัยที่นำเสนอการต่อสู้แบบโลกเปิดที่มีความสมจริงและน่าตื่นเต้น",
+        detailLink:"call-of-duty-black-ops-cold-war-detail.html"
+    },
+    {
+        id:"bayonetta",
+        title:"Bayonetta",
+        image:"images/games/bayonetta.webp",
+        description:"Bayonetta เป็นเกมแอคชั่นผจญภัยที่นำเสนอการต่อสู้แบบโลกเปิดที่มีความสมจริงและน่าตื่นเต้น",
+        detailLink:"bayonetta-detail.html"
+    }
 ];
 
 function createGameCard(game, index) {

@@ -1084,6 +1084,193 @@ const gameDetails = {
                 },
                 hasCrack: false,
              
-            }
+            },
+            "stalker-2-heart-of-chornobyl": {
+                title: "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+                image: "images/games/stalker-2-heart-of-chornobyl.jpg",
+                description: "S.T.A.L.K.E.R. 2: Heart of Chornobyl เป็นเกมยิงมุมมองบุคคลที่หนึ่งแนวเอาชีวิตรอดในโลกหลังวันสิ้นโลก ที่ผู้เล่นจะได้สำรวจ The Zone พื้นที่รอบโรงไฟฟ้านิวเคลียร์เชอร์โนบิล ที่เต็มไปด้วยอันตรายจากรังสี สิ่งมีชีวิตกลายพันธุ์ และปรากฏการณ์เหนือธรรมชาติ",
+                features: [
+                    "โลกเปิดขนาดใหญ่ที่สมจริงและน่ากลัว",
+                    "ระบบการเอาชีวิตรอดที่ท้าทาย",
+                    "การต่อสู้ที่สมจริงและน่าตื่นเต้น",
+                    "เรื่องราวที่น่าติดตามและมีหลายตัวเลือก",
+                    "กราฟิกคุณภาพสูงด้วย Unreal Engine 5",
+                    "ระบบ A-Life 2.0 ที่สร้างโลกที่มีชีวิตชีวา"
+                ],
+                systemRequirements: {
+                    minimum: [
+                        "OS: Windows 10 (latest update)",
+                        "Processor: AMD Ryzen 5 1600X / Intel Core i5-7600K",
+                        "Memory: 16 GB RAM",
+                        "Graphics: AMD Radeon RX 580 8GB / NVIDIA GeForce GTX 1060 6GB",
+                        "Storage: 150 GB available space",
+                        "DirectX: Version 12"
+                    ],
+                    recommended: [
+                        "OS: Windows 10 (latest update)",
+                        "Processor: AMD Ryzen 7 3700X / Intel Core i7-9700K",
+                        "Memory: 16 GB RAM",
+                        "Graphics: AMD Radeon RX 5700 XT 8GB / NVIDIA GeForce RTX 2070 SUPER 8GB",
+                        "Storage: 150 GB SSD",
+                        "DirectX: Version 12"
+                    ]
+                },
+                downloadLinks: {
+                    game: [
+                        "https://gofile.io/d/tNgFXt"
+                    ]
+                },
+                hasCrack: false
+            },
+            "assassins-creed-mirage": {
+                title: "Assassin's Creed Mirage",
+                image: "images/games/assassins-creed-mirage.jpg",
+                description: "Assassin's Creed Mirage พาคุณย้อนกลับไปสู่รากเหง้าของซีรีส์ในแบกแดดยุคทองแห่งศตวรรษที่ 9 คุณจะได้สวมบทเป็น Basim นักขโมยจอมเจ้าเล่ห์ที่ต้องการค้นหาคำตอบเกี่ยวกับอดีตอันลึกลับของตัวเอง ผ่านการผจญภัยที่เต็มไปด้วยการลอบเร้น การต่อสู้ และปริศนาที่รอการไขคำตอบ",
+                features: [
+                    "การเล่นแบบสเตลธ์ที่ลึกซึ้งและท้าทาย",
+                    "เมืองแบกแดดที่มีชีวิตชีวาและสมจริง",
+                    "ระบบการต่อสู้ที่ปรับปรุงใหม่",
+                    "ภารกิจหลักและรองที่น่าสนใจ",
+                    "กราฟิกและเสียงคุณภาพสูง",
+                    "เรื่องราวที่เชื่อมโยงกับจักรวาล Assassin's Creed",
+                    "ระบบพาร์คัวร์ที่ลื่นไหลและสมจริง"
+                ],
+                systemRequirements: {
+                    minimum: [
+                        "OS: Windows 10 64-bit",
+                        "Processor: AMD Ryzen 5 1600 / Intel Core i7-4790K",
+                        "Memory: 8 GB RAM",
+                        "Graphics: AMD Radeon RX 570 (4 GB) / NVIDIA GeForce GTX 1060 (6 GB)",
+                        "DirectX: Version 12",
+                        "Storage: 40 GB available space"
+                    ],
+                    recommended: [
+                        "OS: Windows 10/11 64-bit",
+                        "Processor: AMD Ryzen 5 3600 / Intel Core i7-8700K",
+                        "Memory: 16 GB RAM",
+                        "Graphics: AMD Radeon RX 5600 XT (6GB) / NVIDIA GeForce RTX 2060 (6 GB)",
+                        "DirectX: Version 12",
+                        "Storage: 40 GB SSD space"
+                    ]
+                },
+                downloadLinks: {
+                    game: [
+                        "https://gofile.io/d/rznNRY",
+                    ]
+                },
+                hasCrack: false,
+            },
+            "max-payne-3": {
+                title: "Max Payne 3",
+                image: "images/games/max-payne-3.jpg",
+                description: "Max Payne 3 เป็นเกมแอคชั่นมุมมองบุคคลที่สามที่นำเสนอเรื่องราวของ Max Payne อดีตตำรวจนิวยอร์กที่ผันตัวมาเป็นบอดี้การ์ดส่วนตัวในเซาเปาโล บราซิล เขาต้องต่อสู้กับองค์กรอาชญากรรมและความมืดมนในอดีตของตัวเอง",
+                features: [
+                    "ระบบการยิงที่ลื่นไหลพร้อมกับ Bullet Time อันเป็นเอกลักษณ์",
+                    "เนื้อเรื่องดิบเถื่อนและเข้มข้นแบบหนังนัวร์",
+                    "กราฟิกสมจริงด้วย RAGE Engine",
+                    "การเคลื่อนไหวตัวละครที่สมจริงด้วย Euphoria Engine",
+                    "โหมดมัลติเพลเยอร์ที่มีระบบการเล่นหลากหลาย",
+                    "เสียงประกอบและดนตรีคุณภาพสูง"
+                ],
+                systemRequirements: {
+                    minimum: [
+                        "OS: Windows 7 64-Bit / Windows 8 64-Bit / Windows 10 64-Bit",
+                        "Processor: Intel Dual Core 2.4 GHz / AMD Dual Core 2.6 GHz",
+                        "Memory: 2 GB RAM",
+                        "Graphics: NVIDIA GeForce 8600 GT 512MB / Radeon HD 3400 512MB",
+                        "DirectX: Version 9.0c",
+                        "Storage: 35 GB available space"
+                    ],
+                    recommended: [
+                        "OS: Windows 7 64-Bit / Windows 8 64-Bit / Windows 10 64-Bit",
+                        "Processor: Intel i7 3930K (6 core) / AMD FX 8150 (8 core)",
+                        "Memory: 4 GB RAM",
+                        "Graphics: NVIDIA GeForce GTX 680 / AMD Radeon HD 7970",
+                        "DirectX: Version 11",
+                        "Storage: 35 GB available space"
+                    ]
+                },
+                downloadLinks: {
+                    game: [
+                        "https://dd.buzzheavier.com/f/GI8xdo1NQAA="
+                    ]
+                },
+                hasCrack: false,
+            },
+            "call-of-duty-black-ops-cold-war": {
+                title: "Call of Duty: Black Ops Cold War",
+                image: "images/games/call-of-duty-black-ops-cold-war.jpg",
+                description: "Call of Duty: Black Ops Cold War นำเสนอประสบการณ์สงครามเย็นในช่วงทศวรรษ 1980s ผู้เล่นจะได้เข้าร่วมในภารกิจลับสุดยอดที่ส่งผลต่อการเมืองระดับโลก พร้อมด้วยโหมดมัลติเพลเยอร์ที่เข้มข้นและโหมดซอมบี้สุดระทึก",
+                features: [
+                    "แคมเปญเนื้อเรื่องที่เข้มข้นในยุคสงครามเย็น",
+                    "โหมดมัลติเพลเยอร์หลากหลายรูปแบบ",
+                    "โหมดซอมบี้ที่ได้รับการพัฒนาใหม่",
+                    "ระบบอาวุธที่หลากหลายและปรับแต่งได้",
+                    "กราฟิกและเสียงคุณภาพสูง",
+                    "การเชื่อมต่อกับ Warzone",
+                    "ระบบ Battle Pass และการอัปเดตเนื้อหาใหม่"
+                ],
+                systemRequirements: {
+                    minimum: [
+                        "OS: Windows 10 64-bit (latest update)",
+                        "Processor: Intel Core i3-4340 or AMD FX-6300",
+                        "Memory: 8 GB RAM",
+                        "Graphics: NVIDIA GeForce GTX 670/GeForce GTX 1650 or AMD Radeon HD 7950",
+                        "DirectX: Version 12",
+                        "Storage: 125 GB available space"
+                    ],
+                    recommended: [
+                        "OS: Windows 10 64-bit (latest update)",
+                        "Processor: Intel Core i5-2500K or AMD Ryzen R5 1600X",
+                        "Memory: 12 GB RAM",
+                        "Graphics: NVIDIA GeForce GTX 970/GTX 1660 Super or AMD Radeon R9 390/AMD RX 580",
+                        "DirectX: Version 12",
+                        "Storage: 125 GB available space (SSD recommended)"
+                    ]
+                },
+                downloadLinks: {
+                    game: [
+                        "https://buzzheavier.com/kn1zna1on0fw",
+                    ]
+                },
+                hasCrack: false,
+            },
+            "bayonetta": {
+                title: "Bayonetta",
+                image: "images/games/bayonetta.jpg",
+                description: "Bayonetta เป็นเกมแอคชั่นแฮ็คแอนด์สแลชสุดมันส์ที่คุณจะได้สวมบทเป็นแม่มดสาวผู้ทรงพลัง ผู้ใช้เวทมนตร์และอาวุธหลากหลายต่อสู้กับเหล่าทูตสวรรค์ ด้วยระบบการต่อสู้ที่ลื่นไหลและสไตล์การนำเสนอที่เป็นเอกลักษณ์",
+                features: [
+                    "ระบบการต่อสู้ที่ลื่นไหลและหลากหลาย",
+                    "ท่าไม้ตายและการคอมโบที่น่าทึ่ง",
+                    "อาวุธและเวทมนตร์ให้เลือกใช้มากมาย",
+                    "บอสไฟท์ที่ยิ่งใหญ่และท้าทาย",
+                    "กราฟิกและดีไซน์ตัวละครที่เป็นเอกลักษณ์",
+                    "เพลงประกอบที่ทรงพลังและน่าจดจำ"
+                ],
+                systemRequirements: {
+                    minimum: [
+                        "OS: Windows 7/8/10",
+                        "Processor: Core i3 3220",
+                        "Memory: 4 GB RAM",
+                        "Graphics: Radeon HD 6950 / GeForce GTX 570",
+                        "DirectX: Version 9.0c",
+                        "Storage: 20 GB available space"
+                    ],
+                    recommended: [
+                        "OS: Windows 7/8/10",
+                        "Processor: Core i5 4460",
+                        "Memory: 8 GB RAM",
+                        "Graphics: Radeon HD 7870 / GeForce GTX 760",
+                        "DirectX: Version 9.0c",
+                        "Storage: 20 GB available space"
+                    ]
+                },
+                downloadLinks: {
+                    game: [
+                        "https://datanodes.to/clw758bcg0el/Bayonetta.rar"
+                    ]
+                },
+                hasCrack: false,
+            },
 
 };
