@@ -218,42 +218,100 @@
             opacity: 1 !important;
         }
     </style>
+    <style>
+        .hero-section {
+            background: linear-gradient(to right, #1e3a8a, #1e40af);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: url('images/pattern.svg') repeat;
+            opacity: 0.1;
+            animation: moveBackground 20s linear infinite;
+        }
+
+        @keyframes moveBackground {
+            from { transform: translateX(0); }
+            to { transform: translateX(-50%); }
+        }
+
+        .game-card {
+            transform: translateY(0);
+            transition: all 0.3s ease;
+        }
+
+        .game-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
 </head>
-<body class="bg-gray-100">
-    <header class="text-white site-header">
-        <div class="header-container">
-            <div class="logo-wrapper">
-                <img src="images/logo.webp" 
-                     alt="PbankShop Logo" 
-                     class="logo-image"
-                     width="48" 
-                     height="48"
-                     fetchpriority="high">
-                <span class="logo-text">PbankShop</span>
-            </div>
-            <nav class="nav-wrapper">
-                <a href="index.html" class="nav-link hover:text-gray-300">หน้าหลัก</a>
-                <a href="contact.html" class="nav-link hover:text-gray-300">ติดต่อเรา</a>
+<body class="bg-gradient-to-br from-gray-900 to-blue-900 text-white">
+    <header class="fixed w-full bg-blue-900/80 backdrop-blur-md z-50">
+        <div class="container mx-auto px-4">
+            <nav class="flex items-center justify-between h-16">
+                <div class="flex items-center space-x-3">
+                    <img src="images/logo.webp" alt="PbankShop" class="w-10 h-10">
+                    <span class="text-xl font-bold bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent">
+                        PbankShop
+                    </span>
+                </div>
+                <div class="flex items-center space-x-6">
+                    <a href="index.html" class="nav-link hover:text-blue-300 transition-colors">หน้าหลัก</a>
+                    <a href="contact.html" class="nav-link hover:text-blue-300 transition-colors">ติดต่อเรา</a>
+                </div>
             </nav>
         </div>
     </header>
-    <main class="container px-4 mx-auto mt-8 tailwind-content">
-        <h2 class="text-2xl font-semibold mb-6 text-gray-800 min-h-[2rem]">เกมยอดนิยม</h2>
-        
-        <!-- เพิ่ม wrapper div ที่มีความสูงคงที่ -->
-        <div class="min-h-[calc(100vh-12rem)]">
-            <div id="game-container" 
-                 class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-                <!-- Loading skeleton with fixed heights -->
-                <div class="animate-pulse bg-gray-200 rounded-lg h-[28rem]"></div>
-                <div class="animate-pulse bg-gray-200 rounded-lg h-[28rem]"></div>
-                <div class="animate-pulse bg-gray-200 rounded-lg h-[28rem]"></div>
+    <section class="hero-section pt-24 pb-16">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-3xl mx-auto">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent">
+                    แหล่งรวมเกมคุณภาพ
+                </h1>
+                <p class="text-lg text-blue-200 mb-8">
+                    ค้นพบเกมใหม่ๆ อัพเดททุกวัน พร้อมระบบดาวน์โหลดที่รวดเร็ว
+                </p>
+            </div>
+        </div>
+    </section>
+    <main class="container mx-auto px-4 -mt-16 relative z-10">
+        <div class="flex items-center justify-between mb-8">
+            <h2 class="text-2xl font-bold text-white">เกมยอดนิยม</h2>
+            <div class="flex space-x-2">
+                <button class="px-4 py-2 rounded-lg bg-blue-800 hover:bg-blue-700 transition-colors">
+                    ล่าสุด
+                </button>
+                <button class="px-4 py-2 rounded-lg bg-blue-800 hover:bg-blue-700 transition-colors">
+                    ยอดนิยม
+                </button>
+            </div>
+        </div>
+        <div id="game-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="animate-pulse">
+                <div class="h-64 bg-blue-800/50 rounded-xl mb-4"></div>
+                <div class="h-4 bg-blue-800/50 rounded w-3/4 mb-2"></div>
+                <div class="h-4 bg-blue-800/50 rounded w-1/2"></div>
             </div>
         </div>
     </main>
-    <footer class="py-6 mt-12 text-white bg-gray-800">
-        <div class="container mx-auto text-center">
-            <p>&copy; 2024 PbankShop. Copyright.</p>
+    <footer class="mt-24 bg-blue-950/80 backdrop-blur-md">
+        <div class="container mx-auto px-4 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">เกี่ยวกับเรา</h3>
+                    <p class="text-blue-200">
+                        PbankShop แหล่งรวมเกมคุณภาพ อัพเดทใหม่ทุกวัน
+                    </p>
+                </div>
+            </div>
+            <div class="border-t border-blue-800 mt-8 pt-8 text-center text-blue-200">
+                <p>&copy; 2024 PbankShop. All rights reserved.</p>
+            </div>
         </div>
     </footer>
     <script>

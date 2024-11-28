@@ -59,45 +59,72 @@
         .nav-wrapper {
             min-width: 200px;
         }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-in {
+            animation: fadeIn 0.6s ease-out forwards;
+        }
     </style>
 </head>
-<body class="bg-gray-100">
-    <header class="text-white site-header">
-        <div class="header-container">
-            <div class="logo-wrapper">
-                <img src="images/logo.webp" 
-                     alt="PbankShop Logo" 
-                     class="logo-image"
-                     width="48" 
-                     height="48"
-                     fetchpriority="high">
-                <span class="logo-text">PbankShop</span>
-            </div>
-            <nav class="nav-wrapper">
-                <a href="index.html" class="nav-link hover:text-gray-300">หน้าหลัก</a>
-                <a href="contact.html" class="nav-link hover:text-gray-300">ติดต่อเรา</a>
+<body class="bg-gradient-to-br from-gray-900 to-blue-900 text-white">
+    <header class="fixed w-full bg-blue-900/80 backdrop-blur-md z-50">
+        <div class="container mx-auto px-4">
+            <nav class="flex items-center justify-between h-16">
+                <div class="flex items-center space-x-3">
+                    <img src="images/logo.webp" alt="PbankShop" class="w-10 h-10">
+                    <span class="text-xl font-bold bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent">
+                        PbankShop
+                    </span>
+                </div>
+                <div class="flex items-center space-x-6">
+                    <a href="index.html" class="nav-link hover:text-blue-300 transition-colors">หน้าหลัก</a>
+                    <a href="contact.html" class="nav-link hover:text-blue-300 transition-colors">ติดต่อเรา</a>
+                </div>
             </nav>
         </div>
     </header>
 
-    <main class="container px-4 mx-auto mt-8">
-        <h2 class="mb-6 text-2xl font-semibold text-gray-800">ติดต่อเรา</h2>
-        <div class="p-6 bg-white rounded-lg shadow-md">
-            <p class="mb-4 text-lg">คุณสามารถติดต่อเราผ่านดิสคอร์ดได้ที่:</p>
-            <div id="discord-profile" class="flex items-center mb-4 space-x-4">
-                <img id="avatar" src="" alt="Discord Avatar" class="w-16 h-16 rounded-full">
-                <div>
-                    <p id="username" class="text-xl font-semibold"></p>
-                    <p id="discriminator" class="text-gray-600"></p>
+    <main class="container px-4 mx-auto pt-24">
+        <div class="max-w-2xl mx-auto fade-in">
+            <h1 class="text-4xl font-bold mb-8 bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent">
+                ติดต่อเรา
+            </h1>
+            
+            <div class="bg-blue-900/40 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden">
+                <div class="p-8">
+                    <h2 class="text-2xl font-semibold mb-6 text-white flex items-center gap-3">
+                        <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                        </svg>
+                        Discord
+                    </h2>
+
+                    <div id="discord-profile" class="bg-blue-800/30 backdrop-blur-sm rounded-xl p-6 hover:bg-blue-800/40 transition-colors">
+                        <div class="flex items-center space-x-4 mb-6">
+                            <img id="avatar" src="" alt="Discord Avatar" class="w-16 h-16 rounded-full ring-2 ring-blue-400">
+                            <div>
+                                <p id="username" class="text-xl font-semibold text-white"></p>
+                                <p id="discriminator" class="text-blue-300"></p>
+                            </div>
+                        </div>
+                        
+                        <button id="add-friend" class="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 text-white px-6 py-3 rounded-lg transition duration-300 transform hover:-translate-y-0.5 shadow-lg hover:shadow-blue-500/50 flex items-center justify-center gap-2">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+                            </svg>
+                            <span>เพิ่มเพื่อน Discord</span>
+                        </button>
+                    </div>
                 </div>
             </div>
-            <button id="add-friend" class="px-4 py-2 font-bold text-white transition duration-300 bg-blue-500 rounded hover:bg-blue-600">
-                เพิ่มเพื่อน
-            </button>
         </div>
     </main>
 
-    <footer class="py-6 mt-12 text-white bg-gray-800">
+    <footer class="mt-24 bg-blue-950/80 backdrop-blur-md">
         <div class="container mx-auto text-center">
             <p>&copy; 2024 PbankShop. Copyright.</p>
         </div>
