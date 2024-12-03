@@ -1272,5 +1272,42 @@ const gameDetails = {
                 },
                 hasCrack: false,
             },
+            "subnautica-below-zero": {
+                title: "Subnautica: Below Zero",
+                image: "images/games/subnautica-below-zero.jpg",
+                description: "Subnautica: Below Zero พาคุณดำดิ่งสู่การผจญภัยใต้ท้องทะเลในดาวเคราะห์น้ำแข็ง 4546B คุณจะต้องเอาชีวิตรอดในสภาพแวดล้อมที่หนาวเย็น สร้างฐานใต้น้ำ สำรวจระบบนิเวศที่เป็นอันตราย และค้นหาความลับที่ซ่อนอยู่ใต้ผืนน้ำแข็ง",
+                features: [
+                    "โลกใต้ทะเลน้ำแข็งที่สวยงามและอันตราย",
+                    "ระบบการเอาชีวิตรอดที่ท้าทายในสภาพอากาศหนาวจัด",
+                    "สิ่งมีชีวิตใต้น้ำแปลกใหม่และน่าค้นหา",
+                    "การสร้างฐานและยานพาหนะใต้น้ำที่หลากหลาย",
+                    "เนื้อเรื่องที่น่าติดตามและเชื่อมโยงกับภาคแรก",
+                    "ระบบคราฟท์และการสำรวจที่ลึกซึ้ง"
+                ],
+                systemRequirements: {
+                    minimum: [
+                        "OS: Windows 7 64-bit",
+                        "Processor: Intel Core i3 / AMD Ryzen 3 2.6GHz",
+                        "Memory: 8 GB RAM",
+                        "Graphics: Intel HD 530 or equivalent",
+                        "DirectX: Version 11",
+                        "Storage: 15 GB available space"
+                    ],
+                    recommended: [
+                        "OS: Windows 10 64-bit",
+                        "Processor: Intel Core i5 / AMD Ryzen 5",
+                        "Memory: 16 GB RAM",
+                        "Graphics: NVIDIA GTX 1050 Ti / AMD Radeon RX 570",
+                        "DirectX: Version 11",
+                        "Storage: 15 GB SSD"
+                    ]
+                },
+                downloadLinks: {
+                    game: [
+                        "https://datanodes.to/xb3byus2a9qt/Subnautica-Below-Zero.rar",
+                    ]
+                },
+                hasCrack: false,
+            },
 
 };

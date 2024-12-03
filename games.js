@@ -250,6 +250,14 @@ const games = [
         image:"images/games/bayonetta.webp",
         description:"Bayonetta เป็นเกมแอคชั่นผจญภัยที่นำเสนอการต่อสู้แบบโลกเปิดที่มีความสมจริงและน่าตื่นเต้น",
         detailLink:"bayonetta-detail.html"
+    },
+    {
+        id:"subnautica-below-zero",
+        title:"Subnautica Below Zero",
+        image:"images/games/subnautica-below-zero.webp",
+        description:"Subnautica Below Zero เป็นเกมเอาชีวิตรอดใต้ท้องทะเลที่นำเสนอการต่อสู้แบบโลกเปิดที่มีความสมจริงและน่าตื่นเต้น",
+        detailLink:"subnautica-below-zero-detail.html"
+
     }
 ];
 
