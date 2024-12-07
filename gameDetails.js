@@ -906,7 +906,8 @@ const gameDetails = {
                 { url: "https://gofile.io/d/bAVOrt", name: "SoT.v2.133.9415.0.to.v2.134.217.0" },
                 { url: "https://gofile.io/d/CPTZIh", name: "SoT.v2.134.217.0.to.v2.134.6221.0" },
                 { url: "https://gofile.io/d/rYws3C", name: "SoT.v2.134.6221.0.to.v2.135.97.0" },
-                { url: "https://gofile.io/d/oUagIM", name: "SoT.v2.135.97.0.to.v2.135.4044.0"}
+                { url: "https://gofile.io/d/oUagIM", name: "SoT.v2.135.97.0.to.v2.135.4044.0"},
+                { url: "https://pixeldrain.com/u/ZETeANW2", name: "SoT.v2.135.4044.0.to.2.135.8227.0"}
             ],
         },
         passwords: { 

@@ -85,18 +85,18 @@ function renderGameDetail() {
             ` : ''}
 
             ${game.passwords ? `
-                <div class="mt-8 p-4 bg-gray-50 rounded-lg">
-                    <h3 class="text-xl font-semibold mb-4">รหัสแตกไฟล์:</h3>
+                <div class="mt-8 p-4 bg-blue-50 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-600">รหัสแตกไฟล์:</h3>
                     ${game.passwords.game ? `
                         <div class="mb-3">
-                            <p class="font-medium text-gray-700">ตัวเกม:</p>
-                            <code class="block mt-1 p-2 bg-white border rounded select-all">${game.passwords.game}</code>
+                            <p class="font-medium text-gray-900">ตัวเกม:</p>
+                            <code class="block mt-1 p-2 bg-blue-100 border border-blue-200 rounded select-all text-gray-900">${game.passwords.game}</code>
                         </div>
                     ` : ''}
                     ${game.passwords.patch ? `
                         <div class="mb-3">
-                            <p class="font-medium text-gray-700">Patch:</p>
-                            <code class="block mt-1 p-2 bg-white border rounded select-all">${game.passwords.patch}</code>
+                            <p class="font-medium text-gray-900">Patch:</p>
+                            <code class="block mt-1 p-2 bg-blue-100 border border-blue-200 rounded select-all text-gray-900">${game.passwords.patch}</code>
                         </div>
                     ` : ''}
                 </div>
