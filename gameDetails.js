@@ -1310,5 +1310,43 @@ const gameDetails = {
                 },
                 hasCrack: false,
             },
+            "backrooms-escape-together": {
+                title: "Backrooms Escape Together",
+                description: "Backrooms Escape Together เป็นเกมสยองขวัญแนว Co-op ที่คุณและเพื่อนต้องร่วมมือกันหาทางออกจาก Backrooms อันน่าสะพรึงกลัว พร้อมเผชิญหน้ากับสิ่งมีชีวิตประหลาดที่อาศัยอยู่ในนั้น",
+                image: "images/games/backrooms-escape-together.jpg",
+                features: [
+                    "เล่น Co-op ได้สูงสุด 4 คน",
+                    "สำรวจ Backrooms หลากหลายระดับ",
+                    "เผชิญหน้ากับสิ่งมีชีวิตสุดสยอง",
+                    "ระบบการเล่นแบบ Survival Horror",
+                    "กลไกการแก้ปริศนาที่ท้าทาย",
+                    "ระบบเสียงสมจริงที่สร้างบรรยากาศน่ากลัว"
+                ],
+                systemRequirements: {
+                    minimum: [
+                        "OS: Windows 10 64-bit",
+                        "Processor: Intel Core i5-4460 / AMD FX-6300",
+                        "Memory: 8 GB RAM",
+                        "Graphics: NVIDIA GeForce GTX 760 / AMD Radeon R7 260x",
+                        "DirectX: Version 11",
+                "Storage: 15 GB available space"
+                    ],
+                    recommended: [
+                        "OS: Windows 10/11 64-bit",
+                        "Processor: Intel Core i7-4790 / AMD Ryzen 5 1600",
+                        "Memory: 16 GB RAM",
+                        "Graphics: NVIDIA GeForce GTX 1060 / AMD Radeon RX 580",
+                        "DirectX: Version 12",
+                        "Storage: 15 GB available space"
+                    ]
+                },
+        downloadLinks: {
+            game: [
+                "https://1cloudfile.com/1rmvd",
+            ],
+        },
+        hasCrack: true,
+        crackLink: "https://megaup.net/9e9fe3f0fff111b02455b0af258b1bf1/BET_Fix_Repair_Steam_Generic.rar"
+    },
 
 };

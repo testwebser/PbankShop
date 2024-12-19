@@ -258,6 +258,13 @@ const games = [
         description:"Subnautica Below Zero เป็นเกมเอาชีวิตรอดใต้ท้องทะเลที่นำเสนอการต่อสู้แบบโลกเปิดที่มีความสมจริงและน่าตื่นเต้น",
         detailLink:"subnautica-below-zero-detail.html"
 
+    },
+    {
+        id:"backrooms-escape-together",
+        title:"Backrooms Escape Together",
+        image:"images/games/backrooms-escape-together.webp",
+        description:"Backrooms Escape Together เป็นเกมสยองขวัญแนว Co-op ที่คุณและเพื่อนต้องร่วมมือกันหาทางออกจาก Backrooms อันน่าสะพรึงกลัว พร้อมเผชิญหน้ากับสิ่งมีชีวิตประหลาดที่อาศัยอยู่ในนั้น",
+        detailLink:"backrooms-escape-together-detail.html"
     }
 ];
 
