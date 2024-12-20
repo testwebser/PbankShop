@@ -265,6 +265,20 @@ const games = [
         image:"images/games/backrooms-escape-together.webp",
         description:"Backrooms Escape Together เป็นเกมสยองขวัญแนว Co-op ที่คุณและเพื่อนต้องร่วมมือกันหาทางออกจาก Backrooms อันน่าสะพรึงกลัว พร้อมเผชิญหน้ากับสิ่งมีชีวิตประหลาดที่อาศัยอยู่ในนั้น",
         detailLink:"backrooms-escape-together-detail.html"
+    },
+    {
+        id:"black-myth-wukong",
+        title:"Black Myth: Wukong",
+        image:"images/games/black-myth-wukong.jpg",
+        description:"Black Myth: Wukong เป็นเกมแอคชัน RPG ที่ได้แรงบันดาลใจจากนิยายคลาสสิกจีนเรื่อง 'ไซอิ๋ว' คุณจะได้สวมบทเป็นซุนหงอคง ในการผจญภัยที่เต็มไปด้วยการต่อสู้สุดมันส์และการสำรวจโลกที่งดงามตามตำนานจีนโบราณ",
+        detailLink:"black-myth-wukong-detail.html"
+    },
+    {
+        id:"escape-the-backrooms",
+        title:"Escape the Backrooms",
+        image:"images/games/escape-the-backrooms.jpg",
+        description:"Escape the Backrooms เป็นเกมสยองขวัญแนว Co-op ที่คุณและเพื่อนต้องร่วมมือกันหาทางออกจาก Backrooms อันน่าสะพรึงกลัว พร้อมเผชิญหน้ากับสิ่งมีชีวิตประหลาดและปริศนาที่ซ่อนอยู่ในแต่ละระดับ",
+        detailLink:"escape-the-backrooms-detail.html"
     }
 ];
 

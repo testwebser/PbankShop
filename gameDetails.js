@@ -1348,5 +1348,88 @@ const gameDetails = {
         hasCrack: true,
         crackLink: "https://megaup.net/9e9fe3f0fff111b02455b0af258b1bf1/BET_Fix_Repair_Steam_Generic.rar"
     },
+    "black-myth-wukong": {
+    title: "Black Myth: Wukong",
+    image: "images/games/black-myth-wukong.jpg",
+    description: "Black Myth: Wukong เป็นเกมแอคชัน RPG ที่ได้แรงบันดาลใจจากนิยายคลาสสิกจีนเรื่อง 'ไซอิ๋ว' คุณจะได้สวมบทเป็นซุนหงอคง ในการผจญภัยที่เต็มไปด้วยการต่อสู้สุดมันส์และการสำรวจโลกที่งดงามตามตำนานจีนโบราณ",
+    features: [
+        "การต่อสู้ที่ท้าทายในสไตล์ Soulslike",
+        "กราฟิกสมจริงด้วย Unreal Engine 5",
+        "ระบบการแปลงร่างที่หลากหลาย",
+        "โลกที่ได้แรงบันดาลใจจากตำนานจีน",
+        "บอสไฟท์ที่น่าประทับใจและยิ่งใหญ่"
+    ],
+    systemRequirements: {
+        minimum: [
+            "OS: Windows 10 64-bit",
+            "Processor: AMD Ryzen 5 2600 / Intel Core i7-8700",
+            "Memory: 16 GB RAM",
+            "Graphics: AMD Radeon RX 5500 XT 8GB / NVIDIA GeForce GTX 1660 Super",
+            "DirectX: Version 12",
+            "Storage: 100 GB available space"
+        ],
+        recommended: [
+            "OS: Windows 10/11 64-bit",
+            "Processor: AMD Ryzen 7 3700X / Intel Core i7-10700K",
+            "Memory: 16 GB RAM",
+            "Graphics: AMD Radeon RX 6700 XT / NVIDIA GeForce RTX 3070",
+            "DirectX: Version 12",
+            "Storage: 100 GB SSD"
+        ]
+    },
+    downloadLinks: {
+        game: [
+            "#"
+        ]
+    },
+    passwords: { 
+        game: "gkkjs",
+        patch: "65546erty",
+    }
+},
+    "escape-the-backrooms": {
+        title: "Escape the Backrooms",
+        image: "images/games/escape-the-backrooms.jpg",
+        description: "Escape the Backrooms เป็นเกมสยองขวัญแนว Co-op ที่คุณและเพื่อนต้องร่วมมือกันหาทางออกจาก Backrooms อันน่าสะพรึงกลัว พร้อมเผชิญหน้ากับสิ่งมีชีวิตประหลาดและปริศนาที่ซ่อนอยู่ในแต่ละระดับ",
+        features: [
+            "เล่น Co-op ได้สูงสุด 4 คน",
+            "สำรวจ Backrooms หลากหลายระดับที่สร้างขึ้นแบบสุ่ม",
+            "เผชิญหน้ากับสิ่งมีชีวิตสุดสยองหลากหลายรูปแบบ",
+            "ระบบการเล่นแบบ Survival Horror ที่เน้นการหลบหนีและเอาชีวิตรอด",
+            "กลไกการแก้ปริศนาที่ท้าทายและน่าตื่นเต้น",
+            "ระบบเสียงสมจริงที่สร้างบรรยากาศน่ากลัว"
+        ],
+        systemRequirements: {
+            minimum: [
+                "OS: Windows 10 64-bit",
+                "Processor: Intel Core i5-4460 / AMD Ryzen 3 1200",
+                "Memory: 8 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 760 / AMD Radeon R7 260x",
+                "DirectX: Version 11",
+                "Storage: 12 GB available space"
+            ],
+            recommended: [
+                "OS: Windows 10/11 64-bit",
+                "Processor: Intel Core i7-4790 / AMD Ryzen 5 1600",
+                "Memory: 16 GB RAM",
+                "Graphics: NVIDIA GeForce GTX 1060 / AMD Radeon RX 580",
+                "DirectX: Version 12",
+                "Storage: 12 GB available space"
+            ]
+        },
+        downloadLinks: {
+            game: [
+                "https://megaup.net/d5b84bd9fc1bd52138b9815ee00c4e05/Escape_the_Backrooms_Build_01282024.part1.rar",
+                "https://megaup.net/a7bdc6977d9b2ad700b6e84a9c429cb9/Escape_the_Backrooms_Build_01282024.part2.rar",
+                "https://megaup.net/26b76fcba7614710a84dc91cdbed9c4f/Escape_the_Backrooms_Build_01282024.part3.rar",
+                "https://megaup.net/904196e565e4d704dce95ad17ae02da3/Escape_the_Backrooms_Build_01282024.part4.rar",
+                "https://megaup.net/58b3651b61d7836996604b6b3f989d56/Escape_the_Backrooms_Build_01282024.part5.rar",
+                "https://megaup.net/a08f05101dc0c5da5b063039d061713c/Escape_the_Backrooms_Build_01282024.part6.rar",
+            ]
+        },
+        hasCrack: true,
+        crackLink: "https://megaup.net/7sMvg/EtB_Fix_Repair_Steam_Generic.rar"
+    
+        },
 
 };
