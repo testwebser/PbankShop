@@ -119,20 +119,18 @@
 
                 <div id="discord-profile" class="bg-blue-800/30 backdrop-blur-sm rounded-xl p-6 hover:bg-blue-800/40 transition-colors">
                     <div class="flex items-center space-x-4 mb-6">
-                        <img id="avatar" src="https://discordlookup.mesalytic.moe/v1/user/262147369750102016/avatar" alt="Discord Avatar" 
-                             class="w-28 h-28 rounded-full mb-6">
+                        <img id="avatar" src="" alt="Discord Avatar" class="w-16 h-16 rounded-full ring-2 ring-blue-400">
                         <div>
-                            <p id="username" class="text-xl font-semibold text-white">Loading...</p>
+                            <p id="username" class="text-xl font-semibold text-white"></p>
                             <p id="discriminator" class="text-blue-300"></p>
-                            <button id="add-friend" 
-                                    class="mt-2 bg-[#5865F2] hover:bg-[#4752C4] text-white px-4 py-2 rounded-lg transition-colors text-sm font-medium flex items-center gap-2">
-                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                                    <path d="M8 9a3 3 0 100-6 3 3 0 000 6zM8 11a6 6 0 016 6H2a6 6 0 016-6zM16 7a1 1 0 10-2 0v1h-1a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V7z"/>
-                                </svg>
-                                Add Friend
-                            </button>
                         </div>
                     </div>
+                    <button id="add-friend" class="w-full bg-[#242424] hover:bg-[#2f2f2f] text-white px-6 py-3 rounded-lg transition duration-300 transform hover:-translate-y-0.5 border border-white/10 hover:border-white/20 flex items-center justify-center gap-2 shadow-lg hover:shadow-black/50">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+                        </svg>
+                        <span>เพิ่มเพื่อน Discord</span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -148,35 +146,19 @@
         const userId = '262147369750102016';
         
         fetch(`https://discordlookup.mesalytic.moe/v1/user/${userId}`)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
+            .then(response => response.json())
             .then(data => {
-                if (data && data.avatar) {
-                    document.getElementById('avatar').src = data.avatar.link;
-                    document.getElementById('username').textContent = data.global_name || data.username;
-                    document.getElementById('discriminator').textContent = data.raw.discriminator !== '0' ? 
-                        `#${data.raw.discriminator}` : '';
-                    
-                    document.getElementById('add-friend').addEventListener('click', () => {
-                        window.open(`https://discord.com/users/${userId}`, '_blank');
-                    });
-                } else {
-                    throw new Error('Invalid data received');
-                }
+                document.getElementById('avatar').src = data.avatar.link;
+                document.getElementById('username').textContent = data.global_name || data.username;
+                document.getElementById('discriminator').textContent = data.raw.discriminator !== '0' ? `#${data.raw.discriminator}` : '';
+
+                document.getElementById('add-friend').addEventListener('click', () => {
+                    window.open(`https://discord.com/users/${data.id}`, '_blank');
+                });
             })
             .catch(error => {
                 console.error('Error fetching Discord profile:', error);
-                // แสดงข้อความ error แบบสวยงามขึ้น
-                document.getElementById('discord-profile').innerHTML = `
-                    <div class="text-center p-4">
-                        <p class="text-red-500 mb-2">ไม่สามารถโหลดข้อมูล Discord profile ได้</p>
-                        <p class="text-gray-400 text-sm">กรุณาลองใหม่อีกครั้งในภายหลัง</p>
-                    </div>
-                `;
+                document.getElementById('discord-profile').innerHTML = '<p class="text-red-500">ไม่สามารถโหลดข้อมูล Discord profile ได้</p>';
             });
     </script>
 </body>
