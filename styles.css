@@ -165,4 +165,27 @@ img {
 /* Prevent layout shift */
 .game-card {
     min-height: 400px;
+}
+
+/* Card Hover Effects */
+.group:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Image Loading Animation */
+img {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+img.loaded {
+    opacity: 1;
+}
+
+/* Grid Layout Responsive Padding */
+@media (min-width: 1024px) {
+    .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 } 

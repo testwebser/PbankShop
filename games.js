@@ -286,35 +286,29 @@ function createGameCard(game, index) {
     const isLCP = index === 0;
     
     return `
-    <div class="group relative overflow-hidden rounded-xl bg-gradient-to-br from-blue-900 to-blue-950 shadow-xl transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl">
-        <!-- รูปภาพและ Overlay -->
-        <div class="relative h-56 overflow-hidden">
-            ${loadOptimizedImage(game.image, game.title, "w-full h-full object-cover transition-transform duration-700 group-hover:scale-110", isLCP)}
-            <div class="absolute inset-0 bg-gradient-to-t from-blue-900/90 via-blue-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+    <div class="group relative overflow-hidden rounded-lg bg-gray-800/40 backdrop-blur-sm transition-all duration-300 hover:transform hover:scale-[1.02] hover:bg-gray-700/40">
+        <!-- Image Container -->
+        <div class="relative aspect-[4/3] overflow-hidden">
+            ${loadOptimizedImage(
+                game.image, 
+                game.title, 
+                "w-full h-full object-cover transition-transform duration-500 group-hover:scale-105",
+                isLCP
+            )}
         </div>
-
-        <!-- ข้อมูลเกม -->
-        <div class="relative p-6">
-
-            <!-- ชื่อเกม -->
-            <h3 class="font-bold text-xl mb-3 text-blue-100 tracking-wide group-hover:text-white transition-colors duration-300">
+        
+        <!-- Game Title Overlay -->
+        <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-gray-900/90 to-transparent">
+            <h3 class="text-lg font-medium text-gray-100 truncate">
                 ${game.title}
             </h3>
-
-            <!-- คำอธิบาย -->
-            <p class="text-blue-200/80 mb-6 line-clamp-3 group-hover:text-blue-100/90 transition-colors duration-300">
-                ${game.description}
-            </p>
-
-            <!-- ปุ่มดูรายละเอียด -->
-            <a href="game-detail.html?id=${game.id}" 
-               class="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 text-white px-6 py-2.5 rounded-lg transition duration-300 transform hover:-translate-y-0.5 shadow-lg hover:shadow-blue-500/50">
-                <span>ดูรายละเอียด</span>
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                </svg>
-            </a>
         </div>
+
+        <!-- Hover Effect Overlay -->
+        <div class="absolute inset-0 bg-gray-900/0 transition-colors duration-300 group-hover:bg-gray-900/10"></div>
+
+        <!-- Clickable Link -->
+        <a href="game-detail.html?id=${game.id}" class="absolute inset-0" aria-label="View ${game.title} details"></a>
     </div>
     `;
 }

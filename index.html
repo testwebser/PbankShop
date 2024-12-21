@@ -250,8 +250,8 @@
         }
     </style>
 </head>
-<body class="bg-gradient-to-br from-gray-900 to-blue-900 text-white">
-    <header class="fixed w-full bg-blue-900/80 backdrop-blur-md z-50">
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
+    <header class="fixed w-full bg-gray-900/80 backdrop-blur-md z-50">
         <div class="container mx-auto px-4">
             <nav class="flex items-center justify-between h-16">
                 <div class="flex items-center space-x-3">
@@ -279,23 +279,17 @@
             </div>
         </div>
     </section>
-    <main class="container mx-auto px-4 -mt-16 relative z-10 min-h-[500px]">
-        <div class="aspect-w-16 aspect-h-9">
-            <div class="flex items-center justify-between mb-8">
-                <h2 class="text-2xl font-bold text-white">เกมยอดนิยม</h2>
-                <div class="flex space-x-2">
-                </div>
-            </div>
-            <div id="game-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="animate-pulse">
-                    <div class="h-64 bg-blue-800/50 rounded-xl mb-4"></div>
-                    <div class="h-4 bg-blue-800/50 rounded w-3/4 mb-2"></div>
-                    <div class="h-4 bg-blue-800/50 rounded w-1/2"></div>
-                </div>
-            </div>
+    <main class="container mx-auto px-4 py-8">
+        <div class="mb-8">
+            <h1 class="text-3xl font-bold text-white mb-2">เกมทั้งหมด</h1>
+        </div>
+
+        <!-- Game Grid -->
+        <div id="game-container" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+            <!-- Game cards will be inserted here -->
         </div>
     </main>
-    <footer class="mt-24 bg-blue-950/80 backdrop-blur-md">
+    <footer class="mt-24 bg-gray-900/80 backdrop-blur-md">
         <div class="container mx-auto px-4 py-12">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>

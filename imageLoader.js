@@ -1,17 +1,17 @@
 function loadOptimizedImage(src, alt, className, isLCP = false) {
-    // Netlify Image Transform
-    const netlifyUrl = `${src}?nf_resize=fit&w=400&h=300`;
+    // ปรับขนาดรูปภาพให้เหมาะสมกับ grid
+    const netlifyUrl = `${src}?nf_resize=fit&w=300&h=225`;
 
     return `
         <img src="${netlifyUrl}"
              alt="${alt}"
              class="${className}"
-             width="400"
-             height="300"
+             width="300"
+             height="225"
              ${isLCP ? '' : 'loading="lazy"'}
              fetchpriority="${isLCP ? 'high' : 'auto'}"
              decoding="${isLCP ? 'sync' : 'async'}"
-             onload="this.classList.add('opacity-100')">
+             onload="this.classList.add('loaded')">
     `;
 }
 
