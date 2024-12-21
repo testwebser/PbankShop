@@ -751,7 +751,7 @@ const gameDetails = {
             game: "https://doodrive.com/f/dqx998",
         },
         hasCrack: true,
-        crackLink: "https://gofile.io/d/5Q4kf3"
+        crackLink: "https://1cloudfile.com/6r7k"
     },
     "liars-bar": {
         title: "Liar’s Bar",
