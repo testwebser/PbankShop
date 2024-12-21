@@ -286,6 +286,13 @@ const games = [
         image:"images/games/chained-together.webp",
         description:"Chained Together เป็นเกมผจญภัยแนว Co-op ที่ผู้เล่นสองคนถูกล่ามโซ่ติดกัน ต้องร่วมมือกันแก้ปริศนาและเอาชีวิตรอดจากอันตรายต่างๆ ในโลกที่เต็มไปด้วยความลึกลับ",
         detailLink:"chained-together-detail.html"
+    },
+    {
+        id:"hogwarts-legacy",
+        title:"Hogwarts Legacy",
+        image:"images/games/hogwarts-legacy.jpg",
+        description:"Hogwarts Legacy เป็นเกม Action RPG โลกเวทมนตร์เปิดกว้างที่จะพาคุณย้อนกลับไปสู่โรงเรียนฮอกวอตส์ในช่วงศตวรรษที่ 19 สวมบทบาทเป็นนักเรียนที่ถือกุญแจไขความลับโบราณที่อาจทำลายโลกเวทมนตร์",
+        detailLink:"hogwarts-legacy-detail.html"
     }
 ];
 

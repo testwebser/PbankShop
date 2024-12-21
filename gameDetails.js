@@ -1469,5 +1469,44 @@ const gameDetails = {
             hasCrack: true,
             crackLink: "https://megaup.net/05a06c13b343c820f4be7bc429bc09fb/ChainedTogether_Fix_Repair_Steam_Generic.rar"
         },
+        "hogwarts-legacy": {
+            title: "Hogwarts Legacy",
+            image: "images/games/hogwarts-legacy.jpg",
+            description: "Hogwarts Legacy เป็นเกม Action RPG โลกเวทมนตร์เปิดกว้างที่จะพาคุณย้อนกลับไปสู่โรงเรียนฮอกวอตส์ในช่วงศตวรรษที่ 19 สวมบทบาทเป็นนักเรียนที่ถือกุญแจไขความลับโบราณที่อาจทำลายโลกเวทมนตร์",
+            features: [
+               "โลกเวทมนตร์แบบ Open World ที่สามารถสำรวจได้อย่างอิสระ",
+               "ระบบการต่อสู้ด้วยเวทมนตร์ที่หลากหลาย",
+               "การทำภารกิจหลักและภารกิจรองที่น่าสนใจ",
+               "ระบบการพัฒนาตัวละครและการเรียนรู้เวทมนตร์",
+               "การสร้างความสัมพันธ์กับตัวละครอื่นๆ",
+               "การเลี้ยงสัตว์วิเศษและการปรุงยา",
+               "กราฟิกและเสียงที่สมจริง"
+           ],
+           systemRequirements: {
+               minimum: [
+                   "OS: Windows 10 64-bit",
+                   "Processor: Intel Core i5-6600 (3.3 GHz) or AMD Ryzen 5 1400 (3.2 GHz)",
+                   "Memory: 16 GB RAM",
+                   "Graphics: NVIDIA GeForce GTX 960 4GB or AMD Radeon RX 470 4GB",
+                   "DirectX: Version 12",
+                   "Storage: 85 GB available space",
+                   "Additional Notes: SSD (Preferred), HDD (Supported), 720p/30 fps, Low Quality Settings"
+               ],
+               recommended: [
+                   "OS: Windows 10 64-bit",
+                   "Processor: Intel Core i7-8700 (3.2 GHz) or AMD Ryzen 5 3600 (3.6 GHz)",
+                   "Memory: 16 GB RAM",
+                   "Graphics: NVIDIA GeForce GTX 1080 Ti or AMD Radeon RX 5700 XT",
+                   "DirectX: Version 12",
+                   "Storage: 85 GB available space",
+                   "Additional Notes: SSD, 1080p/60 fps, High Quality Settings"
+               ]
+           },
+           downloadLinks: {
+               game: [
+                   "https://datanodes.to/3bv1j2gwydpq/Hogwart-Legacy-Deluxe-Edition.rar",
+               ]
+           },
+        }
 
 };
