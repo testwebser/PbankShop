@@ -1431,5 +1431,43 @@ const gameDetails = {
         crackLink: "https://megaup.net/7sMvg/EtB_Fix_Repair_Steam_Generic.rar"
     
         },
+        "chained-together": {
+            title: "Chained Together",
+            image: "images/games/chained-together.webp",
+            description: "Chained Together เป็นเกมผจญภัยแนว Co-op ที่ผู้เล่นสองคนถูกล่ามโซ่ติดกัน ต้องร่วมมือกันแก้ปริศนาและเอาชีวิตรอดจากอันตรายต่างๆ ในโลกที่เต็มไปด้วยความลึกลับ",
+            features: [
+                "เล่น Co-op แบบ 2 ผู้เล่น",
+                "กลไกการเล่นที่ต้องร่วมมือกันแก้ปัญหา",
+                "ปริศนาที่ท้าทายและหลากหลาย",
+                "เรื่องราวที่น่าติดตาม",
+                "กราฟิกสไตล์การ์ตูนที่น่ารัก",
+                "ระบบฟิสิกส์ที่สมจริง"
+            ],
+            systemRequirements: {
+                minimum: [
+                    "OS: Windows 10 64-bit",
+                    "Processor: Intel Core i5-4460 / AMD Ryzen 3 1200",
+                    "Memory: 8 GB RAM",
+                    "Graphics: NVIDIA GeForce GTX 760 / AMD Radeon R7 260x",
+                    "DirectX: Version 11",
+                    "Storage: 4 GB available space"
+                ],
+                recommended: [
+                    "OS: Windows 10/11 64-bit",
+                    "Processor: Intel Core i7-4790 / AMD Ryzen 5 1600",
+                    "Memory: 16 GB RAM",
+                    "Graphics: NVIDIA GeForce GTX 1060 / AMD Radeon RX 580",
+                    "DirectX: Version 12",
+                    "Storage: 4 GB available space"
+                ]
+            },
+            downloadLinks: {
+                game: [
+                    "https://megaup.net/8cb8e332adaaeba5b6940973af80bd8c/Chained_Together_v1.8.2.rar",
+                ]
+            },
+            hasCrack: true,
+            crackLink: "https://megaup.net/05a06c13b343c820f4be7bc429bc09fb/ChainedTogether_Fix_Repair_Steam_Generic.rar"
+        },
 
 };

@@ -279,6 +279,13 @@ const games = [
         image:"images/games/escape-the-backrooms.jpg",
         description:"Escape the Backrooms เป็นเกมสยองขวัญแนว Co-op ที่คุณและเพื่อนต้องร่วมมือกันหาทางออกจาก Backrooms อันน่าสะพรึงกลัว พร้อมเผชิญหน้ากับสิ่งมีชีวิตประหลาดและปริศนาที่ซ่อนอยู่ในแต่ละระดับ",
         detailLink:"escape-the-backrooms-detail.html"
+    },
+    {
+        id:"chained-together",
+        title:"Chained Together",
+        image:"images/games/chained-together.webp",
+        description:"Chained Together เป็นเกมผจญภัยแนว Co-op ที่ผู้เล่นสองคนถูกล่ามโซ่ติดกัน ต้องร่วมมือกันแก้ปริศนาและเอาชีวิตรอดจากอันตรายต่างๆ ในโลกที่เต็มไปด้วยความลึกลับ",
+        detailLink:"chained-together-detail.html"
     }
 ];
 
