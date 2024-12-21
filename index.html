@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>รายละเอียดเกม | PbankShop</title>
+    <link rel="icon" href="images/logo.webp" type="logo/webp">
     
     <!-- Critical CSS inline -->
     <style>
@@ -250,38 +251,52 @@
         }
     </style>
 </head>
-<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
-    <header class="fixed w-full bg-gray-900/80 backdrop-blur-md z-50">
+<body class="bg-[#1e1e1e] min-h-screen">
+    <header class="fixed w-full bg-[#1a1a1a] border-b border-white/5 backdrop-blur-sm z-50">
         <div class="container mx-auto px-4">
             <nav class="flex items-center justify-between h-16">
                 <div class="flex items-center space-x-3">
                     <img src="images/logo.webp" alt="PbankShop" class="w-10 h-10">
-                    <span class="text-xl font-bold bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent">
+                    <span class="text-xl font-bold text-white">
                         PbankShop
                     </span>
                 </div>
                 <div class="flex items-center space-x-6">
-                    <a href="index.html" class="nav-link hover:text-blue-300 transition-colors">หน้าหลัก</a>
-                    <a href="contact.html" class="nav-link hover:text-blue-300 transition-colors">ติดต่อเรา</a>
+                    <a href="index.html" class="text-white hover:text-gray-300 transition-colors">หน้าหลัก</a>
+                    <a href="contact.html" class="text-white hover:text-gray-300 transition-colors">ติดต่อเรา</a>
                 </div>
             </nav>
         </div>
     </header>
-    <section class="hero-section pt-24 pb-16">
-        <div class="container mx-auto px-4">
-            <div class="text-center max-w-3xl mx-auto">
-                <h1 class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent">
-                    แหล่งรวมเกมคุณภาพ
+    <section class="relative bg-[#1a1a1a] border-b border-white/5 overflow-hidden">
+        <div class="absolute inset-0 opacity-20" style="background-image: url('images/pattern.svg');"></div>
+        
+        <div class="container mx-auto px-4 py-24">
+            <div class="relative z-10 max-w-2xl mx-auto text-center space-y-6">
+                <h1 class="text-4xl md:text-5xl font-bold text-white">
+                    PbankShop
                 </h1>
-                <p class="text-lg text-blue-200 mb-8">
-                    ค้นพบเกมใหม่ๆ อัพเดททุกวัน พร้อมระบบดาวน์โหลดที่รวดเร็ว
-                </p>
+                <div class="flex items-center justify-center gap-4 pt-4">
+                    <a href="#games" 
+                       class="bg-[#3a9eff] hover:bg-[#2b8aef] text-white px-8 py-3 rounded-lg transition-colors font-medium">
+                        Browse Games
+                    </a>
+                    <a href="contact.html" 
+                       class="bg-white/10 hover:bg-white/20 text-white px-8 py-3 rounded-lg transition-colors font-medium">
+                        Contact Us
+                    </a>
+                </div>
             </div>
         </div>
     </section>
-    <main class="container mx-auto px-4 py-8">
-        <div class="mb-8">
-            <h1 class="text-3xl font-bold text-white mb-2">เกมทั้งหมด</h1>
+    <main id="games" class="container mx-auto px-4 py-16">
+        <div class="mb-12 text-center">
+            <h2 class="text-3xl font-bold text-white mb-4">
+                Latest Games
+            </h2>
+            <p class="text-gray-400 max-w-2xl mx-auto">
+                Explore our collection of latest game releases
+            </p>
         </div>
 
         <!-- Game Grid -->
@@ -289,19 +304,9 @@
             <!-- Game cards will be inserted here -->
         </div>
     </main>
-    <footer class="mt-24 bg-gray-900/80 backdrop-blur-md">
-        <div class="container mx-auto px-4 py-12">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div>
-                    <h3 class="text-xl font-bold mb-4">เกี่ยวกับเรา</h3>
-                    <p class="text-blue-200">
-                        PbankShop แหล่งรวมเกมคุณภาพ อัพเดทใหม่ทุกวัน
-                    </p>
-                </div>
-            </div>
-            <div class="border-t border-blue-800 mt-8 pt-8 text-center text-blue-200">
-                <p>&copy; 2024 PbankShop. All rights reserved.</p>
-            </div>
+    <footer class="mt-24 bg-black/80">
+        <div class="container mx-auto text-center py-6">
+            <p class="text-gray-400">&copy; 2024 PbankShop. Copyright.</p>
         </div>
     </footer>
     <script>

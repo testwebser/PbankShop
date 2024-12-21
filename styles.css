@@ -1,3 +1,41 @@
+/* Color Palette */
+:root {
+    /* Primary Colors */
+    --color-primary: #1a1a1a;     /* พื้นหลังหลัก (เทาเข้มมาก) */
+    --color-secondary: #242424;    /* พื้นหลังรอง (เทาเข้ม) */
+    --color-background: #1e1e1e;   /* พื้นหลังทั่วไป */
+    
+    /* Text Colors */
+    --color-text: #ffffff;         /* ข้อความหลัก */
+    --color-text-secondary: #999999; /* ข้อความรอง */
+    --color-heading: #3a9eff;      /* หัวข้อ (สีฟ้า) */
+    
+    /* Overlay Colors */
+    --color-overlay: rgba(0,0,0,0.6); /* สีซ้อนทับ */
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+/* Header styles */
+.site-header {
+    background-color: var(--color-primary);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Game card styles */
+.game-card {
+    background-color: var(--color-secondary);
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+.game-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
 /* ป้องกัน layout shift */
 .container {
     max-width: 1280px;
@@ -18,14 +56,6 @@ img {
     padding: 0.5rem 1rem;
     display: inline-block;
     min-width: max-content;
-}
-
-/* Header styles */
-.site-header {
-    background-color: #1f2937;
-    min-height: 4rem; /* 64px */
-    position: relative;
-    z-index: 10;
 }
 
 /* Container styles */

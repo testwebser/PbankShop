@@ -300,7 +300,7 @@ function createGameCard(game, index) {
     const isLCP = index === 0;
     
     return `
-    <div class="group relative overflow-hidden rounded-lg bg-gray-800/40 backdrop-blur-sm transition-all duration-300 hover:transform hover:scale-[1.02] hover:bg-gray-700/40">
+    <div class="group relative overflow-hidden rounded-lg bg-[#242424] border border-[rgba(255,255,255,0.05)] transition-all duration-300 hover:transform hover:scale-[1.02]">
         <!-- Image Container -->
         <div class="relative aspect-[4/3] overflow-hidden">
             ${loadOptimizedImage(
@@ -312,14 +312,11 @@ function createGameCard(game, index) {
         </div>
         
         <!-- Game Title Overlay -->
-        <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-gray-900/90 to-transparent">
-            <h3 class="text-lg font-medium text-gray-100 truncate">
+        <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/90 via-black/60 to-transparent">
+            <h3 class="text-lg font-medium text-white truncate">
                 ${game.title}
             </h3>
         </div>
-
-        <!-- Hover Effect Overlay -->
-        <div class="absolute inset-0 bg-gray-900/0 transition-colors duration-300 group-hover:bg-gray-900/10"></div>
 
         <!-- Clickable Link -->
         <a href="game-detail.html?id=${game.id}" class="absolute inset-0" aria-label="View ${game.title} details"></a>
