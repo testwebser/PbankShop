@@ -1507,6 +1507,42 @@ const gameDetails = {
                    "https://datanodes.to/3bv1j2gwydpq/Hogwart-Legacy-Deluxe-Edition.rar",
                ]
            },
-        }
+        },
+        "devil-may-cry-5": {
+            title: "Devil May Cry 5",
+            image: "images/games/devil-may-cry-5.jpg",
+            description: "Devil May Cry 5 เป็นเกมแอคชั่นแนว Hack and Slash ที่นำเสนอการต่อสู้สุดมันส์และเร้าใจของ Dante และ Nero ในการต่อสู้กับมอนสเตอร์และปีศาจต่างๆ ในโลกแห่งความมืด",
+            features: [
+                "ระบบการต่อสู้แบบ Hack and Slash ที่เร้าใจ",
+                "ตัวละครที่มีลักษณะและสกิลพิเศษ",
+                "บอสไฟท์ที่ยิ่งใหญ่และท้าทาย",
+                "กราฟิกสมจริงด้วย RE Engine",
+                "เนื้อเรื่องที่น่าติดตาม",
+                "เสียงประกอบและดนตรีที่น่าจดจำ"
+            ],
+            systemRequirements: {
+                minimum: [
+                    "OS: Windows 7 64-bit",
+                    "Processor: Intel Core i5-4460 / AMD FX-6300",
+                    "Memory: 8 GB RAM",
+                    "Graphics: NVIDIA GeForce GTX 760 / AMD Radeon R7 260x",
+                    "DirectX: Version 11",
+                    "Storage: 35 GB available space"
+                ],
+                recommended: [
+                    "OS: Windows 7 64-bit",
+                    "Processor: Intel Core i7-3770 / AMD FX-9590",
+                    "Memory: 8 GB RAM",
+                    "Graphics: NVIDIA GeForce GTX 1060 / AMD Radeon RX 480",
+                    "DirectX: Version 11",
+                    "Storage: 35 GB available space"
+                ]
+            },
+            downloadLinks: {
+                game: [
+                    "https://gofile.io/d/9euxgW",
+                ]
+            },
+        },
 
 };

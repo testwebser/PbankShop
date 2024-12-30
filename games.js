@@ -293,6 +293,13 @@ const games = [
         image:"images/games/hogwarts-legacy.jpg",
         description:"Hogwarts Legacy เป็นเกม Action RPG โลกเวทมนตร์เปิดกว้างที่จะพาคุณย้อนกลับไปสู่โรงเรียนฮอกวอตส์ในช่วงศตวรรษที่ 19 สวมบทบาทเป็นนักเรียนที่ถือกุญแจไขความลับโบราณที่อาจทำลายโลกเวทมนตร์",
         detailLink:"hogwarts-legacy-detail.html"
+    },
+    {
+        id:"devil-may-cry-5",
+        title:"Devil May Cry 5",
+        image:"images/games/devil-may-cry-5.webp",
+        description:"Devil May Cry 5 เป็นเกมแอคชั่นผจญภัยที่นำเสนอการต่อสู้แบบโลกเปิดที่มีความสมจริงและน่าตื่นเต้น",
+        detailLink:"devil-may-cry-5-detail.html"
     }
 ];
 
