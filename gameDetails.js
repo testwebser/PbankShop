@@ -1544,5 +1544,43 @@ const gameDetails = {
                 ]
             },
         },
+        "dredge": {
+            title: "DREDGE",
+            image: "images/games/dredge.webp",
+            description: "DREDGE เป็นเกมผจญภัยตกปลาสยองขวัญที่ผสมผสานระหว่างการจับปลาแบบผ่อนคลายกับความน่าสะพรึงกลัวของสิ่งมีชีวิตใต้ท้องทะเลลึก คุณจะได้สวมบทเป็นชาวประมงที่สำรวจหมู่เกาะลึกลับ ค้นพบความลับอันน่าสยดสยอง และเผชิญหน้ากับสิ่งที่ซ่อนอยู่ในความมืด",
+            features: [
+                "การตกปลาที่ผสมผสานกับองค์ประกอบสยองขวัญ",
+                "โลกที่เต็มไปด้วยปริศนาและความลับให้ค้นหา",
+                "ระบบการอัพเกรดเรือและอุปกรณ์",
+                "สิ่งมีชีวิตใต้ท้องทะเลที่น่าสะพรึงกลัว",
+                "การค้าขายและจัดการทรัพยากร",
+                "รอบวันและกลางคืนที่ส่งผลต่อการเล่น",
+                "เรื่องราวลึกลับที่ชวนติดตาม"
+            ],
+            systemRequirements: {
+                minimum: [
+                    "OS: Windows 10 64-bit",
+                    "Processor: Intel Core i5-2300 / AMD FX-6300",
+                    "Memory: 8 GB RAM",
+                    "Graphics: NVIDIA GeForce GTX 650 Ti, 2 GB / AMD Radeon HD 7790, 2 GB",
+                    "DirectX: Version 11",
+                    "Storage: 4 GB available space"
+                ],
+                recommended: [
+                    "OS: Windows 10 64-bit",
+                    "Processor: Intel Core i5-7400 / AMD Ryzen 5 1600",
+                    "Memory: 16 GB RAM",
+                    "Graphics: NVIDIA GeForce GTX 1060 / AMD Radeon RX 580",
+                    "DirectX: Version 11",
+                    "Storage: 4 GB available space"
+                ]
+            },
+            downloadLinks: {
+                game: [
+                    "https://datanodes.to/k9sa46bddlgr/DREDGE.zip"
+                ]
+            },
+            hasCrack: false
+        },
 
 };

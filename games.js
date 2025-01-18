@@ -300,6 +300,13 @@ const games = [
         image:"images/games/devil-may-cry-5.webp",
         description:"Devil May Cry 5 เป็นเกมแอคชั่นผจญภัยที่นำเสนอการต่อสู้แบบโลกเปิดที่มีความสมจริงและน่าตื่นเต้น",
         detailLink:"devil-may-cry-5-detail.html"
+    },
+    {
+        id: "dredge",
+        title: "DREDGE",
+        image: "images/games/dredge.webp",
+        description: "DREDGE เป็นเกมผจญภัยตกปลาสยองขวัญที่ผสมผสานระหว่างการจับปลาแบบผ่อนคลายกับความน่าสะพรึงกลัวของสิ่งมีชีวิตใต้ท้องทะเลลึก",
+        detailLink: "dredge-detail.html"
     }
 ];
 
