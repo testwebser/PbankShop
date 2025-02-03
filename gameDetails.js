@@ -1611,10 +1611,8 @@ const gameDetails = {
                 ]
             },
             downloadLinks: {
-                game: "https://doodrive.com/f/example-link",
+                game: "https://gofile.io/d/fgIPN7",
             },
-            hasCrack: true,
-            crackLink: "https://doodrive.com/f/example-crack-link"
         },
 
 };
