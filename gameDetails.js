@@ -1613,6 +1613,8 @@ const gameDetails = {
             downloadLinks: {
                 game: "https://gofile.io/d/fgIPN7",
             },
+            hasCrack: true,
+            crackLink: "https://pixeldrain.com/u/Ci5CrPcs"
         },
 
 };
