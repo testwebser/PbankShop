@@ -307,6 +307,13 @@ const games = [
         image: "images/games/dredge.webp",
         description: "DREDGE เป็นเกมผจญภัยตกปลาสยองขวัญที่ผสมผสานระหว่างการจับปลาแบบผ่อนคลายกับความน่าสะพรึงกลัวของสิ่งมีชีวิตใต้ท้องทะเลลึก",
         detailLink: "dredge-detail.html"
+    },
+    {
+        id: "project-zomboid",
+        title: "Project Zomboid",
+        image: "images/games/project-zomboid.webp",
+        description: "Project Zomboid เป็นเกมเอาชีวิตรอดในโลกเปิดที่เต็มไปด้วยซอมบี้ คุณต้องหาวิธีอยู่รอดในโลกที่ล่มสลาย โดยการหาอาหาร สร้างที่พักพิง และป้องกันตัวเองจากซอมบี้และผู้รอดชีวิตคนอื่นๆ",
+        detailLink: "project-zomboid-detail.html"
     }
 ];
 

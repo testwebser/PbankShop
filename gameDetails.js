@@ -1582,5 +1582,39 @@ const gameDetails = {
             },
             hasCrack: false
         },
+        "project-zomboid": {
+            title: "Project Zomboid",
+            image: "images/games/project-zomboid.jpg",
+            description: "Project Zomboid เป็นเกมเอาชีวิตรอดในโลกเปิดที่เต็มไปด้วยซอมบี้ คุณต้องหาวิธีอยู่รอดในโลกที่ล่มสลาย โดยการหาอาหาร สร้างที่พักพิง และป้องกันตัวเองจากซอมบี้และผู้รอดชีวิตคนอื่นๆ",
+            features: [
+                "โลกเปิดขนาดใหญ่ที่สามารถสำรวจได้อย่างอิสระ",
+                "ระบบการเอาชีวิตรอดที่สมจริง",
+                "การสร้างและปรับปรุงที่พักพิง",
+                "ระบบสภาพอากาศและเวลาที่เปลี่ยนแปลง",
+                "การต่อสู้กับซอมบี้และผู้รอดชีวิตคนอื่นๆ",
+                "ระบบคราฟท์และหาของที่หลากหลาย"
+            ],
+            systemRequirements: {
+                minimum: [
+                    "OS: Windows 10, 64-bit",
+                    "Processor: Intel 2.77GHz Quad Core",
+                    "Memory: 4 GB RAM",
+                    "Graphics: Dedicated graphics card with 2 GB of RAM minimum, OpenGL 2.1 and GLSL 1.2 support",
+                    "Storage: 5 GB available space"
+                ],
+                recommended: [
+                    "OS: Windows 10, 64-bit",
+                    "Processor: Intel i5 or AMD Ryzen 5",
+                    "Memory: 8 GB RAM",
+                    "Graphics: Dedicated graphics card with 4 GB of RAM",
+                    "Storage: 5 GB available space"
+                ]
+            },
+            downloadLinks: {
+                game: "https://doodrive.com/f/example-link",
+            },
+            hasCrack: true,
+            crackLink: "https://doodrive.com/f/example-crack-link"
+        },
 
 };
