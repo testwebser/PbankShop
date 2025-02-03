@@ -117,12 +117,12 @@
                     <span>Discord</span>
                 </h2>
 
-                <div id="discord-profile" class="bg-blue-800/30 backdrop-blur-sm rounded-xl p-6 hover:bg-blue-800/40 transition-colors">
+                <div id="discord-profile" class="bg-blue-800/50 backdrop-blur-md rounded-xl p-6 hover:bg-blue-800/60 transition-colors">
                     <div class="flex items-center space-x-4 mb-6">
-                        <img id="avatar" src="" alt="Discord Avatar" class="w-16 h-16 rounded-full ring-2 ring-blue-400">
+                        <img id="avatar" src="" alt="Discord Avatar" class="w-16 h-16 rounded-full ring-2 ring-blue-400 opacity-100">
                         <div>
-                            <p id="username" class="text-xl font-semibold text-white"></p>
-                            <p id="discriminator" class="text-blue-300"></p>
+                            <p id="username" class="text-xl font-semibold text-white opacity-100"></p>
+                            <p id="discriminator" class="text-blue-300 opacity-100"></p>
                         </div>
                     </div>
                     <button id="add-friend" class="w-full bg-[#242424] hover:bg-[#2f2f2f] text-white px-6 py-3 rounded-lg transition duration-300 transform hover:-translate-y-0.5 border border-white/10 hover:border-white/20 flex items-center justify-center gap-2 shadow-lg hover:shadow-black/50">
@@ -148,7 +148,14 @@
         fetch(`https://discordlookup.mesalytic.moe/v1/user/${userId}`)
             .then(response => response.json())
             .then(data => {
-                document.getElementById('avatar').src = data.avatar.link;
+                const avatar = document.getElementById('avatar');
+                avatar.src = data.avatar.link || 'images/fallback-avatar.webp';
+                avatar.onload = () => {
+                    avatar.style.display = 'block';
+                };
+                avatar.onerror = () => {
+                    avatar.src = 'images/fallback-avatar.webp';
+                };
                 document.getElementById('username').textContent = data.global_name || data.username;
                 document.getElementById('discriminator').textContent = data.raw.discriminator !== '0' ? `#${data.raw.discriminator}` : '';
 
