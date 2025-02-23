@@ -314,6 +314,13 @@ const games = [
         image: "images/games/project-zomboid.webp",
         description: "Project Zomboid เป็นเกมเอาชีวิตรอดในโลกเปิดที่เต็มไปด้วยซอมบี้ คุณต้องหาวิธีอยู่รอดในโลกที่ล่มสลาย โดยการหาอาหาร สร้างที่พักพิง และป้องกันตัวเองจากซอมบี้และผู้รอดชีวิตคนอื่นๆ",
         detailLink: "project-zomboid-detail.html"
+    },
+    {
+        id: "core-keeper",
+        title: "Core Keeper",
+        image: "images/games/core-keeper.webp",
+        description: "Core Keeper เป็นเกมผจญภัยเอาชีวิตรอดในโลกใต้ดินที่สามารถเล่นได้ทั้งเดี่ยวและมัลติเพลเยอร์ สำรวจถ้ำอันกว้างใหญ่ ขุดทรัพยากร สร้างฐาน ปลูกพืช และต่อสู้กับบอสสุดอันตราย",
+        detailLink: "core-keeper-detail.html"
     }
 ];
 

@@ -1616,5 +1616,40 @@ const gameDetails = {
             hasCrack: true,
             crackLink: "https://pixeldrain.com/u/Ci5CrPcs"
         },
+        "core-keeper": {
+            title: "Core Keeper",
+            image: "images/games/core-keeper.webp",
+            description: "Core Keeper เป็นเกมผจญภัยเอาชีวิตรอดในโลกใต้ดินที่สามารถเล่นได้ทั้งเดี่ยวและมัลติเพลเยอร์ สำรวจถ้ำอันกว้างใหญ่ ขุดทรัพยากร สร้างฐาน ปลูกพืช และต่อสู้กับบอสสุดอันตราย",
+            features: [
+                "เล่นได้ทั้งเดี่ยวและมัลติเพลเยอร์สูงสุด 8 คน",
+                "โลกใต้ดินที่สร้างขึ้นแบบสุ่มขนาดใหญ่",
+                "ระบบการคราฟท์และสร้างฐานที่หลากหลาย",
+                "ระบบการเกษตรและทำอาหาร",
+                "บอสไฟท์ที่ท้าทาย",
+                "ไบโอมใต้ดินที่หลากหลาย",
+                "ระบบสกิลและการพัฒนาตัวละคร"
+            ],
+            systemRequirements: {
+                minimum: [
+                    "OS: Windows 7 or newer",
+                    "Processor: Intel Core i5-2300 / AMD FX-6300",
+                    "Memory: 8 GB RAM",
+                    "Graphics: NVIDIA GeForce GTX 560 / AMD Radeon HD 7770",
+                    "DirectX: Version 10",
+                    "Storage: 2 GB available space"
+                ],
+                recommended: [
+                    "OS: Windows 10",
+                    "Processor: Intel Core i5-7400 / AMD Ryzen 5 1600",
+                    "Memory: 16 GB RAM",
+                    "Graphics: NVIDIA GeForce GTX 1060 / AMD Radeon RX 580",
+                    "DirectX: Version 11",
+                    "Storage: 2 GB available space"
+                ]
+            },
+            downloadLinks: {
+                game: "https://gofile.io/d/VhkOtd",
+            },
+        }
 
 };
