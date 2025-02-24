@@ -328,6 +328,13 @@ const games = [
         image: "images/games/luma-island.webp",
         description: "Luma Island เป็นเกมผจญภัยที่คุณจะได้สำรวจเกาะลึกลับที่เต็มไปด้วยปริศนาและสิ่งมีชีวิตที่น่าตื่นเต้น",
         detailLink: "luma-island-detail.html"
+    },
+    {
+        id: "my-time-at-sandrock",
+        title: "My Time at Sandrock",
+        image: "images/games/my-time-at-sandrock.webp",
+        description: "My Time at Sandrock เป็นเกมจำลองชีวิตที่คุณจะได้สร้างและพัฒนาชุมชนในโลกที่เต็มไปด้วยทรัพยากรและการผจญภัย",
+        detailLink: "my-time-at-sandrock-detail.html"
     }
 ];
 

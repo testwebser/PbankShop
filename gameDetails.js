@@ -1689,5 +1689,42 @@ const gameDetails = {
                 game: "online-fix.me",
             } 
         },
+        "my-time-at-sandrock": {
+            title: "My Time at Sandrock",
+            image: "images/games/my-time-at-sandrock.webp",
+            description: "My Time at Sandrock เป็นเกมจำลองชีวิตที่คุณจะได้สร้างและพัฒนาชุมชนในโลกที่เต็มไปด้วยทรัพยากรและการผจญภัย",
+            features: [
+                "สร้างและพัฒนาชุมชนของคุณ",
+                "สำรวจโลกที่เต็มไปด้วยทรัพยากร",
+                "ระบบการคราฟท์และสร้างสิ่งของ",
+                "พบกับตัวละครที่หลากหลายและน่าสนใจ",
+                "กราฟิกที่สวยงามและสมจริง"
+            ],
+            systemRequirements: {
+                minimum: [
+                    "OS: Windows 7 or newer",
+                    "Processor: Intel Core i3-2100 / AMD FX-6300",
+                    "Memory: 6 GB RAM",
+                    "Graphics: NVIDIA GeForce GTX 750 Ti / AMD Radeon HD 7850",
+                    "DirectX: Version 11",
+                    "Storage: 10 GB available space"
+                ],
+                recommended: [
+                    "OS: Windows 10",
+                    "Processor: Intel Core i5-6600K / AMD Ryzen 5 1600",
+                    "Memory: 8 GB RAM",
+                    "Graphics: NVIDIA GeForce GTX 1060 / AMD Radeon RX 580",
+                    "DirectX: Version 11",
+                    "Storage: 10 GB available space"
+                ]
+            },
+            downloadLinks: {
+                game: "https://gofile.io/d/WU463k"
+            },
+            hasCrack: false,
+            passwords: { 
+                game: "online-fix.me",
+            }
+        },
 
 };
