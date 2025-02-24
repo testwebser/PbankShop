@@ -321,6 +321,13 @@ const games = [
         image: "images/games/core-keeper.webp",
         description: "Core Keeper เป็นเกมผจญภัยเอาชีวิตรอดในโลกใต้ดินที่สามารถเล่นได้ทั้งเดี่ยวและมัลติเพลเยอร์ สำรวจถ้ำอันกว้างใหญ่ ขุดทรัพยากร สร้างฐาน ปลูกพืช และต่อสู้กับบอสสุดอันตราย",
         detailLink: "core-keeper-detail.html"
+    },
+    {
+        id: "luma-island",
+        title: "Luma Island",
+        image: "images/games/luma-island.webp",
+        description: "Luma Island เป็นเกมผจญภัยที่คุณจะได้สำรวจเกาะลึกลับที่เต็มไปด้วยปริศนาและสิ่งมีชีวิตที่น่าตื่นเต้น",
+        detailLink: "luma-island-detail.html"
     }
 ];
 

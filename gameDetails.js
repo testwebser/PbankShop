@@ -1650,6 +1650,44 @@ const gameDetails = {
             downloadLinks: {
                 game: "https://gofile.io/d/VhkOtd",
             },
-        }
+        },
+        "luma-island": {
+            title: "Luma Island",
+            image: "images/games/luma-island.webp",
+            description: "Luma Island เป็นเกมผจญภัยที่คุณจะได้สำรวจเกาะลึกลับที่เต็มไปด้วยปริศนาและสิ่งมีชีวิตที่น่าตื่นเต้น",
+            features: [
+                "สำรวจเกาะที่เต็มไปด้วยปริศนา",
+                "พบกับสิ่งมีชีวิตที่หลากหลาย",
+                "กราฟิกที่สวยงามและสมจริง",
+                "ระบบการเล่นที่น่าติดตาม",
+                "ปริศนาที่ท้าทายและน่าสนใจ"
+            ],
+            systemRequirements: {
+                minimum: [
+                    "OS: Windows 7 or newer",
+                    "Processor: Intel Core i3-2100 / AMD FX-6300",
+                    "Memory: 4 GB RAM",
+                    "Graphics: NVIDIA GeForce GTX 750 Ti / AMD Radeon HD 7850",
+                    "DirectX: Version 11",
+                    "Storage: 5 GB available space"
+                ],
+                recommended: [
+                    "OS: Windows 10",
+                    "Processor: Intel Core i5-6600K / AMD Ryzen 5 1600",
+                    "Memory: 8 GB RAM",
+                    "Graphics: NVIDIA GeForce GTX 1060 / AMD Radeon RX 580",
+                    "DirectX: Version 11",
+                    "Storage: 5 GB available space"
+                ]
+            },
+            downloadLinks: {
+                game: "https://gofile.io/d/s2tYdc"
+            },
+            hasCrack: true,
+            crackLink: "https://gofile.io/d/3pD4hS",
+            passwords: { 
+                game: "online-fix.me",
+            } 
+        },
 
 };
