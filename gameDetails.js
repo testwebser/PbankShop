@@ -1726,5 +1726,45 @@ const gameDetails = {
                 game: "online-fix.me",
             }
         },
+        "worms-wmd": {
+            title: "Worms W.M.D",
+            image: "images/games/worms-wmd.webp",
+            description: "Worms W.M.D นำเสนอการต่อสู้แบบผลัดกันเล่นสุดมันส์ในรูปแบบ 2D กับเหล่าหนอนทหารสุดป่วน พร้อมอาวุธสุดล้ำ ยานพาหนะ และป้อมปืนที่สามารถเข้าไปควบคุมได้",
+            features: [
+                "เกมต่อสู้แบบผลัดกันเล่นในรูปแบบ 2D",
+                "อาวุธมากมายกว่า 80 ชนิด",
+                "ยานพาหนะและป้อมปืนที่สามารถควบคุมได้",
+                "ระบบการคราฟท์อาวุธ",
+                "แผนที่แบบสุ่มและแบบออกแบบเอง",
+                "รองรับการเล่นหลายคนทั้งออนไลน์และโลคอล",
+                "กราฟิกสไตล์การ์ตูนสวยงาม"
+            ],
+            systemRequirements: {
+                minimum: [
+                    "OS: Windows 7/8.1/10 (64bit)",
+                    "Processor: Intel Core i3-2100 / AMD A8-5600k",
+                    "Memory: 4 GB RAM",
+                    "Graphics: NVIDIA GeForce 510 / AMD Radeon HD 5550",
+                    "DirectX: Version 11",
+                    "Storage: 8 GB available space"
+                ],
+                recommended: [
+                    "OS: Windows 7/8.1/10 (64bit)",
+                    "Processor: Intel Core i5-4670K / AMD FX-8350",
+                    "Memory: 8 GB RAM",
+                    "Graphics: NVIDIA GeForce GTX 750 / AMD Radeon HD 7850",
+                    "DirectX: Version 11",
+                    "Storage: 8 GB available space"
+                ]
+            },
+                downloadLinks: {
+                game: "https://gofile.io/d/d6ppmx",
+                },
+                hasCrack: true,
+                crackLink: "https://gofile.io/d/d6ppmx",
+                passwords: {
+                game: "online-fix.me"
+                }
+            }
 
 };

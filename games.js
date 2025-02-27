@@ -335,6 +335,13 @@ const games = [
         image: "images/games/my-time-at-sandrock.webp",
         description: "My Time at Sandrock เป็นเกมจำลองชีวิตที่คุณจะได้สร้างและพัฒนาชุมชนในโลกที่เต็มไปด้วยทรัพยากรและการผจญภัย",
         detailLink: "my-time-at-sandrock-detail.html"
+    },
+    {
+        id: "worms-wmd",
+        title: "Worms W.M.D",
+        image: "images/games/worms-wmd.webp",
+        description: "Worms W.M.D นำเสนอการต่อสู้แบบผลัดกันเล่นสุดมันส์ในรูปแบบ 2D กับเหล่าหนอนทหารสุดป่วน พร้อมอาวุธสุดล้ำ ยานพาหนะ และป้อมปืนที่สามารถเข้าไปควบคุมได้",
+        detailLink: "worms-wmd-detail.html"
     }
 ];
 
