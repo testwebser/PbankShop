@@ -1840,5 +1840,37 @@ const gameDetails = {
                     game: "online-fix.me",
                 }
             },
+            "split-fiction": {
+                title: "Split Fiction",
+                image: "images/games/split-fiction.jpg",
+                description: "Split Fiction เป็นเกมผจญภัยแนวปริศนาที่ผู้เล่นต้องสลับระหว่างสองโลกคู่ขนานเพื่อแก้ไขปริศนาและค้นหาความจริงที่ซ่อนอยู่ ด้วยเรื่องราวที่ซับซ้อนและการเล่าเรื่องที่น่าติดตาม",
+                features: [
+                    "กลไกการเล่นที่เป็นเอกลักษณ์ในการสลับระหว่างสองโลกคู่ขนาน",
+                    "ปริศนาที่ท้าทายและต้องใช้ความคิดสร้างสรรค์ในการแก้ไข",
+                    "เรื่องราวที่ซับซ้อนและน่าติดตาม",
+                    "ตัวละครที่มีมิติและพัฒนาการตลอดเกม",
+                    "กราฟิกที่สวยงามและมีเอกลักษณ์",
+                    "เสียงประกอบและดนตรีที่สร้างบรรยากาศได้อย่างลงตัว"
+                ],
+                systemRequirements: {
+                    minimum: [
+                        "OS: Windows 10 (64-bit)",
+                        "Processor: Intel Core i5-4460 / AMD Ryzen 3 1200",
+                        "Memory: 8 GB RAM",
+                        "Graphics: NVIDIA GeForce GTX 960 / AMD Radeon R9 380",
+                        "Storage: 20 GB available space"
+                    ],
+                    recommended: [
+                        "OS: Windows 10 (64-bit)",
+                        "Processor: Intel Core i7-8700 / AMD Ryzen 5 3600",
+                        "Memory: 16 GB RAM",
+                        "Graphics: NVIDIA GeForce GTX 1660 / AMD Radeon RX 5600 XT",
+                        "Storage: 20 GB available space"
+                    ]
+                },
+                downloadLinks: {
+                    game: "https://gofile.io/d/p87M0M",
+                },
+            },
 
 };

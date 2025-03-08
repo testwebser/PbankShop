@@ -356,6 +356,13 @@ const games = [
         image: "images/games/zort.webp",
         description: "Zort เป็นเกมผจญภัยแนวแอคชั่นที่ผู้เล่นต้องต่อสู้กับเหล่ามอนสเตอร์แปลกประหลาดในโลกที่เต็มไปด้วยความลึกลับและอันตราย พร้อมระบบการอัพเกรดความสามารถที่หลากหลาย",
         detailLink: "zort-detail.html"
+    },
+    {
+        id: "split-fiction",
+        title: "Split Fiction",
+        image: "images/games/split-fiction.webp",
+        description: "Split Fiction เป็นเกมผจญภัยแนวปริศนาที่ผู้เล่นต้องสลับระหว่างสองโลกคู่ขนานเพื่อแก้ไขปริศนาและค้นหาความจริงที่ซ่อนอยู่ ด้วยเรื่องราวที่ซับซ้อนและการเล่าเรื่องที่น่าติดตาม",
+        detailLink: "split-fiction-detail.html"
     }
 ];
 
