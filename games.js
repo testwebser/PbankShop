@@ -342,6 +342,20 @@ const games = [
         image: "images/games/worms-wmd.webp",
         description: "Worms W.M.D นำเสนอการต่อสู้แบบผลัดกันเล่นสุดมันส์ในรูปแบบ 2D กับเหล่าหนอนทหารสุดป่วน พร้อมอาวุธสุดล้ำ ยานพาหนะ และป้อมปืนที่สามารถเข้าไปควบคุมได้",
         detailLink: "worms-wmd-detail.html"
+    },
+    {
+        id: "repo",
+        title: "R.E.P.O.",
+        image: "images/games/repo.webp",
+        description: "R.E.P.O. เป็นเกมเอาชีวิตรอดในโลกหลังวันสิ้นโลกที่คุณต้องรวบรวมทรัพยากร สร้างที่พักพิง และต่อสู้กับภัยคุกคามต่างๆ ในขณะที่พยายามค้นหาความจริงเกี่ยวกับสิ่งที่เกิดขึ้นกับโลก",
+        detailLink: "repo-detail.html"
+    },
+    {
+        id: "zort",
+        title: "Zort",
+        image: "images/games/zort.webp",
+        description: "Zort เป็นเกมผจญภัยแนวแอคชั่นที่ผู้เล่นต้องต่อสู้กับเหล่ามอนสเตอร์แปลกประหลาดในโลกที่เต็มไปด้วยความลึกลับและอันตราย พร้อมระบบการอัพเกรดความสามารถที่หลากหลาย",
+        detailLink: "zort-detail.html"
     }
 ];
 

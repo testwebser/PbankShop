@@ -1765,6 +1765,80 @@ const gameDetails = {
                 passwords: {
                 game: "online-fix.me"
                 }
-            }
+            },
+            "repo": {
+                title: "R.E.P.O.",
+                image: "images/games/repo.jpg",
+                description: "R.E.P.O. เป็นเกมเอาชีวิตรอดในโลกหลังวันสิ้นโลกที่คุณต้องรวบรวมทรัพยากร สร้างที่พักพิง และต่อสู้กับภัยคุกคามต่างๆ ในขณะที่พยายามค้นหาความจริงเกี่ยวกับสิ่งที่เกิดขึ้นกับโลก",
+                features: [
+                    "โลกเปิดขนาดใหญ่ที่สามารถสำรวจได้อย่างอิสระ",
+                    "ระบบการเอาชีวิตรอดที่ท้าทาย",
+                    "การสร้างและปรับแต่งที่พักพิง",
+                    "ระบบคราฟท์อาวุธและอุปกรณ์ที่หลากหลาย",
+                    "เนื้อเรื่องที่น่าติดตามเกี่ยวกับความลับของโลกหลังวันสิ้นโลก",
+                    "การต่อสู้กับศัตรูที่หลากหลายและอันตราย"
+                ],
+                systemRequirements: {
+                    minimum: [
+                        "OS: Windows 10 64-bit",
+                        "Processor: Intel Core i5-4460 / AMD Ryzen 3 1200",
+                        "Memory: 8 GB RAM",
+                        "Graphics: NVIDIA GeForce GTX 960 / AMD Radeon R9 380",
+                        "Storage: 25 GB available space"
+                    ],
+                    recommended: [
+                        "OS: Windows 10 64-bit",
+                        "Processor: Intel Core i7-8700K / AMD Ryzen 5 3600",
+                        "Memory: 16 GB RAM",
+                        "Graphics: NVIDIA GeForce GTX 1070 / AMD Radeon RX 5700",
+                        "Storage: 25 GB available space"
+                    ]
+                },
+                downloadLinks: {
+                    game: "https://gofile.io/d/YFmxYC",
+                },
+                hasCrack: true,
+                crackLink: "https://gofile.io/d/bX4FDv",
+                passwords: {
+                    game: "online-fix.me",
+                }
+            },
+            "zort": {
+                title: "Zort",
+                image: "images/games/zort.jpg",
+                description: "Zort เป็นเกมผจญภัยแนวแอคชั่นที่ผู้เล่นต้องต่อสู้กับเหล่ามอนสเตอร์แปลกประหลาดในโลกที่เต็มไปด้วยความลึกลับและอันตราย พร้อมระบบการอัพเกรดความสามารถที่หลากหลาย",
+                features: [
+                    "โลกที่เต็มไปด้วยความลึกลับให้สำรวจ",
+                    "ระบบการต่อสู้ที่หลากหลายและท้าทาย",
+                    "มอนสเตอร์หลากหลายสายพันธุ์ที่มีรูปแบบการโจมตีเฉพาะตัว",
+                    "ระบบอัพเกรดความสามารถที่ช่วยให้ผู้เล่นปรับแต่งสไตล์การเล่นได้",
+                    "กราฟิกที่มีเอกลักษณ์และน่าดึงดูด",
+                    "เนื้อเรื่องที่น่าติดตามและเต็มไปด้วยความลึกลับ"
+                ],
+                systemRequirements: {
+                    minimum: [
+                        "OS: Windows 10 (64-bit)",
+                        "Processor: Intel Core i5-4460 / AMD Ryzen 3 1200",
+                        "Memory: 8 GB RAM",
+                        "Graphics: NVIDIA GeForce GTX 960 / AMD Radeon R9 380",
+                        "Storage: 15 GB available space"
+                    ],
+                    recommended: [
+                        "OS: Windows 10 (64-bit)",
+                        "Processor: Intel Core i7-8700 / AMD Ryzen 5 3600",
+                        "Memory: 16 GB RAM",
+                        "Graphics: NVIDIA GeForce GTX 1660 / AMD Radeon RX 5600 XT",
+                        "Storage: 15 GB available space"
+                    ]
+                },
+                downloadLinks: {
+                    game: "https://gofile.io/d/7U5fzw",
+                },
+                hasCrack: true,
+                crackLink: "https://gofile.io/d/4mfz0T",
+                passwords: {
+                    game: "online-fix.me",
+                }
+            },
 
 };
