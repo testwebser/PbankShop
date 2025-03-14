@@ -1872,5 +1872,42 @@ const gameDetails = {
                     game: "https://gofile.io/d/p87M0M",
                 },
             },
+            "sunkenland": {
+                title: "Sunkenland",
+                image: "images/games/sunkenland.jpg",
+                description: "Sunkenland เป็นเกมเอาชีวิตรอดในโลกหลังน้ำท่วมโลก ที่ผู้เล่นต้องสร้างฐานลอยน้ำ รวบรวมทรัพยากร และเอาชีวิตรอดจากภัยคุกคามต่างๆ ทั้งจากธรรมชาติและผู้เล่นคนอื่น สามารถเล่นได้ทั้งแบบเดี่ยวและมัลติเพลเยอร์",
+                features: [
+                    "ระบบการสร้างฐานลอยน้ำที่ยืดหยุ่นและสร้างสรรค์",
+                    "การเอาชีวิตรอดในโลกที่ถูกน้ำท่วม",
+                    "ระบบคราฟท์ที่หลากหลาย",
+                    "การสำรวจซากปรักหักพังใต้น้ำเพื่อหาทรัพยากร",
+                    "ระบบการต่อสู้ทั้งกับ AI และผู้เล่นคนอื่น",
+                    "สภาพอากาศแบบไดนามิกที่ส่งผลต่อการเล่น",
+                    "รองรับการเล่นแบบมัลติเพลเยอร์"
+                ],
+                systemRequirements: {
+                    minimum: [
+                        "OS: Windows 10 64-bit",
+                        "Processor: Intel Core i5-6600K / AMD Ryzen 5 1600",
+                        "Memory: 16 GB RAM",
+                        "Graphics: NVIDIA GeForce GTX 1060 6GB / AMD Radeon RX 580",
+                        "Storage: 35 GB available space",
+                        "Network: Broadband Internet connection"
+                    ],
+                    recommended: [
+                        "OS: Windows 10/11 64-bit",
+                        "Processor: Intel Core i7-8700K / AMD Ryzen 7 3700X",
+                        "Memory: 32 GB RAM",
+                        "Graphics: NVIDIA GeForce RTX 2070 / AMD Radeon RX 6700 XT",
+                        "Storage: 35 GB available space (SSD recommended)",
+                        "Network: Broadband Internet connection"
+                    ]
+                },
+                downloadLinks: {
+                    game: "https://gofile.io/d/gte116",
+                },
+                hasCrack: true,
+                crackLink: "https://gofile.io/d/NMCU9d"
+            },
 
 };

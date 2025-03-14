@@ -363,6 +363,13 @@ const games = [
         image: "images/games/split-fiction.webp",
         description: "Split Fiction เป็นเกมผจญภัยแนวปริศนาที่ผู้เล่นต้องสลับระหว่างสองโลกคู่ขนานเพื่อแก้ไขปริศนาและค้นหาความจริงที่ซ่อนอยู่ ด้วยเรื่องราวที่ซับซ้อนและการเล่าเรื่องที่น่าติดตาม",
         detailLink: "split-fiction-detail.html"
+    },
+    {
+        id: "sunkenland",
+        title: "Sunkenland",
+        image: "images/games/sunkenland.webp",
+        description: "Sunkenland เป็นเกมเอาชีวิตรอดในโลกหลังน้ำท่วมโลก ที่ผู้เล่นต้องสร้างฐานลอยน้ำ รวบรวมทรัพยากร และเอาชีวิตรอดจากภัยคุกคามต่างๆ ทั้งจากธรรมชาติและผู้เล่นคนอื่น",
+        detailLink: "sunkenland-detail.html"
     }
 ];
 
