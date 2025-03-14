@@ -370,6 +370,20 @@ const games = [
         image: "images/games/sunkenland.webp",
         description: "Sunkenland เป็นเกมเอาชีวิตรอดในโลกหลังน้ำท่วมโลก ที่ผู้เล่นต้องสร้างฐานลอยน้ำ รวบรวมทรัพยากร และเอาชีวิตรอดจากภัยคุกคามต่างๆ ทั้งจากธรรมชาติและผู้เล่นคนอื่น",
         detailLink: "sunkenland-detail.html"
+    },
+    {
+        id: "manor-lords",
+        title: "Manor Lords",
+        image: "images/games/manor-lords.webp",
+        description: "Manor Lords เป็นเกมสร้างเมืองในยุคกลางที่ผสมผสานการจัดการทรัพยากร การวางแผนเมือง และการทำสงครามเชิงกลยุทธ์เข้าด้วยกัน พร้อมด้วยรายละเอียดที่สมจริงและระบบเศรษฐกิจที่ซับซ้อน",
+        detailLink: "manor-lords-detail.html"
+    },
+    {
+        id: "garrys-mod",
+        title: "Garry's Mod",
+        image: "images/games/garrys-mod.webp",
+        description: "Garry's Mod เป็นเกมแซนด์บ็อกซ์ที่ให้อิสระในการสร้างสรรค์อย่างไม่มีขีดจำกัด คุณสามารถสร้างสิ่งต่างๆ ด้วยฟิสิกส์ เล่นโหมดเกมที่หลากหลาย และสนุกกับม็อดนับพันจากชุมชน",
+        detailLink: "garrys-mod-detail.html"
     }
 ];
 

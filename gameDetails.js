@@ -1909,5 +1909,79 @@ const gameDetails = {
                 hasCrack: true,
                 crackLink: "https://gofile.io/d/NMCU9d"
             },
+            "manor-lords": {
+                title: "Manor Lords",
+                image: "images/games/manor-lords.jpg",
+                description: "Manor Lords เป็นเกมสร้างเมืองในยุคกลางที่ผสมผสานการจัดการทรัพยากร การวางแผนเมือง และการทำสงครามเชิงกลยุทธ์เข้าด้วยกัน ด้วยความสมจริงทางประวัติศาสตร์และระบบเศรษฐกิจที่ซับซ้อน คุณจะได้พัฒนาหมู่บ้านเล็กๆ ให้กลายเป็นเมืองที่รุ่งเรืองในยุคกลาง",
+                features: [
+                    "ระบบการสร้างเมืองที่ยืดหยุ่นและสมจริง",
+                    "การจัดการทรัพยากรและเศรษฐกิจที่ซับซ้อน",
+                    "ระบบการทำสงครามเชิงกลยุทธ์แบบยุคกลาง",
+                    "การเปลี่ยนแปลงของฤดูกาลที่ส่งผลต่อการเล่น",
+                    "กราฟิกที่สวยงามและสมจริง",
+                    "ความถูกต้องทางประวัติศาสตร์",
+                    "ระบบการค้าและการทูตกับเมืองอื่นๆ",
+                    "การพัฒนาและดูแลประชากรในเมือง"
+                ],
+                systemRequirements: {
+                    minimum: [
+                        "OS: Windows 10 64-bit",
+                        "Processor: Intel Core i5-4670K / AMD Ryzen 5 1500X",
+                        "Memory: 8 GB RAM",
+                        "Graphics: NVIDIA GeForce GTX 970 / AMD Radeon RX 570",
+                        "Storage: 10 GB available space",
+                        "DirectX: Version 11"
+                    ],
+                    recommended: [
+                        "OS: Windows 10/11 64-bit",
+                        "Processor: Intel Core i7-8700K / AMD Ryzen 7 3700X",
+                        "Memory: 16 GB RAM",
+                        "Graphics: NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700",
+                        "Storage: 10 GB available space (SSD recommended)",
+                        "DirectX: Version 12"
+                    ]
+                },
+                downloadLinks: {
+                    game: "https://gofile.io/d/JGmeBq",
+                },
+            },
+            "garrys-mod": {
+                title: "Garry's Mod",
+                image: "images/games/garrys-mod.jpg",
+                description: "Garry's Mod เป็นเกมแซนด์บ็อกซ์ทางฟิสิกส์ที่ให้อิสระในการสร้างสรรค์อย่างไม่มีขีดจำกัด คุณสามารถจัดการกับวัตถุและสร้างสรรค์สิ่งต่างๆ ได้อย่างอิสระ เล่นโหมดเกมที่หลากหลายจากชุมชน และสนุกกับการทดลองสร้างสิ่งใหม่ๆ",
+                features: [
+                    "เครื่องมือสร้างสรรค์ที่หลากหลายและยืดหยุ่น",
+                    "ระบบฟิสิกส์ที่สมจริง",
+                    "รองรับม็อดจากชุมชนจำนวนมาก",
+                    "โหมดเกมที่หลากหลาย เช่น Prop Hunt, Trouble in Terrorist Town",
+                    "ความสามารถในการสร้างฉากและภาพยนตร์สั้น",
+                    "รองรับการเล่นแบบมัลติเพลเยอร์",
+                    "ชุมชนผู้เล่นขนาดใหญ่และกระตือรือร้น",
+                    "อัพเดทและเนื้อหาใหม่อย่างต่อเนื่อง"
+                ],
+                systemRequirements: {
+                    minimum: [
+                        "OS: Windows 7/8/10",
+                        "Processor: 2.0 GHz Processor",
+                        "Memory: 4 GB RAM",
+                        "Graphics: DirectX 9 compatible graphics card",
+                        "Storage: 20 GB available space",
+                        "Additional Notes: Mouse, Keyboard, Internet Connection"
+                    ],
+                    recommended: [
+                        "OS: Windows 10",
+                        "Processor: 2.5 GHz Processor or better",
+                        "Memory: 8 GB RAM",
+                        "Graphics: DirectX 9 compatible graphics card with 1GB VRAM",
+                        "Storage: 20 GB available space (SSD recommended)",
+                        "Additional Notes: Fast internet connection for downloading mods"
+                    ]
+                },
+                downloadLinks: {
+                    game: "https://gofile.io/d/l2IbrE",
+                },
+                hasCrack: true,
+                crackLink: "https://gofile.io/d/a8mv5P"
+            },
 
 };
