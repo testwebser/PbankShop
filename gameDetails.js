@@ -1795,13 +1795,8 @@ const gameDetails = {
                     ]
                 },
                 downloadLinks: {
-                    game: "https://gofile.io/d/YFmxYC",
+                    game: "https://gofile.io/d/aW73QW",
                 },
-                hasCrack: true,
-                crackLink: "https://gofile.io/d/bX4FDv",
-                passwords: {
-                    game: "online-fix.me",
-                }
             },
             "zort": {
                 title: "Zort",
